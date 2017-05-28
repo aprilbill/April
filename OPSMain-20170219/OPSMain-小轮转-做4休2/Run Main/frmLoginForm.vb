@@ -1,5 +1,6 @@
 ﻿Public Class frmLoginForm
 
+
     Private Sub OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK.Click
         Dim UserName As String = Me.cmbUser.Text.Trim
         Dim Password As String = Me.PasswordTextBox.Text

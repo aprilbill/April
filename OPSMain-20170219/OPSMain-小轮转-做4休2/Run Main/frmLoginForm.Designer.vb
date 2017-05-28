@@ -32,6 +32,7 @@ Partial Class frmLoginForm
         Me.OK = New System.Windows.Forms.Button()
         Me.Cancel = New System.Windows.Forms.Button()
         Me.cmbUser = New System.Windows.Forms.ComboBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'UsernameLabel
@@ -88,6 +89,15 @@ Partial Class frmLoginForm
         Me.cmbUser.TabIndex = 6
         Me.cmbUser.Text = "admin"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(155, 5)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 7
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'frmLoginForm
         '
         Me.AcceptButton = Me.OK
@@ -95,6 +105,7 @@ Partial Class frmLoginForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Cancel
         Me.ClientSize = New System.Drawing.Size(256, 144)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.cmbUser)
         Me.Controls.Add(Me.Cancel)
         Me.Controls.Add(Me.OK)
@@ -113,5 +124,6 @@ Partial Class frmLoginForm
 
     End Sub
     Friend WithEvents cmbUser As System.Windows.Forms.ComboBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 
 End Class

@@ -7209,3 +7209,7 @@ C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-2017052
 C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
 C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
 C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
