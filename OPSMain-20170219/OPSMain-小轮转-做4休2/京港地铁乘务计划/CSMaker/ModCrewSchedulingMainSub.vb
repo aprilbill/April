@@ -431,7 +431,7 @@ Public Module ModCrewSchedulingMainSub
         sheet.Cells(Startrow, 9) = "下车时间"
         sheet.Cells(Startrow, 10) = "任务结束时间"
 
-        If csd.ModifiedCSLinkTrain(1).FirstStation IsNot Nothing AndAlso csd.ModifiedCSLinkTrain(1).FirstStation.IsYard = True Then
+        If csd.ModifiedCSLinkTrain(1).FirstStation.IsYard = True Then
             sheet.Cells(Startrow + 1, 2) = BeTime(csd.ModifiedCSLinkTrain(1).StartTime - csd.PreTrainTime)
         Else
             sheet.Cells(Startrow + 1, 2) = BeTime(csd.ModifiedCSLinkTrain(1).StartTime - csd.PreDutyTime)
@@ -2380,35 +2380,23 @@ L:
         End If
         GetDeadHeadTo = tempMergeTrain
     End Function
-    Public MChediNum, NChediNum, AChediNum As Integer '三个阶段的车底数
-    Public MRukuNum, NChukuNum As Integer '早高峰回库、晚高峰出库
+    Public MChediNum, NChediNum, AChediNum As Integer
     Public Sub GetEachDutyChediNum()
         MChediNum = 0
         NChediNum = 0
         AChediNum = 0
-        MRukuNum = 0
-        NChukuNum = 0
+
         For j As Integer = 1 To UBound(CSchediInfo)
             If UBound(CSchediInfo(j).nLinkTrain) > 1 Then
-                If CSTrainInf(CSchediInfo(j).nLinkTrain(1)).lAllStartTime < 12 * 3600 _
+                If CSTrainInf(CSchediInfo(j).nLinkTrain(1)).lAllStartTime < 8 * 3600 _
                     And AddLitterTime(CSTrainInf(CSchediInfo(j).nLinkTrain(UBound(CSchediInfo(j).nLinkTrain))).lAllEndTime) > 8 * 3600 Then
                     MChediNum += 1
-                End If
-            End If
-            If UBound(CSchediInfo(j).nLinkTrain) > 1 Then '早高峰回库
-                If AddLitterTime(CSTrainInf(CSchediInfo(j).nLinkTrain(UBound(CSchediInfo(j).nLinkTrain))).lAllEndTime) < 12 * 3600 Then
-                    MRukuNum += 1
                 End If
             End If
             If UBound(CSchediInfo(j).nLinkTrain) > 1 Then
                 If CSTrainInf(CSchediInfo(j).nLinkTrain(1)).lAllStartTime < 12 * 3600 _
                     And AddLitterTime(CSTrainInf(CSchediInfo(j).nLinkTrain(UBound(CSchediInfo(j).nLinkTrain))).lAllEndTime) > 12 * 3600 Then
                     NChediNum += 1
-                End If
-            End If
-            If UBound(CSchediInfo(j).nLinkTrain) > 1 Then '晚高峰出库
-                If CSTrainInf(CSchediInfo(j).nLinkTrain(1)).lAllStartTime > 12 * 3600 And CSTrainInf(CSchediInfo(j).nLinkTrain(1)).lAllStartTime < 20 * 3600 Then
-                    NChukuNum += 1
                 End If
             End If
             If UBound(CSchediInfo(j).nLinkTrain) > 1 Then

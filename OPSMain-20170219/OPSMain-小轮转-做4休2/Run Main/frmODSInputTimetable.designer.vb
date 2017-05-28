@@ -42,7 +42,6 @@ Partial Class frmODSInputTimetable
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.grpBox.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -267,12 +266,6 @@ Partial Class frmODSInputTimetable
         Me.Label1.TabIndex = 31
         Me.Label1.Text = "状态："
         '
-        'OpenFileDialog1
-        '
-        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        Me.OpenFileDialog1.Filter = "运行图数据库|*.mdb;*.tpm;*.mpm"
-        Me.OpenFileDialog1.Title = "打开运行图文件"
-        '
         'frmODSInputTimetable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -323,6 +316,5 @@ Partial Class frmODSInputTimetable
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
 
 End Class

@@ -11,6 +11,13 @@
     Public AreaYunzhuanS As List(Of AreaYunZhuan)
     Public DutyDGVS As New List(Of DataGridView)
     Public CurrentCell As DataGridViewCell
+    Public CSTimeTable As Coordination2.CSTimeTable
+    Public lunzhuansets As List(Of Dictionary(Of Integer, String))   '轮转班制集合
+    Public lunzhuanset As New Dictionary(Of Integer, String)         '轮转班制
+    Public arealunzhuan As New Dictionary(Of String, Dictionary(Of Integer, String))   '区域与轮转班制对应关系
+    Public lunzhuanbanzhongs As New List(Of String)
+    Public CurLine As Coordination2.Line                              '当前线路
+    Public cstimetableNameList() As String                              '乘务计划ID数组
 
     Private Property CurMousex As Integer
     Private Property CurMousey As Integer
@@ -30,7 +37,10 @@
             AddHandler dgv.CellMouseDown, AddressOf DGV_AssignFirst_CellMouseDown
             AddHandler dgv.MouseDown, AddressOf DGV_AssignFirst_MouseDown
         Next
+
         Call LoadPreDayDutys()
+
+
     End Sub
     ''' <summary>
     ''' 加载未安排任务至CmbDuty
@@ -188,7 +198,8 @@ L:
                 End If
             Next
             For Each row As DataGridViewRow In dgv.Rows
-                Dim cellStr As String = row.Cells("前日任务").Value.ToString.Trim
+
+                Dim cellStr As String = row.Cells("前日任务").Value.ToString.Trim        '根据前日任务判断首日任务
                 If cellStr = "" Then
                     Continue For
                 End If
@@ -200,166 +211,134 @@ L:
                 Else
                     DriverNo = cellStr.Split("/")(1)
                 End If
-                If YunZhuanPara = "四班两转" Then
-                    Select Case ForDutySort
-                        Case "早班"
-                            row.Cells("首日任务").Value = "休息/无任务"
-                            row.Cells("首日任务").Tag = "休息"
-                            row.Cells("首日班种").Value = "休息"
-                        Case "白班"
-                            'If ADrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = ADrivers(0).DutySort & "/" & ADrivers(0).OutPutCSDriverNo
-                            '    ADrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "夜班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "夜班"
-                            row.Cells("首日班种").Value = "夜班"
-                        Case "夜班"
-                            Dim iFAssigned As Boolean = False
-                            If PreAMCon IsNot Nothing Then
-                                For Each amdri As AMDriver In PreAMCon.AMDrivers
-                                    If amdri.ADriver IsNot Nothing AndAlso amdri.ADriver.OutPutCSDriverNo = DriverNo Then
-                                        If amdri.MDriver IsNot Nothing Then
-                                            row.Cells("首日任务").Value = amdri.MDriver.DutySort & "/" & amdri.MDriver.OutPutCSDriverNo & "(" & amdri.MDriver.StartStaName & ")"
-                                            MDrivers.Remove(amdri.MDriver)
-                                            iFAssigned = True
-                                            Exit For
-                                        End If
-                                    End If
-                                Next
-                            End If
-                            If iFAssigned = False Then
-                                row.Cells("首日任务").Value = "早班/SP()"
-                            End If
-                            row.Cells("首日任务").Tag = "早班"
-                            row.Cells("首日班种").Value = "早班"
-                        Case "休息"
-                            'If NDrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = NDrivers(0).DutySort & "/" & NDrivers(0).OutPutCSDriverNo
-                            '    NDrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "白班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "白班"
-                            row.Cells("首日班种").Value = "白班"
-                    End Select
-                ElseIf YunZhuanPara = "五班三转" Then '上海白夜早峰休
-                    Select Case ForDutySort
-                        Case "早班"
-                            row.Cells("首日任务").Value = "日勤班/无任务"
-                            row.Cells("首日任务").Tag = "日勤班"
-                            row.Cells("首日班种").Value = "日勤班"
-                        Case "白班"
-                            'If ADrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = ADrivers(0).DutySort & "/" & ADrivers(0).OutPutCSDriverNo
-                            '    ADrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "夜班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "夜班"
-                            row.Cells("首日班种").Value = "夜班"
-                        Case "夜班"
-                            Dim iFAssigned As Boolean = False
-                            If PreAMCon IsNot Nothing Then
-                                For Each amdri As AMDriver In PreAMCon.AMDrivers
-                                    If amdri.ADriver IsNot Nothing AndAlso amdri.ADriver.OutPutCSDriverNo = DriverNo Then
-                                        If amdri.MDriver IsNot Nothing Then
-                                            row.Cells("首日任务").Value = amdri.MDriver.DutySort & "/" & amdri.MDriver.OutPutCSDriverNo & "(" & amdri.MDriver.StartStaName & ")"
-                                            MDrivers.Remove(amdri.MDriver)
-                                            iFAssigned = True
-                                            Exit For
-                                        End If
-                                    End If
-                                Next
-                            End If
-                            If iFAssigned = False Then
-                                row.Cells("首日任务").Value = "早班/SP()"
-                            End If
-                            row.Cells("首日任务").Tag = "早班"
-                            row.Cells("首日班种").Value = "早班"
-                        Case "休息"
-                            'If NDrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = NDrivers(0).DutySort & "/" & NDrivers(0).OutPutCSDriverNo
-                            '    NDrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "白班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "白班"
-                            row.Cells("首日班种").Value = "白班"
-                        Case "日勤班"
-                            row.Cells("首日任务").Value = "休息/无任务"
-                            row.Cells("首日任务").Tag = "休息"
-                            row.Cells("首日班种").Value = "休息"
-                    End Select
-
-                ElseIf YunZhuanPara = "日勤班轮转" Then
-                    Select Case ForDutySort
-                        Case "日勤班"
-                            'If CDrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
-                            '    CDrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "日勤班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "日勤班-1"
-                            row.Cells("首日班种").Value = "日勤班-1"
-                        Case "日勤班-1"
-                            'If CDrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
-                            '    CDrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "日勤班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "日勤班-2"
-                            row.Cells("首日班种").Value = "日勤班-2"
-                        Case "日勤班-2"
-                            'If CDrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
-                            '    CDrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "日勤班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "日勤班-3"
-                            row.Cells("首日班种").Value = "日勤班-3"
-                        Case "日勤班-3"
-                            'If CDrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
-                            '    CDrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "日勤班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "日勤班-4"
-                            row.Cells("首日班种").Value = "日勤班-4"
-                        Case "日勤班-4"
-                            'row.Cells("首日任务").Value = "日勤班/无任务"
-                            'row.Cells("首日任务").Tag = "日勤班-5"
-                            'row.Cells("首日班种").Value = "日勤班-5"
-                            row.Cells("首日任务").Value = "休息/无任务"
-                            row.Cells("首日任务").Tag = "休息-1"
-                            row.Cells("首日班种").Value = "休息-1"
-
-                            'Case "日勤班-5"
-                            '    row.Cells("首日任务").Value = "休息/无任务"
-                            '    row.Cells("首日任务").Tag = "休息-1"
-                            '    row.Cells("首日班种").Value = "休息-1"
-                        Case "休息-1"
-                            row.Cells("首日任务").Value = "休息/无任务"
-                            row.Cells("首日任务").Tag = "休息-2"
-                            row.Cells("首日班种").Value = "休息-2"
-                        Case "休息-2"
-                            'If CDrivers.Count > 0 Then
-                            '    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
-                            '    CDrivers.RemoveAt(0)
-                            'Else
-                            row.Cells("首日任务").Value = "日勤班/无任务"
-                            'End If
-                            row.Cells("首日任务").Tag = "日勤班-1"
-                            row.Cells("首日班种").Value = "日勤班-1"
-                    End Select
+                Dim decidemode As Integer = 0
+                If AreaName = "主区域" Or arealunzhuan.Keys.Contains(AreaName) = False Then      '没有定制轮转匹配的区域按主区域处理
+                    decidemode = 1
+                Else
+                    decidemode = 2
                 End If
+            Select decidemode
+                        Case 1
+                            If YunZhuanPara = "四班两转" Then
+                                Select Case ForDutySort
+                                    Case "早班"
+                                        row.Cells("首日任务").Value = "休息/无任务"
+                                        row.Cells("首日任务").Tag = "休息"
+                                        row.Cells("首日班种").Value = "休息"
+                                    Case "白班"
+                                        'If ADrivers.Count > 0 Then
+                                        '    row.Cells("首日任务").Value = ADrivers(0).DutySort & "/" & ADrivers(0).OutPutCSDriverNo
+                                        '    ADrivers.RemoveAt(0)
+                                        'Else
+                                        row.Cells("首日任务").Value = "夜班/无任务"
+                                        'End If
+                                        row.Cells("首日任务").Tag = "夜班"
+                                        row.Cells("首日班种").Value = "夜班"
+                                    Case "夜班"
+                                        Dim iFAssigned As Boolean = False
+                                        If PreAMCon IsNot Nothing Then
+                                            For Each amdri As AMDriver In PreAMCon.AMDrivers
+                                                If amdri.ADriver IsNot Nothing AndAlso amdri.ADriver.OutPutCSDriverNo = DriverNo Then
+                                                    If amdri.MDriver IsNot Nothing Then
+                                                        row.Cells("首日任务").Value = amdri.MDriver.DutySort & "/" & amdri.MDriver.OutPutCSDriverNo & "(" & amdri.MDriver.StartStaName & ")"
+                                                        MDrivers.Remove(amdri.MDriver)
+                                                        iFAssigned = True
+                                                        Exit For
+                                                    End If
+                                                End If
+                                            Next
+                                        End If
+                                        If iFAssigned = False Then
+                                            row.Cells("首日任务").Value = "早班/SP()"
+                                        End If
+                                        row.Cells("首日任务").Tag = "早班"
+                                        row.Cells("首日班种").Value = "早班"
+                                    Case "休息"
+                                        'If NDrivers.Count > 0 Then
+                                        '    row.Cells("首日任务").Value = NDrivers(0).DutySort & "/" & NDrivers(0).OutPutCSDriverNo
+                                        '    NDrivers.RemoveAt(0)
+                                        'Else
+                                        row.Cells("首日任务").Value = "白班/无任务"
+                                        'End If
+                                        row.Cells("首日任务").Tag = "白班"
+                                        row.Cells("首日班种").Value = "白班"
+                                End Select
+                            ElseIf YunZhuanPara = "五班三转" Then '上海白夜早峰休
+                                Select Case ForDutySort
+                                    Case "早班"
+                                        row.Cells("首日任务").Value = "日勤班/无任务"
+                                        row.Cells("首日任务").Tag = "日勤班"
+                                        row.Cells("首日班种").Value = "日勤班"
+                                    Case "白班"
+                                        'If ADrivers.Count > 0 Then
+                                        '    row.Cells("首日任务").Value = ADrivers(0).DutySort & "/" & ADrivers(0).OutPutCSDriverNo
+                                        '    ADrivers.RemoveAt(0)
+                                        'Else
+                                        row.Cells("首日任务").Value = "夜班/无任务"
+                                        'End If
+                                        row.Cells("首日任务").Tag = "夜班"
+                                        row.Cells("首日班种").Value = "夜班"
+                                    Case "夜班"
+                                        Dim iFAssigned As Boolean = False
+                                        If PreAMCon IsNot Nothing Then
+                                            For Each amdri As AMDriver In PreAMCon.AMDrivers
+                                                If amdri.ADriver IsNot Nothing AndAlso amdri.ADriver.OutPutCSDriverNo = DriverNo Then
+                                                    If amdri.MDriver IsNot Nothing Then
+                                                        row.Cells("首日任务").Value = amdri.MDriver.DutySort & "/" & amdri.MDriver.OutPutCSDriverNo & "(" & amdri.MDriver.StartStaName & ")"
+                                                        MDrivers.Remove(amdri.MDriver)
+                                                        iFAssigned = True
+                                                        Exit For
+                                                    End If
+                                                End If
+                                            Next
+                                        End If
+                                        If iFAssigned = False Then
+                                            row.Cells("首日任务").Value = "早班/SP()"
+                                        End If
+                                        row.Cells("首日任务").Tag = "早班"
+                                        row.Cells("首日班种").Value = "早班"
+                                    Case "休息"
+                                        'If NDrivers.Count > 0 Then
+                                        '    row.Cells("首日任务").Value = NDrivers(0).DutySort & "/" & NDrivers(0).OutPutCSDriverNo
+                                        '    NDrivers.RemoveAt(0)
+                                        'Else
+                                        row.Cells("首日任务").Value = "白班/无任务"
+                                        'End If
+                                        row.Cells("首日任务").Tag = "白班"
+                                        row.Cells("首日班种").Value = "白班"
+                                    Case "日勤班"
+                                        row.Cells("首日任务").Value = "休息/无任务"
+                                        row.Cells("首日任务").Tag = "休息"
+                                        row.Cells("首日班种").Value = "休息"
+                                End Select
+
+                                'ElseIf YunZhuanPara = "日勤班轮转" Then
+                                '    For i As Integer = 0 To lunzhuanbanzhongs.Count - 1
+                                '        If ForDutySort = lunzhuanbanzhongs(i) Then
+                                '            row.Cells("首日任务").Value = "日勤班/无任务"
+                                '            'End If
+                                '            row.Cells("首日任务").Tag = lunzhuanbanzhongs(i + 1)
+                                '            row.Cells("首日班种").Value = lunzhuanbanzhongs(i + 1)
+                                '        End If
+                                '    Next
+                            End If
+                    Case 2
+                        For Each key As Keys In arealunzhuan.Keys
+                            If key = AreaName Then
+
+                                For i As Integer = 0 To arealunzhuan(AreaName).Count - 1
+                                    If ForDutySort = arealunzhuan(AreaName)(i) Then
+                                        row.Cells("首日任务").Value = "日勤班/无任务"
+                                        'End If
+                                        row.Cells("首日任务").Tag = arealunzhuan(AreaName)(i + 1)
+                                        row.Cells("首日班种").Value = arealunzhuan(AreaName)(i + 1)
+                                    End If
+                                Next
+                            End If
+                        Next
+                End Select
             Next
-        Next
+            Next
     End Sub
 
     Private Sub DGV_AssignFirst_CellMouseDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellMouseEventArgs)
@@ -389,45 +368,111 @@ L:
                     Me.CmbDuty.Text = sender.Rows(sender.CurrentCell.RowIndex).Cells("首日任务").Value.ToString
                 End If
                 Me.CmbDuty.Visible = True
+
+
+
+
             Case "首日班种"
                 Dim YunZhuanPara As String = ""
+                Dim areaname As String = CType(Me.CurrentCell.Tag, DataGridView).Parent.Text
                 For Each area As AreaYunZhuan In AreaYunzhuanS
-                    If area.AreaName = CType(Me.CurrentCell.Tag, DataGridView).Parent.Text Then
+                    If area.AreaName = areaname Then
                         YunZhuanPara = area.YunZhuanPara
                     End If
                 Next
-                Select Case YunZhuanPara
-                    Case "四班两转"
-                        CmbDutySort.Items.Clear()
-                        CmbDutySort.Items.Add("早班")
-                        CmbDutySort.Items.Add("白班")
-                        CmbDutySort.Items.Add("夜班")
-                        CmbDutySort.Items.Add("日勤班")
-                        CmbDutySort.Items.Add("休息")
-                    Case "五班三转"
-                        CmbDutySort.Items.Clear()
-                        CmbDutySort.Items.Add("早班")
-                        CmbDutySort.Items.Add("白班")
-                        CmbDutySort.Items.Add("夜班")
-                        CmbDutySort.Items.Add("日勤班")
-                        CmbDutySort.Items.Add("休息")
-                    Case "日勤班轮转"
-                        CmbDutySort.Items.Clear()
-                        CmbDutySort.Items.Add("日勤班-1")
-                        CmbDutySort.Items.Add("日勤班-2")
-                        CmbDutySort.Items.Add("日勤班-3")
-                        CmbDutySort.Items.Add("日勤班-4")
-                        'CmbDutySort.Items.Add("日勤班-5")
-                        CmbDutySort.Items.Add("休息-1")
-                        CmbDutySort.Items.Add("休息-2")
+
+                Dim decidemode As Integer = 0
+                If areaname = "主区域" Or arealunzhuan.Keys.Contains(areaname) = False Then      '没有定制轮转匹配的区域按主区域处理
+                    decidemode = 1
+                Else
+                    decidemode = 2
+                End If
+                    Select Case decidemode
+                        Case 1
+                            Select Case YunZhuanPara
+                                Case "四班两转"
+                                    CmbDutySort.Items.Clear()
+                                    CmbDutySort.Items.Add("早班")
+                                    CmbDutySort.Items.Add("白班")
+                                    CmbDutySort.Items.Add("夜班")
+                                    CmbDutySort.Items.Add("日勤班")
+                                    CmbDutySort.Items.Add("休息")
+                                Case "五班三转"
+                                    CmbDutySort.Items.Clear()
+                                    CmbDutySort.Items.Add("早班")
+                                    CmbDutySort.Items.Add("白班")
+                                    CmbDutySort.Items.Add("夜班")
+                                    CmbDutySort.Items.Add("日勤班")
+                                    CmbDutySort.Items.Add("休息")
+                                    'Case "日勤班轮转"
+                                    '    CmbDutySort.Items.Clear()
+
+                                    '    For i As Integer = 0 To RQbanzhongs.Count - 1
+                                    '        CmbDutySort.Items.Add(RQbanzhongs(i))
+                                    '    Next
+                            End Select
+                    Case 2
+                        CmbDutySort.Items.Clear()   '清空目前的可排列班种
+                        For m As Integer = 1 To arealunzhuan(areaname).Count
+                            CmbDutySort.Items.Add(arealunzhuan(areaname)(m))
+                        Next
+
+
+                        '    CSTimeTable = New Coordination2.CSTimeTable(Me.CurLine.GetCSTimeTableFromName(Me.cstimetableNameList(0)).ID, Me.CurLine.Name)
+                        '    lunzhuanbanzhongs.Clear()
+                        '    For Each duty As Coordination2.CSDriver In CSTimeTable.CCSDrivers
+                        '        If duty.BelongArea = areaname Then
+                        '            lunzhuanbanzhongs.Add(duty.CSdriverNo)
+                        '        End If
+                        '    Next
+                        '    For Each duty As Coordination2.CSDriver In CSTimeTable.ACSDrivers
+                        '        If duty.BelongArea = areaname Then
+                        '            lunzhuanbanzhongs.Add(duty.CSdriverNo)
+                        '        End If
+                        '    Next
+                        '    For Each duty As Coordination2.CSDriver In CSTimeTable.MCSDrivers
+                        '        If duty.BelongArea = areaname Then
+                        '            lunzhuanbanzhongs.Add(duty.CSdriverNo)
+                        '        End If
+                        '    Next
+                        '    For Each duty As Coordination2.CSDriver In CSTimeTable.NCSDrivers
+                        '        If duty.BelongArea = areaname Then
+                        '            lunzhuanbanzhongs.Add(duty.CSdriverNo)
+                        '        End If
+                        '    Next
+
+                        '    If arealunzhuan.Keys.Contains(areaname) Then
+                        '        Dim n As Integer = 1
+                        '        For m As Integer = 1 To arealunzhuan(areaname).Count
+                        '            If arealunzhuan(areaname)(m) = "休息" Then
+                        '                lunzhuanbanzhongs.Add("休息-" + (n).ToString)
+                        '                n = n + 1
+                        '            End If
+                        '        Next
+                        '        For i As Integer = 0 To lunzhuanbanzhongs.Count - 1
+                        '            CmbDutySort.Items.Add(lunzhuanbanzhongs(i))
+                        '        Next
+                        '    End If
                 End Select
+
+
                 sender.Controls.Add(Me.CmbDutySort)
                 Me.CmbDutySort.Size = sender.SelectedCells(0).Size
                 Me.CmbDutySort.Location = New Point(CurMousex - CurCellx + sender.Left, CurMousey - CurCelly + sender.Top)
                 If sender.Rows(sender.CurrentCell.RowIndex).Cells("首日班种").Value Is Nothing Then
                     Me.CmbDutySort.Text = ""
                 Else
-                    Me.CmbDutySort.Text = sender.Rows(sender.CurrentCell.RowIndex).Cells("首日班种").Value.ToString
+                    For sss As Integer = 0 To Me.CmbDutySort.Items.Count - 1
+                        If Me.CmbDutySort.Items(sss).ToString.Contains(sender.Rows(sender.CurrentCell.RowIndex).Cells("首日班种").Value.ToString) Then
+                            If Me.CmbDutySort.Items(sss).ToString = sender.Rows(sender.CurrentCell.RowIndex).Cells("首日班种").Value.ToString Then
+                                Me.CmbDutySort.Text = sender.Rows(sender.CurrentCell.RowIndex).Cells("首日班种").Value.ToString
+                            Else
+                                Me.CmbDutySort.Text = Me.CmbDutySort.Items(sss).ToString
+                            End If
+                            Exit For
+                        End If
+                    Next
+                    ' Me.CmbDutySort.Text = sender.Rows(sender.CurrentCell.RowIndex).Cells("首日班种").Value.ToString
                 End If
                 Me.CmbDutySort.Visible = True
         End Select
@@ -476,21 +521,28 @@ L:
                                                                 End Function)
             For Each row As DataGridViewRow In dgv.Rows
                 Dim dutystr As String = row.Cells("首日任务").Value.ToString
-                Dim dutySort As String = dutystr.Split("/")(0) ''早班，夜班，白班，日勤班-1，。。。
+                Dim dutySort As String = dutystr.Split("/")(0) ''早班，夜班，白班，日勤班，。。。
                 If dutySort.Contains("日勤班") Then dutySort = "日勤班"
                 Dim ForDutySort As String = row.Cells("首日班种").Value.ToString.Trim
                 Dim teamno As String = row.Cells("组号").Value.ToString
+                'If ForDutySort = "" _
+                '    OrElse (ForDutySort <> "早班" AndAlso ForDutySort <> "白班" AndAlso ForDutySort <> "日勤班" _
+                '            AndAlso ForDutySort <> "日勤班-1" _
+                '                           AndAlso ForDutySort <> "日勤班-2" _
+                '                           AndAlso ForDutySort <> "日勤班-3" _
+                '                           AndAlso ForDutySort <> "日勤班-4" _
+                '                           AndAlso ForDutySort <> "休息-1" _
+                '                           AndAlso ForDutySort <> "休息-2" _
+                '                            AndAlso ForDutySort <> "夜班" AndAlso ForDutySort <> "休息") Then
                 If ForDutySort = "" _
                     OrElse (ForDutySort <> "早班" AndAlso ForDutySort <> "白班" AndAlso ForDutySort <> "日勤班" _
-                            AndAlso ForDutySort <> "日勤班-1" _
-                                           AndAlso ForDutySort <> "日勤班-2" _
-                                           AndAlso ForDutySort <> "日勤班-3" _
-                                           AndAlso ForDutySort <> "日勤班-4" _
-                                           AndAlso ForDutySort <> "休息-1" _
-                                           AndAlso ForDutySort <> "休息-2" _
-                                            AndAlso ForDutySort <> "夜班" AndAlso ForDutySort <> "休息") Then  'AndAlso ForDutySort <> "日勤班-5" _
-                    MsgBox("第'" & teamno & "'没有安排首日班种,请安排完整！", MsgBoxStyle.OkOnly + MsgBoxStyle.Information, "提醒")
-                    Exit Sub
+                                AndAlso ForDutySort <> "夜班" AndAlso ForDutySort <> "休息" _
+                                ) Then
+                    If arealunzhuan.Keys.Contains(AreaName) AndAlso arealunzhuan(AreaName).Values.Contains(ForDutySort) = False Then
+                        MsgBox("第'" & teamno & "'没有安排首日班种,请安排完整！", MsgBoxStyle.OkOnly + MsgBoxStyle.Information, "提醒")
+
+                        Exit Sub
+                    End If
                 End If
                 Dim DriverNo As String = ""
 
@@ -514,7 +566,8 @@ L:
                                                                                               End Function)
                 Dim temCSDriver As Coordination2.CSDriver = GetCSDriverFromTimetableByOutPutNo(DriverNo, dutySort, FirDayTimeTable)
                 If temCSDriver IsNot Nothing Then
-                    If temCSDriver.DutySort = "夜班" AndAlso NextAMCon IsNot Nothing Then
+                    'If temCSDriver.DutySort = "夜班" AndAlso NextAMCon IsNot Nothing Then
+                    If temCSDriver.DutySort = "夜班" AndAlso NextAMCon.AMDrivers.Count <> 0 Then
                         For Each dri As Coordination2.Driver In SelectTeam.CoDrivers
                             Dim temAMDuty As AMDriver = NextAMCon.AMDrivers.Find(Function(value As AMDriver)
                                                                                      Return value.ADriver.OutPutCSDriverNo = DriverNo
@@ -641,7 +694,7 @@ L:
 
                 Dim cellStr As String = row.Cells("前日任务").Value.ToString.Trim
 
-                Dim RealDutysort As String = cellStr.Split("/")(0)
+                Dim RealDutysort As String = cellStr.Split("/")(0)  '前日任务班种
                 Dim ForDutySort As String = row.Cells("前日班种").Value.ToString
                 Dim DriverNo As String = ""
                 If RealDutysort = "夜班" Then
@@ -653,277 +706,315 @@ L:
                     DriverNo = cellStr.Split("/")(1)
                 End If
 
-                If YunZhuanPara = "四班两转" Then
-                       Select FirDayDutySort
-                        Case "早班"
-                            Dim iFAssigned As Boolean = False
-                            If PreAMCon IsNot Nothing Then
-                                For Each amdri As AMDriver In PreAMCon.AMDrivers
-                                    If amdri.ADriver IsNot Nothing AndAlso amdri.ADriver.OutPutCSDriverNo = DriverNo Then
-                                        If amdri.MDriver IsNot Nothing Then
-                                            row.Cells("首日任务").Value = amdri.MDriver.DutySort & "/" & amdri.MDriver.OutPutCSDriverNo & "(" & amdri.MDriver.StartStaName & ")"
-                                            MDrivers.Remove(amdri.MDriver)
-                                            iFAssigned = True
-                                            Exit For
-                                        End If
-                                    End If
-                                Next
-                            End If
-                            If iFAssigned = False Then
-                                row.Cells("首日任务").Value = "早班/无任务"
-                            End If
-                            row.Cells("首日任务").Tag = "早班"
-                        Case "白班"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "白班" AndAlso v <> "白班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "白班/无任务"
-                            End If
-                        Case "夜班"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "夜班" AndAlso v <> "夜班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "夜班/无任务"
-                            End If
-                            'row.Cells("首日班种").Value = "早班"
-                        Case "休息"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "休息" AndAlso v <> "休息/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "休息/无任务"
-                            End If
-                            'Case "日勤班"
-                            '    Dim IsAssigned As Boolean = False
-                            '    For Each v As String In CmbDuty.Items
-                            '        Dim tmpDutySort As String = v.Split("/")(0)
-                            '        If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
-                            '            row.Cells("首日任务").Value = v.ToString()
-                            '            IsAssigned = True
-                            '            Exit For
-                            '        End If
-
-                            '    Next
-                            '    If IsAssigned = False Then
-                            '        row.Cells("首日任务").Value = "日勤班/无任务"
-                            '    End If
-                    End Select
-                ElseIf YunZhuanPara = "五班三转" Then '上海白夜早峰休
-                    Select Case FirDayDutySort
-                        Case "早班"
-                            Dim iFAssigned As Boolean = False
-                            If PreAMCon IsNot Nothing Then
-                                For Each amdri As AMDriver In PreAMCon.AMDrivers
-                                    If amdri.ADriver IsNot Nothing AndAlso amdri.ADriver.OutPutCSDriverNo = DriverNo Then
-                                        If amdri.MDriver IsNot Nothing Then
-                                            row.Cells("首日任务").Value = amdri.MDriver.DutySort & "/" & amdri.MDriver.OutPutCSDriverNo & "(" & amdri.MDriver.StartStaName & ")"
-                                            MDrivers.Remove(amdri.MDriver)
-                                            iFAssigned = True
-                                            Exit For
-                                        End If
-                                    End If
-                                Next
-                            End If
-                            If iFAssigned = False Then
-                                row.Cells("首日任务").Value = "早班/无任务"
-                            End If
-                            row.Cells("首日任务").Tag = "早班"
-                        Case "白班"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "白班" AndAlso v <> "白班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "白班/无任务"
-                            End If
-                        Case "夜班"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "夜班" AndAlso v <> "夜班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "夜班/无任务"
-                            End If
-                            'row.Cells("首日班种").Value = "早班"
-                        Case "休息"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "休息" AndAlso v <> "休息/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "休息/无任务"
-                            End If
-                        Case "日勤班"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If v <> "日勤班/无任务" AndAlso tmpDutySort = "日勤班" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "休息/无任务"
-                            End If
-                    End Select
-
-                ElseIf YunZhuanPara = "日勤班轮转" Then
-                    Select Case FirDayDutySort
-                        Case "日勤班"
-                            ''If CDrivers.Count > 0 Then
-                            ''    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
-                            ''    CDrivers.RemoveAt(0)
-                            ''Else
-                            'row.Cells("首日任务").Value = "日勤班/无任务"
-                            ''End If
-                            'row.Cells("首日任务").Tag = "日勤班/2"
-                            'row.Cells("首日班种").Value = "日勤班/2"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "日勤班" & "/无任务"
-                            End If
-                        Case "日勤班-1"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = ForDutySort & "/无任务"
-                            End If
-                        Case "日勤班-2"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "日勤班" & "/无任务"
-                            End If
-                        Case "日勤班-3"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "日勤班" & "/无任务"
-                            End If
-                        Case "日勤班-4"
-                            Dim IsAssigned As Boolean = False
-                            For Each v As String In CmbDuty.Items
-                                Dim tmpDutySort As String = v.Split("/")(0)
-                                If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
-                                    row.Cells("首日任务").Value = v.ToString()
-                                    IsAssigned = True
-                                    Exit For
-                                End If
-
-                            Next
-                            If IsAssigned = False Then
-                                row.Cells("首日任务").Value = "日勤班" & "/无任务"
-                            End If
-                            'Case "日勤班-5"
-                            '    Dim IsAssigned As Boolean = False
-                            '    For Each v As String In CmbDuty.Items
-                            '        Dim tmpDutySort As String = v.Split("/")(0)
-                            '        If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
-                            '            row.Cells("首日任务").Value = v.ToString()
-                            '            IsAssigned = True
-                            '            Exit For
-                            '        End If
-
-                            '    Next
-                            '    If IsAssigned = False Then
-                            '        row.Cells("首日任务").Value = "日勤班" & "/无任务"
-                            '    End If
-                        Case "休息-1"
-                            row.Cells("首日任务").Value = "休息/无任务"
-                            row.Cells("首日任务").Tag = "休息-1"
-                            row.Cells("首日班种").Value = "休息-1"
-
-                        Case "休息-2"
-                            row.Cells("首日任务").Value = "休息/无任务"
-                            row.Cells("首日任务").Tag = "休息-2"
-                            row.Cells("首日班种").Value = "休息-2"
-                            'Case "休息-2"
-                            '    'If CDrivers.Count > 0 Then
-                            '    '    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
-                            '    '    CDrivers.RemoveAt(0)
-                            '    'Else
-                            '    row.Cells("首日任务").Value = "日勤班/无任务"
-                            '    'End If
-                            '    row.Cells("首日任务").Tag = "日勤班/1"
-                            '    row.Cells("首日班种").Value = "日勤班/1"
-                    End Select
+               Dim decidemode As Integer = 0
+                If AreaName = "主区域" Or arealunzhuan.Keys.Contains(AreaName) = False Then      '没有定制轮转匹配的区域按主区域处理
+                    decidemode = 1
+                Else
+                    decidemode = 2
                 End If
+                Select Case decidemode
+                    Case 1
+                        If YunZhuanPara = "四班两转" Then
+                            Select Case FirDayDutySort
+                                Case "早班"
+                                    Dim iFAssigned As Boolean = False
+                                    If PreAMCon IsNot Nothing Then
+                                        For Each amdri As AMDriver In PreAMCon.AMDrivers
+                                            If amdri.ADriver IsNot Nothing AndAlso amdri.ADriver.OutPutCSDriverNo = DriverNo Then
+                                                If amdri.MDriver IsNot Nothing Then
+                                                    row.Cells("首日任务").Value = amdri.MDriver.DutySort & "/" & amdri.MDriver.OutPutCSDriverNo & "(" & amdri.MDriver.StartStaName & ")"
+                                                    MDrivers.Remove(amdri.MDriver)
+                                                    iFAssigned = True
+                                                    Exit For
+                                                End If
+                                            End If
+                                        Next
+                                    End If
+                                    If iFAssigned = False Then
+                                        row.Cells("首日任务").Value = "早班/无任务"
+                                    End If
+                                    row.Cells("首日任务").Tag = "早班"
+                                Case "白班"
+                                    Dim IsAssigned As Boolean = False
+                                    For Each v As String In CmbDuty.Items
+                                        Dim tmpDutySort As String = v.Split("/")(0)
+                                        If tmpDutySort = "白班" AndAlso v <> "白班/无任务" Then
+                                            row.Cells("首日任务").Value = v.ToString()
+                                            IsAssigned = True
+                                            Exit For
+                                        End If
+
+                                    Next
+                                    If IsAssigned = False Then
+                                        row.Cells("首日任务").Value = "白班/无任务"
+                                    End If
+                                Case "夜班"
+                                    Dim IsAssigned As Boolean = False
+                                    For Each v As String In CmbDuty.Items
+                                        Dim tmpDutySort As String = v.Split("/")(0)
+                                        If tmpDutySort = "夜班" AndAlso v <> "夜班/无任务" Then
+                                            row.Cells("首日任务").Value = v.ToString()
+                                            IsAssigned = True
+                                            Exit For
+                                        End If
+
+                                    Next
+                                    If IsAssigned = False Then
+                                        row.Cells("首日任务").Value = "夜班/无任务"
+                                    End If
+                                    'row.Cells("首日班种").Value = "早班"
+                                Case "休息"
+                                    Dim IsAssigned As Boolean = False
+                                    For Each v As String In CmbDuty.Items
+                                        Dim tmpDutySort As String = v.Split("/")(0)
+                                        If tmpDutySort = "休息" AndAlso v <> "休息/无任务" Then
+                                            row.Cells("首日任务").Value = v.ToString()
+                                            IsAssigned = True
+                                            Exit For
+                                        End If
+
+                                    Next
+                                    If IsAssigned = False Then
+                                        row.Cells("首日任务").Value = "休息/无任务"
+                                    End If
+                                    'Case "日勤班"
+                                    '    Dim IsAssigned As Boolean = False
+                                    '    For Each v As String In CmbDuty.Items
+                                    '        Dim tmpDutySort As String = v.Split("/")(0)
+                                    '        If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
+                                    '            row.Cells("首日任务").Value = v.ToString()
+                                    '            IsAssigned = True
+                                    '            Exit For
+                                    '        End If
+
+                                    '    Next
+                                    '    If IsAssigned = False Then
+                                    '        row.Cells("首日任务").Value = "日勤班/无任务"
+                                    '    End If
+                            End Select
+                        ElseIf YunZhuanPara = "五班三转" Then '上海白夜早峰休
+                            Select Case FirDayDutySort
+                                Case "早班"
+                                    Dim iFAssigned As Boolean = False
+                                    If PreAMCon IsNot Nothing Then
+                                        For Each amdri As AMDriver In PreAMCon.AMDrivers
+                                            If amdri.ADriver IsNot Nothing AndAlso amdri.ADriver.OutPutCSDriverNo = DriverNo Then
+                                                If amdri.MDriver IsNot Nothing Then
+                                                    row.Cells("首日任务").Value = amdri.MDriver.DutySort & "/" & amdri.MDriver.OutPutCSDriverNo & "(" & amdri.MDriver.StartStaName & ")"
+                                                    MDrivers.Remove(amdri.MDriver)
+                                                    iFAssigned = True
+                                                    Exit For
+                                                End If
+                                            End If
+                                        Next
+                                    End If
+                                    If iFAssigned = False Then
+                                        row.Cells("首日任务").Value = "早班/无任务"
+                                    End If
+                                    row.Cells("首日任务").Tag = "早班"
+                                Case "白班"
+                                    Dim IsAssigned As Boolean = False
+                                    For Each v As String In CmbDuty.Items
+                                        Dim tmpDutySort As String = v.Split("/")(0)
+                                        If tmpDutySort = "白班" AndAlso v <> "白班/无任务" Then
+                                            row.Cells("首日任务").Value = v.ToString()
+                                            IsAssigned = True
+                                            Exit For
+                                        End If
+
+                                    Next
+                                    If IsAssigned = False Then
+                                        row.Cells("首日任务").Value = "白班/无任务"
+                                    End If
+                                Case "夜班"
+                                    Dim IsAssigned As Boolean = False
+                                    For Each v As String In CmbDuty.Items
+                                        Dim tmpDutySort As String = v.Split("/")(0)
+                                        If tmpDutySort = "夜班" AndAlso v <> "夜班/无任务" Then
+                                            row.Cells("首日任务").Value = v.ToString()
+                                            IsAssigned = True
+                                            Exit For
+                                        End If
+
+                                    Next
+                                    If IsAssigned = False Then
+                                        row.Cells("首日任务").Value = "夜班/无任务"
+                                    End If
+                                    'row.Cells("首日班种").Value = "早班"
+                                Case "休息"
+                                    Dim IsAssigned As Boolean = False
+                                    For Each v As String In CmbDuty.Items
+                                        Dim tmpDutySort As String = v.Split("/")(0)
+                                        If tmpDutySort = "休息" AndAlso v <> "休息/无任务" Then
+                                            row.Cells("首日任务").Value = v.ToString()
+                                            IsAssigned = True
+                                            Exit For
+                                        End If
+
+                                    Next
+                                    If IsAssigned = False Then
+                                        row.Cells("首日任务").Value = "休息/无任务"
+                                    End If
+                                Case "日勤班"
+                                    Dim IsAssigned As Boolean = False
+                                    For Each v As String In CmbDuty.Items
+                                        Dim tmpDutySort As String = v.Split("/")(0)
+                                        If v <> "日勤班/无任务" AndAlso tmpDutySort = "日勤班" Then
+                                            row.Cells("首日任务").Value = v.ToString()
+                                            IsAssigned = True
+                                            Exit For
+                                        End If
+
+                                    Next
+                                    If IsAssigned = False Then
+                                        row.Cells("首日任务").Value = "休息/无任务"
+                                    End If
+                            End Select
+                        End If
+                    Case 2
+                        Dim IsAssigned As Boolean = False
+                        If FirDayDutySort.Contains("值班") Then
+                            For Each v As String In CmbDuty.Items
+                                Dim tmpDutySort As String = v.Split("/")(1)
+                                If tmpDutySort <> "无任务" Then
+                                    row.Cells("首日任务").Value = v.ToString()
+                                    IsAssigned = True
+                                    Exit For
+                                End If
+                            Next
+                        ElseIf FirDayDutySort.Contains("休息") Then
+                            row.Cells("首日任务").Value = "休息/无任务"
+                            row.Cells("首日任务").Tag = FirDayDutySort
+                            'row.Cells("首日班种").Value = FirDayDutySort
+                        End If
+                        'ElseIf YunZhuanPara = "日勤班轮转" Then
+                        '    If FirDayDutySort.Contains("日勤班") Then
+                        '        Dim IsAssigned As Boolean = False
+                        '        For Each v As String In CmbDuty.Items
+                        '            Dim tmpDutySort As String = v.Split("/")(0)
+                        '            If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
+                        '                row.Cells("首日任务").Value = v.ToString()
+                        '                IsAssigned = True
+                        '                Exit For
+                        '            End If
+
+                        '        Next
+                        '        If row.Cells("首日任务").Value.ToString.Contains("日勤班") Then
+                        '            IsAssigned = True
+                        '        End If
+                        '        If IsAssigned = False Then
+                        '            row.Cells("首日任务").Value = "日勤班" & "/无任务"
+                        '        End If
+                        '    ElseIf FirDayDutySort.Contains("休息") Then
+                        '        row.Cells("首日任务").Value = "休息/无任务"
+                        '        row.Cells("首日任务").Tag = FirDayDutySort
+                        '        row.Cells("首日班种").Value = FirDayDutySort
+                        '        'ElseIf FirDayDutySort.Contains("休息-2") Then
+                        '        '    row.Cells("首日任务").Value = "休息/无任务"
+                        '        '    row.Cells("首日任务").Tag = "休息-2"
+                        '        '    row.Cells("首日班种").Value = "休息-2"
+                        '    End If
+                        'Select Case FirDayDutySort
+                        '    Case "日勤班"
+                        '        ''If CDrivers.Count > 0 Then
+                        '        ''    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
+                        '        ''    CDrivers.RemoveAt(0)
+                        '        ''Else
+                        '        'row.Cells("首日任务").Value = "日勤班/无任务"
+                        '        ''End If
+                        '        'row.Cells("首日任务").Tag = "日勤班/2"
+                        '        'row.Cells("首日班种").Value = "日勤班/2"
+
+                        '    Case "日勤班02"
+                        '        Dim IsAssigned As Boolean = False
+                        '        For Each v As String In CmbDuty.Items
+                        '            Dim tmpDutySort As String = v.Split("/")(0)
+                        '            If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
+                        '                row.Cells("首日任务").Value = v.ToString()
+                        '                IsAssigned = True
+                        '                Exit For
+                        '            End If
+
+                        '        Next
+                        '        If IsAssigned = False Then
+                        '            row.Cells("首日任务").Value = ForDutySort & "/无任务"
+                        '        End If
+                        '    Case "日勤班-2"
+                        '        Dim IsAssigned As Boolean = False
+                        '        For Each v As String In CmbDuty.Items
+                        '            Dim tmpDutySort As String = v.Split("/")(0)
+                        '            If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
+                        '                row.Cells("首日任务").Value = v.ToString()
+                        '                IsAssigned = True
+                        '                Exit For
+                        '            End If
+
+                        '        Next
+                        '        If IsAssigned = False Then
+                        '            row.Cells("首日任务").Value = "日勤班" & "/无任务"
+                        '        End If
+                        '    Case "日勤班-3"
+                        '        Dim IsAssigned As Boolean = False
+                        '        For Each v As String In CmbDuty.Items
+                        '            Dim tmpDutySort As String = v.Split("/")(0)
+                        '            If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
+                        '                row.Cells("首日任务").Value = v.ToString()
+                        '                IsAssigned = True
+                        '                Exit For
+                        '            End If
+
+                        '        Next
+                        '        If IsAssigned = False Then
+                        '            row.Cells("首日任务").Value = "日勤班" & "/无任务"
+                        '        End If
+                        '    Case "日勤班-4"
+                        '        Dim IsAssigned As Boolean = False
+                        '        For Each v As String In CmbDuty.Items
+                        '            Dim tmpDutySort As String = v.Split("/")(0)
+                        '            If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
+                        '                row.Cells("首日任务").Value = v.ToString()
+                        '                IsAssigned = True
+                        '                Exit For
+                        '            End If
+
+                        '        Next
+                        '        If IsAssigned = False Then
+                        '            row.Cells("首日任务").Value = "日勤班" & "/无任务"
+                        '        End If
+                        'Case "日勤班-5"
+                        '    Dim IsAssigned As Boolean = False
+                        '    For Each v As String In CmbDuty.Items
+                        '        Dim tmpDutySort As String = v.Split("/")(0)
+                        '        If tmpDutySort = "日勤班" AndAlso v <> "日勤班/无任务" Then
+                        '            row.Cells("首日任务").Value = v.ToString()
+                        '            IsAssigned = True
+                        '            Exit For
+                        '        End If
+
+                        '    Next
+                        '    If IsAssigned = False Then
+                        '        row.Cells("首日任务").Value = "日勤班" & "/无任务"
+                        ''    End If
+                        '    Case "休息-1"
+                        'row.Cells("首日任务").Value = "休息/无任务"
+                        'row.Cells("首日任务").Tag = "休息-1"
+                        'row.Cells("首日班种").Value = "休息-1"
+
+                        '    Case "休息-2"
+                        'row.Cells("首日任务").Value = "休息/无任务"
+                        'row.Cells("首日任务").Tag = "休息-2"
+                        'row.Cells("首日班种").Value = "休息-2"
+                        ''Case "休息-2"
+                        ''    'If CDrivers.Count > 0 Then
+                        ''    '    row.Cells("首日任务").Value = CDrivers(0).DutySort & "/" & CDrivers(0).OutPutCSDriverNo
+                        ''    '    CDrivers.RemoveAt(0)
+                        ''    'Else
+                        ''    row.Cells("首日任务").Value = "日勤班/无任务"
+                        ''    'End If
+                        ''    row.Cells("首日任务").Tag = "日勤班/1"
+                        ''    row.Cells("首日班种").Value = "日勤班/1"
+                        'End Select
+                End Select
 
             Next
         Next
@@ -943,15 +1034,15 @@ L:
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Dim frm As New FrmPilianganpai
-        frm.ShowDialog()
-        For Each dgv As DataGridView In DutyDGVS
-            For Each row As DataGridViewRow In dgv.Rows
-                If frm.beclass2Duty.Keys.Contains(row.Cells("班组").Value.ToString) Then
-                    row.Cells("首日班种").Value = frm.beclass2Duty(row.Cells("班组").Value.ToString)
-                End If
+            Dim frm As New FrmPilianganpai
+            frm.ShowDialog()
+            For Each dgv As DataGridView In DutyDGVS
+                For Each row As DataGridViewRow In dgv.Rows
+                    If frm.beclass2Duty.Keys.Contains(row.Cells("班组").Value.ToString) Then
+                        row.Cells("首日班种").Value = frm.beclass2Duty(row.Cells("班组").Value.ToString)
+                    End If
+                Next
             Next
-        Next
-
     End Sub
+
 End Class

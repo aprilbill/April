@@ -414,6 +414,23 @@ Module modSubMain
         End If
     End Sub
 
+    Public Sub SortBytotalxiuxi(ByVal teams As List(Of CrewTrainingManager.DriverTeam))           '按照工作时间排序
+        If teams.Count > 1 Then
+            For i As Integer = 0 To teams.Count - 2
+                For j As Integer = i + 1 To teams.Count - 1
+                    Dim tempTeam As CrewTrainingManager.DriverTeam = Nothing
+                        Dim x As Integer = teams(i).CoDrivers(0).TotalXiuxiDayNum
+                        Dim y As Integer = teams(j).CoDrivers(0).TotalXiuxiDayNum
+                        If y < x Then
+                            tempTeam = teams(i)
+                            teams(i) = teams(j)
+                            teams(j) = tempTeam
+                    End If
+                Next
+            Next
+        End If
+    End Sub
+
     Public Sub SortByChubanNum(ByVal teams As List(Of CrewTrainingManager.DriverTeam), Optional ByVal IFDESC As Boolean = False)           '按照出班次数排序
         If teams.Count > 1 Then
             For i As Integer = 0 To teams.Count - 2
@@ -591,6 +608,9 @@ Module modSubMain
                                                                      Return value.Date.Date = DutyDate.Date
                                                                  End Function)
         driver.AddCSDriver(duty, dayindex, "", False)
+        'If duty.DutySort = "休息" Then
+        '    driver.XiuxiFengBanNum += 1
+        'End If
         duty.FlagDinner = True
     End Sub
 

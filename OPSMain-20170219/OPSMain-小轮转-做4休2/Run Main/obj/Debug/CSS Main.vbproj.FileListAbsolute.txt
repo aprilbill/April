@@ -6521,145 +6521,691 @@ G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\
 G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
 G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
 G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
-C:\Users\april-hjj\Desktop\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
-F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+C:\Users\MJ\Desktop\opsmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+C:\Users\MJ\Desktop\opsmain20170511\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170511\OPSMain-20170511\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170513\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170513\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170515\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170524\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+G:\课题组\1.上海\OPSmain\opsmain20170525\OPSMain-20170515\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+C:\Users\429-HZY\Desktop\王翰的临时文件夹\上海\OPSMain\OPSMain-20170526\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll

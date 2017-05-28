@@ -106,12 +106,11 @@ namespace Coordination2
                 {
                     int x = 0;
                     foreach (DriverDayJob ddb in this.DriverDayJobs)
-                        if (ddb.DutySort == "休息" )
+                        if (ddb.CSDriverNo  == "无任务" )
                         {
                             x++;
                         }
-                     
-                       
+                                         
                     return x;
                 }
             }

@@ -40,6 +40,7 @@ Partial Class FrmClassCoordinate
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.SplitContainer3 = New System.Windows.Forms.SplitContainer()
+        Me.RQComboBox1 = New System.Windows.Forms.ComboBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TBEndTime = New System.Windows.Forms.TextBox()
@@ -94,6 +95,7 @@ Partial Class FrmClassCoordinate
         Me.LBEdit = New System.Windows.Forms.ToolStripStatusLabel()
         Me.LBModify = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.ToolStrip1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
@@ -261,6 +263,8 @@ Partial Class FrmClassCoordinate
         '
         'SplitContainer3.Panel1
         '
+        Me.SplitContainer3.Panel1.Controls.Add(Me.ComboBox1)
+        Me.SplitContainer3.Panel1.Controls.Add(Me.RQComboBox1)
         Me.SplitContainer3.Panel1.Controls.Add(Me.GroupBox1)
         Me.SplitContainer3.Panel1.Controls.Add(Me.GroupBox3)
         Me.SplitContainer3.Panel1.Controls.Add(Me.TBYunzhuan)
@@ -272,8 +276,16 @@ Partial Class FrmClassCoordinate
         '
         Me.SplitContainer3.Panel2.Controls.Add(Me.GroupBox5)
         Me.SplitContainer3.Size = New System.Drawing.Size(194, 666)
-        Me.SplitContainer3.SplitterDistance = 259
+        Me.SplitContainer3.SplitterDistance = 288
         Me.SplitContainer3.TabIndex = 10
+        '
+        'RQComboBox1
+        '
+        Me.RQComboBox1.FormattingEnabled = True
+        Me.RQComboBox1.Location = New System.Drawing.Point(88, 222)
+        Me.RQComboBox1.Name = "RQComboBox1"
+        Me.RQComboBox1.Size = New System.Drawing.Size(100, 20)
+        Me.RQComboBox1.TabIndex = 10
         '
         'GroupBox1
         '
@@ -374,7 +386,7 @@ Partial Class FrmClassCoordinate
         '
         'TBDriverNum
         '
-        Me.TBDriverNum.Location = New System.Drawing.Point(88, 226)
+        Me.TBDriverNum.Location = New System.Drawing.Point(88, 251)
         Me.TBDriverNum.Name = "TBDriverNum"
         Me.TBDriverNum.Size = New System.Drawing.Size(100, 21)
         Me.TBDriverNum.TabIndex = 7
@@ -391,7 +403,7 @@ Partial Class FrmClassCoordinate
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(2, 229)
+        Me.Label5.Location = New System.Drawing.Point(2, 254)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(83, 12)
         Me.Label5.TabIndex = 1
@@ -403,17 +415,16 @@ Partial Class FrmClassCoordinate
         Me.GroupBox5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox5.Location = New System.Drawing.Point(0, 0)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(194, 403)
+        Me.GroupBox5.Size = New System.Drawing.Size(194, 374)
         Me.GroupBox5.TabIndex = 9
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "班组情况"
         '
         'TreeDrivers
         '
-        Me.TreeDrivers.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeDrivers.Location = New System.Drawing.Point(3, 17)
+        Me.TreeDrivers.Location = New System.Drawing.Point(3, 20)
         Me.TreeDrivers.Name = "TreeDrivers"
-        Me.TreeDrivers.Size = New System.Drawing.Size(188, 383)
+        Me.TreeDrivers.Size = New System.Drawing.Size(188, 380)
         Me.TreeDrivers.TabIndex = 8
         '
         'Tabpages
@@ -708,6 +719,14 @@ Partial Class FrmClassCoordinate
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 500
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(28, 222)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(47, 20)
+        Me.ComboBox1.TabIndex = 11
+        '
         'FrmClassCoordinate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -827,4 +846,6 @@ Partial Class FrmClassCoordinate
     Friend WithEvents 删除任务DToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents 分配其它任务OToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LBEdit As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents RQComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
 End Class

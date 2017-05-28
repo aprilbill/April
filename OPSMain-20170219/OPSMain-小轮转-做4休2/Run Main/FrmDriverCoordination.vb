@@ -11,6 +11,9 @@ Public Class FrmDriverCoordination
     Public TotalDriverNum As Integer                    '最小驾驶员编号
     Public ActualDriverNum As Integer                   '实际乘务员编号
     Public Yunzhuanpara As String                       '运转制度参数
+    Public lunzhuansets As List(Of Dictionary(Of Integer, String))   '轮转班制集合
+    Public lunzhuanset As New Dictionary(Of Integer, String)         '轮转班制
+    Public arealunzhuan As New Dictionary(Of String, Dictionary(Of Integer, String))   '区域与轮转班制对应关系
     Public MaxTiao As Integer                           '最大调班人数
 
     <Browsable(False)> _
@@ -119,8 +122,15 @@ Public Class FrmDriverCoordination
         Next
         'Call SaveTimeTableDate()
         'Call SaveOtherDuty()
-        Me.DialogResult = Windows.Forms.DialogResult.OK
-        Me.Close()
+        Dim frm2 As New FrmRQclass
+        frm2.CurLine = Me.CurLine
+        frm2.cstimetableNameList = Me.cstimetableNameList
+        frm2.Yunzhuanpara = Me.Yunzhuanpara
+        If frm2.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
+            Me.DialogResult = Windows.Forms.DialogResult.OK
+            Me.Close()
+            Me.arealunzhuan = frm2.arealunzhuan
+        End If
     End Sub
 
     Public Sub SaveTimeTableDate()

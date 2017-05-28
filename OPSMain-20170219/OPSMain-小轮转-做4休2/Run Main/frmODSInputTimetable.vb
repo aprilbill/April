@@ -1,5 +1,4 @@
 Imports System.Windows.Forms
-Imports System.Threading
 Public Class frmODSInputTimetable
 
     Private timeTable As New Data.DataTable
@@ -624,41 +623,30 @@ Public Class frmODSInputTimetable
     Public InputDatabaseName As String = ""
     Public InputDatabaseConString As String = ""
     Public Const InputDatabasePassWord As String = "tpmadmin"
-
-    Private result As DialogResult
-    Private Sub ThreadMethod()
-        result = openFileDialog1.ShowDialog()
-    End Sub
-
     Private Sub btnOpen_Click(sender As Object, e As EventArgs) Handles btnOpen.Click
-    
-        Dim newThread As Thread = New Thread(New ThreadStart(AddressOf ThreadMethod))
-        newThread.SetApartmentState(ApartmentState.STA)
-        newThread.Start()
-        newThread.Join()
+        Dim fileopen As New OpenFileDialog
+        With fileopen
+            .Filter = "运行图数据库|*.mdb;*.tpm;*.mpm"
+            .Title = "打开运行图文件"
+        End With
         '****************
-        Try
-            If result <> Windows.Forms.DialogResult.OK Then
+        If fileopen.ShowDialog = Windows.Forms.DialogResult.OK Then
+            If fileopen.FileName = Application.StartupPath & "" Then
+                MessageBox.Show("请选择数据库！", "没有打开的文件", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
                 Exit Sub
+            Else
+                Me.grpBox.Enabled = True
+                Dim pathposition As Integer
+                Dim i As Integer
+                For i = 1 To fileopen.FileName.Length
+                    pathposition = InStrRev(fileopen.FileName, "\", -1)
+                Next
+                InputDatabasePath = Mid(fileopen.FileName, 1, pathposition)
+                InputDatabaseName = Mid(fileopen.FileName, pathposition + 1)
             End If
-        Catch ex As Exception
-            MsgBox(e.ToString())
-        End Try
-
-        If OpenFileDialog1.FileName = Application.StartupPath & "" Then
-            MessageBox.Show("请选择数据库！", "没有打开的文件", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-            Exit Sub
         Else
-            Me.grpBox.Enabled = True
-            Dim pathposition As Integer
-            Dim i As Integer
-            For i = 1 To OpenFileDialog1.FileName.Length
-                pathposition = InStrRev(OpenFileDialog1.FileName, "\", -1)
-            Next
-            InputDatabasePath = Mid(OpenFileDialog1.FileName, 1, pathposition)
-            InputDatabaseName = Mid(OpenFileDialog1.FileName, pathposition + 1)
+            Exit Sub
         End If
-
         InputDatabaseConString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source= '" & InputDatabasePath & InputDatabaseName & "';Persist Security Info=False;Jet OLEDB:Database Password= " & InputDatabasePassWord & ""
         Dim MyConn As Data.OleDb.OleDbConnection = New Data.OleDb.OleDbConnection(InputDatabaseConString)
         Try
@@ -711,7 +699,7 @@ Public Class frmODSInputTimetable
         Catch ex As Exception
             Label1.Text = "状态：联网失败！"
         End Try
-
+       
     End Sub
 
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged

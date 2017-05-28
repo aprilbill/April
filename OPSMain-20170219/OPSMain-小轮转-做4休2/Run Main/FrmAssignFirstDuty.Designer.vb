@@ -61,7 +61,7 @@ Partial Class FrmAssignFirstDuty
         Me.SplitContainer1.Panel2.Controls.Add(Me.Btn_Cancle)
         Me.SplitContainer1.Panel2.Controls.Add(Me.Btn_OK)
         Me.SplitContainer1.Size = New System.Drawing.Size(876, 650)
-        Me.SplitContainer1.SplitterDistance = 599
+        Me.SplitContainer1.SplitterDistance = 598
         Me.SplitContainer1.TabIndex = 0
         '
         'TabControlMain
@@ -71,13 +71,13 @@ Partial Class FrmAssignFirstDuty
         Me.TabControlMain.Location = New System.Drawing.Point(0, 0)
         Me.TabControlMain.Name = "TabControlMain"
         Me.TabControlMain.SelectedIndex = 0
-        Me.TabControlMain.Size = New System.Drawing.Size(874, 597)
+        Me.TabControlMain.Size = New System.Drawing.Size(874, 596)
         Me.TabControlMain.TabIndex = 0
         '
         'Button5
         '
         Me.Button5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button5.Location = New System.Drawing.Point(171, 11)
+        Me.Button5.Location = New System.Drawing.Point(172, 11)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 5
@@ -123,7 +123,7 @@ Partial Class FrmAssignFirstDuty
         'Btn_Cancle
         '
         Me.Btn_Cancle.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Btn_Cancle.Location = New System.Drawing.Point(788, 10)
+        Me.Btn_Cancle.Location = New System.Drawing.Point(789, 10)
         Me.Btn_Cancle.Name = "Btn_Cancle"
         Me.Btn_Cancle.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Cancle.TabIndex = 0
@@ -133,7 +133,7 @@ Partial Class FrmAssignFirstDuty
         'Btn_OK
         '
         Me.Btn_OK.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Btn_OK.Location = New System.Drawing.Point(696, 10)
+        Me.Btn_OK.Location = New System.Drawing.Point(708, 10)
         Me.Btn_OK.Name = "Btn_OK"
         Me.Btn_OK.Size = New System.Drawing.Size(75, 23)
         Me.Btn_OK.TabIndex = 0

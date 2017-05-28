@@ -31,7 +31,7 @@ Partial Class frmCSMakeTTSelect
         'WorkDayTimeTableSelect
         '
         Me.WorkDayTimeTableSelect.AutoSize = True
-        Me.WorkDayTimeTableSelect.Location = New System.Drawing.Point(21, 45)
+        Me.WorkDayTimeTableSelect.Location = New System.Drawing.Point(32, 45)
         Me.WorkDayTimeTableSelect.Name = "WorkDayTimeTableSelect"
         Me.WorkDayTimeTableSelect.Size = New System.Drawing.Size(71, 12)
         Me.WorkDayTimeTableSelect.TabIndex = 0
@@ -41,14 +41,14 @@ Partial Class frmCSMakeTTSelect
         '
         Me.ComWDTT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComWDTT.FormattingEnabled = True
-        Me.ComWDTT.Location = New System.Drawing.Point(98, 42)
+        Me.ComWDTT.Location = New System.Drawing.Point(133, 42)
         Me.ComWDTT.Name = "ComWDTT"
-        Me.ComWDTT.Size = New System.Drawing.Size(256, 20)
+        Me.ComWDTT.Size = New System.Drawing.Size(224, 20)
         Me.ComWDTT.TabIndex = 2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(185, 96)
+        Me.Button1.Location = New System.Drawing.Point(201, 96)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 4
@@ -57,7 +57,7 @@ Partial Class frmCSMakeTTSelect
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(279, 96)
+        Me.Button2.Location = New System.Drawing.Point(282, 96)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 6
@@ -68,15 +68,15 @@ Partial Class frmCSMakeTTSelect
         '
         Me.Comline.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Comline.FormattingEnabled = True
-        Me.Comline.Location = New System.Drawing.Point(98, 15)
+        Me.Comline.Location = New System.Drawing.Point(133, 16)
         Me.Comline.Name = "Comline"
-        Me.Comline.Size = New System.Drawing.Size(256, 20)
+        Me.Comline.Size = New System.Drawing.Size(224, 20)
         Me.Comline.TabIndex = 8
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(33, 19)
+        Me.Label1.Location = New System.Drawing.Point(44, 19)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(59, 12)
         Me.Label1.TabIndex = 7
@@ -84,16 +84,16 @@ Partial Class frmCSMakeTTSelect
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(18, 74)
+        Me.ProgressBar1.Location = New System.Drawing.Point(29, 74)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(336, 16)
+        Me.ProgressBar1.Size = New System.Drawing.Size(328, 16)
         Me.ProgressBar1.TabIndex = 14
         Me.ProgressBar1.Visible = False
         '
         'frmCSMakeTTSelect
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.ClientSize = New System.Drawing.Size(377, 131)
+        Me.ClientSize = New System.Drawing.Size(375, 131)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Comline)
         Me.Controls.Add(Me.Label1)

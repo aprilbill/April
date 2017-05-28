@@ -108,7 +108,7 @@ Public Class frmCSQuery
             g = Graphics.FromImage(rbmp)
 
             g.SmoothingMode = Drawing2D.SmoothingMode.HighQuality
-            '*********************************ci*****************************************
+            '**************************************************************************
             Dim X1, X2, Y1, Y2 As Integer
             Dim StartName, EndName, ThisVieNO, NextVieNO As String
             Dim StartTime, EndTime As String
