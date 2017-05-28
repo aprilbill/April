@@ -1,0 +1,1272 @@
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\bin\Debug\Coordination2.exe
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\bin\Debug\Coordination2.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.exe
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.DriverUsingPlan.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.CoResult.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Coordination2\obj\Debug\Coordination2.CoResultScan.resources
+E:\OPS Main\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.CellShow.resources
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.Main.resources
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.Statics.resources
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.exe
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.pdb
+E:\OPS Main\Coordination2\bin\Debug\Coordination2.exe
+E:\OPS Main\Coordination2\bin\Debug\Coordination2.pdb
+E:\OPS Main\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+E:\OPS Main\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\OPS Main\Coordination2\obj\Debug\Coordination2.Form1.resources
+F:\WORK 盘\程序合集\OPS Main\Coordination2\bin\Debug\Coordination2.exe
+F:\WORK 盘\程序合集\OPS Main\Coordination2\bin\Debug\Coordination2.pdb
+F:\WORK 盘\程序合集\OPS Main\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.Form1.resources
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.exe
+F:\WORK 盘\程序合集\OPS Main\Coordination2\obj\Debug\Coordination2.pdb
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\bin\Debug\Coordination2.pdb
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.Form1.resources
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.pdb
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\bin\Debug\Coordination2.dll
+F:\WORK 盘\程序合集\上海乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.dll
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.pdb
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\bin\Debug\Coordination2.exe
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\bin\Debug\Coordination2.pdb
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.Form1.resources
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.exe
+F:\WORK 盘\程序合集\京港乘务计划\OPS Main\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20110920\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20110920\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20110920\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\OPS Main - 20110920\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\bin\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20110920北京\Coordination2\obj\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\bin\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111109北京\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\bin\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111113北京\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\bin\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.pdb
+E:\OPS Main - 20111113上海\Coordination2\bin\Debug\Coordination2.exe
+E:\OPS Main - 20111113上海\Coordination2\bin\Debug\Coordination2.pdb
+E:\OPS Main - 20111113上海\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.CellShow.resources
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.Form1.resources
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.Main.resources
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.Statics.resources
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.exe
+E:\OPS Main - 20111113上海\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\bin\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111130上海\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\bin\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20111203上海\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\bin\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.pdb
+K:\OPS Main - 上海_考虑培训请假\Coordination2\bin\Debug\Coordination2.exe
+K:\OPS Main - 上海_考虑培训请假\Coordination2\bin\Debug\Coordination2.pdb
+K:\OPS Main - 上海_考虑培训请假\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.exe
+K:\OPS Main - 上海_考虑培训请假\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\bin\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.exe
+K:\石俊刚\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\bin\Debug\Coordination2.exe
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.exe
+C:\Users\Zhoufeng\Desktop\OPS Main - 20120201北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120702上海演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120722上海演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120725北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120725上海演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120802北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120812北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120814北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20120815北京演示\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121020北京演示 - 副本\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121109北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121119北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121201北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121212北京演示\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\ResGen.read.1.tlog
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\ResGen.write.1.tlog
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\ZhouFeng\Desktop\OPS Main - 20121223\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130119\Coordination2\obj\Debug\Coordination2.pdb
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\bin\Debug\Coordination2.dll
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\bin\Debug\Coordination2.pdb
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.CellShow.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.Form1.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.Main.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.Statics.resources
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.dll
+K:\石俊刚——实验室电脑K\乘务计划程序\OPS Main - 20130315\Coordination2\obj\Debug\Coordination2.pdb
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\bin\Debug\Coordination2.dll
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\bin\Debug\Coordination2.pdb
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.CellShow.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.Form1.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.Main.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.Statics.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.dll
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130415\Coordination2\obj\Debug\Coordination2.pdb
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\bin\Debug\Coordination2.dll
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\bin\Debug\Coordination2.pdb
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.CellShow.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.Form1.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.Main.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.Statics.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.dll
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130720\Coordination2\obj\Debug\Coordination2.pdb
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\bin\Debug\Coordination2.dll
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\bin\Debug\Coordination2.pdb
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.CellShow.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.Form1.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.Main.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.Statics.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.dll
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.pdb
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\bin\Debug\Coordination2.dll
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\bin\Debug\Coordination2.pdb
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.CellShow.resources
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.Form1.resources
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.Main.resources
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.Statics.resources
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.dll
+E:\乘务计划文件\OPS Main - 20130804\Coordination2\obj\Debug\Coordination2.pdb
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\bin\Debug\Coordination2.dll
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\bin\Debug\Coordination2.pdb
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\ResolveAssemblyReference.cache
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.CellShow.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.Form1.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.Main.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.Statics.resources
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.dll
+L:\石俊刚——实验室电脑L\乘务计划\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\bin\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\bin\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\bin\Debug\office.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\bin\Debug\office.xml
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.CellShow.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.Form1.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.Main.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.Statics.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20130817\Coordination2\obj\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\bin\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\bin\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\bin\Debug\office.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\bin\Debug\office.xml
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.CellShow.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.Form1.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.Main.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.Statics.resources
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\bin\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\bin\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\bin\Debug\office.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\bin\Debug\office.xml
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.CellShow.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.Form1.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.Main.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.Statics.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20131212\Coordination2\obj\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\bin\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\bin\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\bin\Debug\office.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\bin\Debug\office.xml
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.CellShow.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.Form1.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.Main.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.Statics.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617\Coordination2\obj\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\office.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\office.xml
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.CellShow.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Form1.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Main.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Statics.resources
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.dll
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.pdb
+E:\工作文件\乘务计划相关项目\北京地铁乘务\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Coordination2.dll
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Coordination2.pdb
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.xml
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Form1.resources
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.dll
+F:\乘务计划\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\OPS Main - 20140617 - ILOG\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-hjj\Desktop\HUANG\About Project\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150825\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-hjj\Desktop\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.pdb
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\bin\Debug\Coordination2.dll
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\bin\Debug\Coordination2.pdb
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\bin\Debug\office.dll
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\bin\Debug\office.xml
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.CellShow.resources
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.Form1.resources
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.Main.resources
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.Statics.resources
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.dll
+G:\小黄博士备用\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20150828\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\bin\Debug\office.dll
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\bin\Debug\office.xml
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151029\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\bin\Debug\office.dll
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\bin\Debug\office.xml
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\乘务计划\乘务计划编制\成都地铁乘务计划\OPS Main-成都2号线-20151102\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\bin\Debug\office.dll
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\bin\Debug\office.xml
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\OPS Main-成都2号线-20151112\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\zhiyuan\Desktop\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\成都地铁乘务计划\OPS Main-成都-20151130\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPS Main-成都-20151209\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都-20151214\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160107\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160121\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\PublicPC\Desktop\OPS Main-成都-20160229\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都-20160316\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160316\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160401\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\bin\Debug\Coordination2.dll
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\bin\Debug\Coordination2.pdb
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.CellShow.resources
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.Form1.resources
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.Main.resources
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.Statics.resources
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.dll
+G:\OPS Main-成都地铁4号线-20160419\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.pdb
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\bin\Debug\Coordination2.dll
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\bin\Debug\Coordination2.pdb
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.CellShow.resources
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Form1.resources
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Main.resources
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Statics.resources
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.dll
+D:\程序合集\上海乘务计划\上海乘务计划\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPS Main-上海-20160529\OPS Main-上海-20160419\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.Form1.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\429-HZY\Desktop\上海乘务计划\OPS Main-上海-20160530\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\bin\Debug\Globle.dll
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\bin\Debug\Globle.pdb
+C:\Users\april-hjj\Desktop\OPSMain\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.dll
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.pdb
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\zf\Desktop\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160710\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160711\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.pdb
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\bin\Debug\Globle.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-accesss20160725 - 副本\OPSMain-accesss\OPSMain\Coordination2\obj\Debug\Coordination2.pdb
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.CellShow.resources
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.Main.resources
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.Statics.resources
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\bin\Debug\Coordination2.dll
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\bin\Debug\Coordination2.pdb
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\bin\Debug\Globle.dll
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\bin\Debug\Globle.pdb
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.dll
+D:\程序合集\上海乘务计划\OPSMain\Coordination2\obj\Debug\Coordination2.pdb
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\bin\Debug\Coordination2.dll
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\bin\Debug\Coordination2.pdb
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\bin\Debug\Globle.dll
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\bin\Debug\Globle.pdb
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.CellShow.resources
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.Main.resources
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.Statics.resources
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.dll
+D:\程序合集\上海乘务计划\OPSMain-小轮转-做5休2\Coordination2\obj\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.CellShow.resources
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Main.resources
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Statics.resources
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.pdb
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.dll
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.pdb
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.dll
+C:\Users\april-hjj\Desktop\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.pdb
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.dll
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.pdb
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.dll
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.pdb
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.CellShow.resources
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Main.resources
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Statics.resources
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.dll
+G:\课题组\1.乘务\17-4-17更新\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Coordination2.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\bin\Debug\Globle.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csprojResolveAssemblyReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.ResolveComReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.CellShow.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FrmTurn.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Main.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.FormProgresslogin.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Properties.Resources.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.Statics.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.csproj.GenerateResource.Cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.dll
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\OPSMain-20170219\OPSMain-小轮转-做4休2\Coordination2\obj\Debug\Coordination2.pdb

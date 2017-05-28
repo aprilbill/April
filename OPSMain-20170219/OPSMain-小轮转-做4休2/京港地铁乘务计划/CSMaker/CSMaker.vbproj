@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6904334D-1FF1-4BF4-A4C5-88B43FADEBDF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CS_CSMaker.My.MyApplication</StartupObject>
+    <RootNamespace>CS_CSMaker</RootNamespace>
+    <AssemblyName>CS_CSMaker</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SignAssembly>false</SignAssembly>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CS_CSMaker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CS_CSMaker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\类库\乘务计划1222\bin\Debug\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Coordination2">
+      <HintPath>..\..\Coordination2\bin\Debug\Coordination2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=6.8.3.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Globle, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Globle\bin\Debug\Globle.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Progress, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\类库\乘务计划1222\bin\Debug\Progress.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CSDriver.vb" />
+    <Compile Include="CSLinkTrain.vb" />
+    <Compile Include="CSTimeTable.vb" />
+    <Compile Include="FrmAddDinnerTime.Designer.vb">
+      <DependentUpon>FrmAddDinnerTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddDinnerTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddOffDutyPlace.Designer.vb">
+      <DependentUpon>FrmAddOffDutyPlace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddOffDutyPlace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddSeqCon.Designer.vb">
+      <DependentUpon>FrmAddSeqCon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddSeqCon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddShitPlace.Designer.vb">
+      <DependentUpon>FrmAddShitPlace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddShitPlace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssignDinner.Designer.vb">
+      <DependentUpon>FrmAssignDinner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssignDinner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssignRiQin.Designer.vb">
+      <DependentUpon>FrmAssignRiQin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssignRiQin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCorNitMor.Designer.vb">
+      <DependentUpon>FrmCorNitMor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCorNitMor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCorPlanSet.Designer.vb">
+      <DependentUpon>FrmCorPlanSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCorPlanSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCorTTManage.Designer.vb">
+      <DependentUpon>FrmCorTTManage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCorTTManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSChangeableBasicSet.designer.vb">
+      <DependentUpon>frmCSChangeableBasicSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSChangeableBasicSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSdriverInf.Designer.vb">
+      <DependentUpon>frmCSdriverInf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSdriverInf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSMakeBasicSet.Designer.vb">
+      <DependentUpon>frmCSMakeBasicSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSMakeBasicSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCSMaker.Designer.vb">
+      <DependentUpon>FrmCSMaker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCSMaker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSMakeTTSelect.Designer.vb">
+      <DependentUpon>frmCSMakeTTSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSMakeTTSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSQTTSelect.Designer.vb">
+      <DependentUpon>frmCSQTTSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSQTTSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSQuery.Designer.vb">
+      <DependentUpon>frmCSQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSStaQuery.designer.vb">
+      <DependentUpon>frmCSStaQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSStaQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSTimeTableMain.designer.vb">
+      <DependentUpon>frmCSTimeTableMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSTimeTableMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSTimeTableManager.designer.vb">
+      <DependentUpon>frmCSTimeTableManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSTimeTableManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSTimeTablePara.designer.vb">
+      <DependentUpon>frmCSTimeTablePara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSTimeTablePara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDayDinnerInfo.Designer.vb">
+      <DependentUpon>frmDayDinnerInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDayDinnerInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiagramLineAndFontSet.Designer.vb">
+      <DependentUpon>frmDiagramLineAndFontSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiagramLineAndFontSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmdicon.Designer.vb">
+      <DependentUpon>Frmdicon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmdicon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDiffSta.Designer.vb">
+      <DependentUpon>FrmDiffSta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDiffSta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFishDiagramSet.Designer.vb">
+      <DependentUpon>FrmFishDiagramSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFishDiagramSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHandAssignDriver.Designer.vb">
+      <DependentUpon>FrmHandAssignDriver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHandAssignDriver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHandAssignDriverR.Designer.vb">
+      <DependentUpon>FrmHandAssignDriverR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHandAssignDriverR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfor.Designer.vb">
+      <DependentUpon>frmInfor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputBox.Designer.vb">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInputBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMsgbox.Designer.vb">
+      <DependentUpon>frmMsgbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMsgbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewDriverInputBox.Designer.vb">
+      <DependentUpon>frmNewDriverInputBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewDriverInputBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnOffPlace.Designer.vb">
+      <DependentUpon>FrmOnOffPlace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnOffPlace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptiSchedule.Designer.vb">
+      <DependentUpon>FrmOptiSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOptiSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOutputPosition.Designer.vb">
+      <DependentUpon>FrmOutputPosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOutputPosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPicShow.Designer.vb">
+      <DependentUpon>frmPicShow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPicShow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrepareDuty.Designer.vb">
+      <DependentUpon>FrmPrepareDuty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrepareDuty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrepareTrain.Designer.vb">
+      <DependentUpon>FrmPrepareTrain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrepareTrain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintCheDiJiaoLu.Designer.vb">
+      <DependentUpon>frmPrintCheDiJiaoLu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintCheDiJiaoLu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProgress.Designer.vb">
+      <DependentUpon>FrmProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmrenshucesuan.designer.vb">
+      <DependentUpon>Frmrenshucesuan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmrenshucesuan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaveCSTT.designer.vb">
+      <DependentUpon>frmSaveCSTT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaveCSTT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSegCon.Designer.vb">
+      <DependentUpon>FrmSegCon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSegCon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetAreainfo.Designer.vb">
+      <DependentUpon>frmSetAreainfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetAreainfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetDinner.Designer.vb">
+      <DependentUpon>FrmSetDinner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetDinner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSortColName.designer.vb">
+      <DependentUpon>FrmSortColName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSortColName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTrainTT.Designer.vb">
+      <DependentUpon>FrmTrainTT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTrainTT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModConOraAndReadData.vb" />
+    <Compile Include="ModCrewSchedulingMainDim.vb" />
+    <Compile Include="ModCrewSchedulingMainSub.vb" />
+    <Compile Include="ModCSTimeTableMain.vb" />
+    <Compile Include="modMainDim.vb" />
+    <Compile Include="ModNetMainDim.vb" />
+    <Compile Include="modOpenTimetabale.vb" />
+    <Compile Include="modTBScan.vb" />
+    <Compile Include="ModTimetableMain.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAddDinnerTime.resx">
+      <DependentUpon>FrmAddDinnerTime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddOffDutyPlace.resx">
+      <DependentUpon>FrmAddOffDutyPlace.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddSeqCon.resx">
+      <DependentUpon>FrmAddSeqCon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddShitPlace.resx">
+      <DependentUpon>FrmAddShitPlace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssignDinner.resx">
+      <DependentUpon>FrmAssignDinner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssignRiQin.resx">
+      <DependentUpon>FrmAssignRiQin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCorNitMor.resx">
+      <DependentUpon>FrmCorNitMor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCorPlanSet.resx">
+      <DependentUpon>FrmCorPlanSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCorTTManage.resx">
+      <DependentUpon>FrmCorTTManage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSChangeableBasicSet.resx">
+      <DependentUpon>frmCSChangeableBasicSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSdriverInf.resx">
+      <DependentUpon>frmCSdriverInf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSMakeBasicSet.resx">
+      <DependentUpon>frmCSMakeBasicSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCSMaker.resx">
+      <DependentUpon>FrmCSMaker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSMakeTTSelect.resx">
+      <DependentUpon>frmCSMakeTTSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSQTTSelect.resx">
+      <DependentUpon>frmCSQTTSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSQuery.resx">
+      <DependentUpon>frmCSQuery.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSStaQuery.resx">
+      <DependentUpon>frmCSStaQuery.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSTimeTableMain.resx">
+      <DependentUpon>frmCSTimeTableMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSTimeTableManager.resx">
+      <DependentUpon>frmCSTimeTableManager.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSTimeTablePara.resx">
+      <DependentUpon>frmCSTimeTablePara.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDayDinnerInfo.resx">
+      <DependentUpon>frmDayDinnerInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiagramLineAndFontSet.resx">
+      <DependentUpon>frmDiagramLineAndFontSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmdicon.resx">
+      <DependentUpon>Frmdicon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDiffSta.resx">
+      <DependentUpon>FrmDiffSta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFishDiagramSet.resx">
+      <DependentUpon>FrmFishDiagramSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHandAssignDriver.resx">
+      <DependentUpon>FrmHandAssignDriver.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHandAssignDriverR.resx">
+      <DependentUpon>FrmHandAssignDriverR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfor.resx">
+      <DependentUpon>frmInfor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputBox.resx">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMsgbox.resx">
+      <DependentUpon>frmMsgbox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewDriverInputBox.resx">
+      <DependentUpon>frmNewDriverInputBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnOffPlace.resx">
+      <DependentUpon>FrmOnOffPlace.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptiSchedule.resx">
+      <DependentUpon>FrmOptiSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOutputPosition.resx">
+      <DependentUpon>FrmOutputPosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicShow.resx">
+      <DependentUpon>frmPicShow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrepareDuty.resx">
+      <DependentUpon>FrmPrepareDuty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrepareTrain.resx">
+      <DependentUpon>FrmPrepareTrain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintCheDiJiaoLu.resx">
+      <DependentUpon>frmPrintCheDiJiaoLu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProgress.resx">
+      <DependentUpon>FrmProgress.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmrenshucesuan.resx">
+      <DependentUpon>Frmrenshucesuan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaveCSTT.resx">
+      <DependentUpon>frmSaveCSTT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSegCon.resx">
+      <DependentUpon>FrmSegCon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetAreainfo.resx">
+      <DependentUpon>frmSetAreainfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetDinner.resx">
+      <DependentUpon>FrmSetDinner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSortColName.resx">
+      <DependentUpon>FrmSortColName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTrainTT.resx">
+      <DependentUpon>FrmTrainTT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

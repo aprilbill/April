@@ -1,0 +1,74 @@
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\bin\Debug\UpEASoft.exe.manifest
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\bin\Debug\UpEASoft.application
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\bin\Debug\UpEASoft.exe
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\bin\Debug\UpEASoft.pdb
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\ResolveAssemblyReference.cache
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\UpEASoft.Form1.resources
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\UpEASoft.Resources.resources
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\UpEASoft.TrustInfo.xml
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\UpEASoft.exe.manifest
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\UpEASoft.application
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\UpEASoft.exe
+F:\小软件\study\在线更新\UpEASoft\UpEASoft\down.liehuo.net\obj\Debug\UpEASoft.pdb
+C:\Users\april-hjj\Desktop\UpEASoft\UpEASoft\obj\Debug\UpEASoft.exe
+C:\Users\april-hjj\Desktop\UpEASoft\UpEASoft\obj\Debug\UpEASoft.pdb
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.Resources.resources
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.exe
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.pdb
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\bin\Debug\UpEASoft.exe.config
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.FrmMain.resources
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\bin\Debug\UpEASoft.exe
+C:\Documents and Settings\Administrator\桌面\1号线\UpEASoft\UpEASoft\bin\Debug\UpEASoft.pdb
+F:\博士研究\成都乘务计划\源代码\出退勤系统\UpEASoft\UpEASoft\bin\Debug\UpEASoft.exe.config
+F:\博士研究\成都乘务计划\源代码\出退勤系统\UpEASoft\UpEASoft\obj\Debug\UpEASoft.exe
+F:\博士研究\成都乘务计划\源代码\出退勤系统\UpEASoft\UpEASoft\obj\Debug\UpEASoft.pdb
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\bin\Debug\UpEASoft.exe.config
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.exe
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.pdb
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\bin\Debug\UpEASoft.exe
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\bin\Debug\UpEASoft.pdb
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.vbprojResolveAssemblyReference.cache
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.FrmMain.resources
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.Resources.resources
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft\UpEASoft\obj\Debug\UpEASoft.vbproj.GenerateResource.Cache
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\bin\Debug\UpEASoft.exe.config
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\obj\Debug\UpEASoft.exe
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\obj\Debug\UpEASoft.pdb
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\bin\Debug\UpEASoft.exe
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\bin\Debug\UpEASoft.pdb
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\obj\Debug\UpEASoft.vbprojResolveAssemblyReference.cache
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\obj\Debug\UpEASoft.FrmMain.resources
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\obj\Debug\UpEASoft.Resources.resources
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-值乘管理系统\UpEASoft\obj\Debug\UpEASoft.vbproj.GenerateResource.Cache
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.exe.config
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.exe
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.pdb
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.exe
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.pdb
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.vbprojResolveAssemblyReference.cache
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.FrmMain.resources
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.Resources.resources
+F:\博士研究\运管平台\实际上线程序\乘务管理（CS）\上线系统\实际运行程序(WCF)-13号线\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.vbproj.GenerateResource.Cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.exe.config
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.exe
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.exe
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.vbprojResolveAssemblyReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.FrmMain.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.Resources.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-小轮转-做4休2\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.vbproj.GenerateResource.Cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.exe.config
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.exe
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.exe
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\bin\Debug\UpEASoft.pdb
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.vbprojResolveAssemblyReference.cache
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.FrmMain.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.Resources.resources
+F:\博士研究\上海地铁2号线乘务\OPSMain-20170219\UpEASoft-乘务计划编制\UpEASoft\obj\Debug\UpEASoft.vbproj.GenerateResource.Cache

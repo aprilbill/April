@@ -1,0 +1,149 @@
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\bin\Debug\OPS Main.exe.config
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\bin\Debug\OPS Main.exe
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\bin\Debug\OPS Main.pdb
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\bin\Debug\OPS Main.xml
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\bin\Debug\DataAccessTier.pdb
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\ResolveAssemblyReference.cache
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.frmCsvOutput.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.frmAbout.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.frmEditSecAndStopTime.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.frmFirstSplashScreen.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.FrmUserManage.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.Resources.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\Run_Main.TransferInfoForm.resources
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\OPS Main.vbproj.GenerateResource.Cache
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\OPS Main.exe
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\OPS Main.xml
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\obj\Debug\OPS Main.pdb
+F:\江志彬文档\程序设计\OPS 20091224\OPS\OPS Main\Run Main\bin\Debug\DataAccessTier.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.exe.config
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.exe
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.xml
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.exe
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.xml
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_Coordination.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_CrewInforManager.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_CSMaker.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\ODSCoordination.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\dao.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_CrewInforManager.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_CrewInforManager.xml
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_Coordination.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_Coordination.xml
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_CSMaker.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\CS_CSMaker.xml
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmCsvOutput.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmAbout.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmEditSecAndStopTime.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmFirstSplashScreen.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.FrmUserManage.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.Resources.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.TransferInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\OPS Main\OPS Main\Run Main\bin\Debug\DataAccessTier.dll
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.exe.config
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.exe
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.xml
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.pdb
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.exe
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.pdb
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.xml
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\Interop.VBIDE.dll
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\CS_CrewInforManager.pdb
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\CS_CrewInforManager.xml
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\ResolveAssemblyReference.cache
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmCsvOutput.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmAbout.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmEditSecAndStopTime.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmFirstSplashScreen.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.FrmUserManage.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.Resources.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.TransferInfoForm.resources
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.vbproj.GenerateResource.Cache
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\DataAccessTier.dll
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\DataAccessTier.pdb
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\CS_Coordination.dll
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\CS_CrewInforManager.dll
+J:\程序合集\OPS Main20100118\OPS Main\OPS Main\Run Main\bin\Debug\CS_CSMaker.dll
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.exe.config
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.exe
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.xml
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.pdb
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.exe
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.pdb
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\OPS Main.xml
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\Interop.VBIDE.dll
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\DataAccessTier.pdb
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\CS_CrewInforManager.pdb
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\bin\Debug\CS_CrewInforManager.xml
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\ResolveAssemblyReference.cache
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmCsvOutput.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmAbout.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmEditSecAndStopTime.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmFirstSplashScreen.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.FrmUserManage.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.Resources.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\Run_Main.TransferInfoForm.resources
+J:\程序合集\OPS Main20100317\OPS Main\OPS Main\Run Main\obj\Debug\OPS Main.vbproj.GenerateResource.Cache
+E:\Zhou Feng\OPS Main\Run Main\bin\Debug\OPS Main.exe.config
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\OPS Main.exe
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\OPS Main.xml
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\OPS Main.pdb
+E:\Zhou Feng\OPS Main\Run Main\bin\Debug\OPS Main.exe
+E:\Zhou Feng\OPS Main\Run Main\bin\Debug\OPS Main.pdb
+E:\Zhou Feng\OPS Main\Run Main\bin\Debug\OPS Main.xml
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\ResolveAssemblyReference.cache
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.frmCsvOutput.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.frmAbout.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.frmEditSecAndStopTime.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.frmFirstSplashScreen.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.乘务计划编制系统.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.FrmUserManage.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.Resources.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\Run_Main.TransferInfoForm.resources
+E:\Zhou Feng\OPS Main\Run Main\obj\Debug\OPS Main.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\bin\Debug\OPS Main.exe.config
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\OPS Main.exe
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\OPS Main.xml
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\OPS Main.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\bin\Debug\OPS Main.exe
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\bin\Debug\OPS Main.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\bin\Debug\OPS Main.xml
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\bin\Debug\dao.dll
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.frmCsvOutput.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.frmAbout.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.frmEditSecAndStopTime.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.frmFirstSplashScreen.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.FrmUserManage.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.Resources.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.TransferInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\OPS Main.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\桌面备份\OPS Main\Run Main\bin\Debug\OPS Main.exe.config
+C:\Documents and Settings\Administrator\桌面\桌面备份\OPS Main\Run Main\obj\Debug\OPS Main.exe
+C:\Documents and Settings\Administrator\桌面\桌面备份\OPS Main\Run Main\obj\Debug\OPS Main.xml
+C:\Documents and Settings\Administrator\桌面\桌面备份\OPS Main\Run Main\obj\Debug\OPS Main.pdb
+C:\Documents and Settings\Administrator\桌面\OPS Main\Run Main\obj\Debug\Run_Main.frmODSMain.resources

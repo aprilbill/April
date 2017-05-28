@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F540830-D2B5-42AA-80BF-C0C8D7F5A714}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>TMS</RootNamespace>
+    <AssemblyName>TMS</AssemblyName>
+    <MyType>Windows</MyType>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationIcon>M标志4.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/运行仿真/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>TMS.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>乘务安排.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <DebugType>None</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'sky|AnyCPU' ">
+    <OutputPath>bin\sky\</OutputPath>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataAccessTier, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="DbTableEdit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Globle">
+      <HintPath>..\Globle\bin\Debug\Globle.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.AutoCAD, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Interop.DAO">
+      <HintPath>obj\Debug\Interop.DAO.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.JRO, Version=2.6.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="OdsSet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\乘务计划文件\OPS Main - 20130629上海演示\TMS\bin\OdsSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Progress, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="TMS, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\TMS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classSort.vb" />
+    <Compile Include="clsCADStation.vb" />
+    <Compile Include="clsNetWork.vb" />
+    <Compile Include="clsPrintLeftStaIndex.vb" />
+    <Compile Include="clsScroll.vb">
+    </Compile>
+    <Compile Include="clsStucture.vb" />
+    <Compile Include="frmAdjustEvetime.Designer.vb">
+      <DependentUpon>frmAdjustEvetime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdjustEvetime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCADStation.Designer.vb">
+      <DependentUpon>frmCADStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCADStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheChiDim.Designer.vb">
+      <DependentUpon>frmCheChiDim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheChiDim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheDiInformation.Designer.vb">
+      <DependentUpon>frmCheDiInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheDiInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataEdit.Designer.vb">
+      <DependentUpon>frmDataEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSDiagramDayUsing.designer.vb">
+      <DependentUpon>frmODSDiagramDayUsing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmODSDiagramDayUsing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiagrameManger.designer.vb">
+      <DependentUpon>frmDiagrameManger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiagrameManger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSDiagramIndex.Designer.vb">
+      <DependentUpon>frmODSDiagramIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmODSDiagramIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiagramLineAndFontSet.Designer.vb">
+      <DependentUpon>frmDiagramLineAndFontSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiagramLineAndFontSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiTuStructure.Designer.vb">
+      <DependentUpon>frmDiTuStructure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiTuStructure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiTuStructureManager.Designer.vb">
+      <DependentUpon>frmDiTuStructureManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiTuStructureManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrawCircleTrainDiagram.Designer.vb">
+      <DependentUpon>frmDrawCircleTrainDiagram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrawCircleTrainDiagram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrawSingleTrain.Designer.vb">
+      <DependentUpon>frmDrawSingleTrain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrawSingleTrain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrawTrainDiagram.Designer.vb">
+      <DependentUpon>frmDrawTrainDiagram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrawTrainDiagram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditStopJianGe.Designer.vb">
+      <DependentUpon>frmEditStopJianGe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditStopJianGe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSInputTimetable.designer.vb">
+      <DependentUpon>frmODSInputTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmODSInputTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSFirLastTime.Designer.vb">
+      <DependentUpon>frmODSFirLastTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmODSFirLastTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSNetDiaIndex.Designer.vb">
+      <DependentUpon>frmODSNetDiaIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmODSNetDiaIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintStaCAD.Designer.vb">
+      <DependentUpon>frmPrintStaCAD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintStaCAD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaveDiagram.Designer.vb">
+      <DependentUpon>frmSaveDiagram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaveDiagram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetTrainsStopSame.Designer.vb">
+      <DependentUpon>frmSetTrainsStopSame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetTrainsStopSame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowStaTimetable.designer.vb">
+      <DependentUpon>frmShowStaTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowStaTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStaJinLu.designer.vb">
+      <DependentUpon>frmStaJinLu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaJinLu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowLinePic.Designer.vb">
+      <DependentUpon>frmShowLinePic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowLinePic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmODSTraindiagramSelect.designer.vb">
+      <DependentUpon>FrmODSTraindiagramSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmODSTraindiagramSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modCheDiZhuDraw.vb" />
+    <Compile Include="modCopyRight.vb" />
+    <Compile Include="modDrawJiShuTuJieLine.vb" />
+    <Compile Include="modDriverReport.Designer.vb">
+      <DependentUpon>modDriverReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modDriverReport.vb">
+    </Compile>
+    <Compile Include="frmEditDataProperity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditDiagramByGroup.Designer.vb">
+      <DependentUpon>frmEditDiagramByGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditDiagramByGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditSKBStaSeq.Designer.vb">
+      <DependentUpon>frmEditSKBStaSeq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditSKBStaSeq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditTriainStopTime.Designer.vb">
+      <DependentUpon>frmEditTriainStopTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditTriainStopTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfor.Designer.vb">
+      <DependentUpon>frmInfor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputBox.Designer.vb">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInputBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListTimeTable.Designer.vb">
+      <DependentUpon>frmListTimeTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListTimeTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintCheDiJiaoLu.Designer.vb">
+      <DependentUpon>frmPrintCheDiJiaoLu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintCheDiJiaoLu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintStaJiShuTuJie.Designer.vb">
+      <DependentUpon>frmPrintStaJiShuTuJie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintStaJiShuTuJie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintTimeTable.Designer.vb">
+      <DependentUpon>frmPrintTimeTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintTimeTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintTrainDiagram.Designer.vb">
+      <DependentUpon>frmPrintTrainDiagram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintTrainDiagram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScaleInforEdit.Designer.vb">
+      <DependentUpon>frmScaleInforEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmScaleInforEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowErrorInfor.Designer.vb">
+      <DependentUpon>frmShowErrorInfor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowErrorInfor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStartTime.Designer.vb">
+      <DependentUpon>frmStartTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStartTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSTimeTableMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSTimeTableMain.Designer.vb">
+      <DependentUpon>frmODSTimeTableMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeTableManager.Designer.vb">
+      <DependentUpon>frmTimeTableManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimeTableManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeTablePara.Designer.vb">
+      <DependentUpon>frmTimeTablePara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimeTablePara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeTalbeSelect.Designer.vb">
+      <DependentUpon>frmTimeTalbeSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimeTalbeSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrainInfor.Designer.vb">
+      <DependentUpon>frmTrainInfor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrainInfor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrainStopAndSecTime.Designer.vb">
+      <DependentUpon>frmTrainStopAndSecTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrainStopAndSecTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modCAD.vb" />
+    <Compile Include="ModCADForm.vb" />
+    <Compile Include="modCalTime.vb" />
+    <Compile Include="modDrawLine.vb" />
+    <Compile Include="modDrawTrainDiagram.vb" />
+    <Compile Include="modDrawTrainLine.vb" />
+    <Compile Include="modMainDim.vb" />
+    <Compile Include="modMainSub.vb" />
+    <Compile Include="ModNetMainDim.vb" />
+    <Compile Include="modNetWholeSub.vb" />
+    <Compile Include="modNetMainSub.vb" />
+    <Compile Include="modODS.vb" />
+    <Compile Include="modODSInputAccessTimetabel.vb" />
+    <Compile Include="modODSReadData.vb" />
+    <Compile Include="modODSShowInterchangerDia.vb" />
+    <Compile Include="modOpenTimetabale.vb" />
+    <Compile Include="modReturnSimulation.vb" />
+    <Compile Include="modRunSimulation.vb" />
+    <Compile Include="ModStaExpress.vb" />
+    <Compile Include="modTDrawLine.vb" />
+    <Compile Include="ModTimetableMain.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyApplication.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MyApplication.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyResources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyEvents.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MySettings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MySettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.vb">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TDrawLine.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAdjustEvetime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdjustEvetime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCADStation.resx">
+      <DependentUpon>frmCADStation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheChiDim.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCheChiDim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheDiInformation.resx">
+      <DependentUpon>frmCheDiInformation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataEdit.resx">
+      <DependentUpon>frmDataEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmODSDiagramDayUsing.resx">
+      <DependentUpon>frmODSDiagramDayUsing.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiagrameManger.resx">
+      <DependentUpon>frmDiagrameManger.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmODSDiagramIndex.resx">
+      <DependentUpon>frmODSDiagramIndex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiagramLineAndFontSet.resx">
+      <DependentUpon>frmDiagramLineAndFontSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiTuStructure.resx">
+      <DependentUpon>frmDiTuStructure.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiTuStructureManager.resx">
+      <DependentUpon>frmDiTuStructureManager.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrawCircleTrainDiagram.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDrawCircleTrainDiagram.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrawSingleTrain.resx">
+      <DependentUpon>frmDrawSingleTrain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrawTrainDiagram.resx">
+      <DependentUpon>frmDrawTrainDiagram.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditStopJianGe.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditStopJianGe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmODSInputTimetable.resx">
+      <DependentUpon>frmODSInputTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmODSFirLastTime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmODSFirLastTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmODSNetDiaIndex.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmODSNetDiaIndex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintStaCAD.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrintStaCAD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaveDiagram.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSaveDiagram.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetTrainsStopSame.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetTrainsStopSame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowStaTimetable.resx">
+      <DependentUpon>frmShowStaTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaJinLu.resx">
+      <DependentUpon>frmStaJinLu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowLinePic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmShowLinePic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmODSTraindiagramSelect.resx">
+      <DependentUpon>FrmODSTraindiagramSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modDriverReport.resx">
+      <DependentUpon>modDriverReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditDataProperity.resx">
+      <DependentUpon>frmEditDataProperity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditDiagramByGroup.resx">
+      <DependentUpon>frmEditDiagramByGroup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditSKBStaSeq.resx">
+      <DependentUpon>frmEditSKBStaSeq.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditTriainStopTime.resx">
+      <DependentUpon>frmEditTriainStopTime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfor.resx">
+      <DependentUpon>frmInfor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputBox.resx">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListTimeTable.resx">
+      <DependentUpon>frmListTimeTable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintCheDiJiaoLu.resx">
+      <DependentUpon>frmPrintCheDiJiaoLu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintStaJiShuTuJie.resx">
+      <DependentUpon>frmPrintStaJiShuTuJie.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintTimeTable.resx">
+      <DependentUpon>frmPrintTimeTable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintTrainDiagram.resx">
+      <DependentUpon>frmPrintTrainDiagram.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScaleInforEdit.resx">
+      <DependentUpon>frmScaleInforEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowErrorInfor.resx">
+      <DependentUpon>frmShowErrorInfor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStartTime.resx">
+      <DependentUpon>frmStartTime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmODSTimeTableMain.resx">
+      <DependentUpon>frmODSTimeTableMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimeTableManager.resx">
+      <DependentUpon>frmTimeTableManager.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimeTablePara.resx">
+      <DependentUpon>frmTimeTablePara.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimeTalbeSelect.resx">
+      <DependentUpon>frmTimeTalbeSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrainInfor.resx">
+      <DependentUpon>frmTrainInfor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrainStopAndSecTime.resx">
+      <DependentUpon>frmTrainStopAndSecTime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\MyResources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>MyResources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\MyApplication.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>MyApplication.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="DAO">
+      <Guid>{00025E01-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="M标志4.ico" />
+    <Content Include="pic\6.ico" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="pic\Butterfly09.jpg" />
+    <Content Include="pic\FOLDER02.ICO" />
+    <Content Include="pic\Ico\AddLine.ico" />
+    <Content Include="pic\Ico\AddStation.ico" />
+    <Content Include="pic\Ico\DeleteLine.ico" />
+    <Content Include="pic\Ico\DeleteStation.ico" />
+    <Content Include="pic\Ico\EditLineInfor.ico" />
+    <Content Include="pic\Ico\EditStation.ico" />
+    <Content Include="pic\Ico\EditStationCord.ico" />
+    <None Include="pic\Ico\StaEquipCross8.ico" />
+    <Content Include="pic\Ico\StaEquipSignal1.ico" />
+    <Content Include="pic\Ico\StaEquipSignal1.png" />
+    <Content Include="pic\Logo.ico" />
+    <Content Include="pic\LogoNew.ico" />
+    <Content Include="pic\StaEquipSignal1.bmp" />
+    <None Include="pic\toolbarPic\Betex.ico" />
+    <Content Include="pic\一分格.ico" />
+    <Content Include="pic\一分格2.ico" />
+    <Content Include="pic\二分格.ico" />
+    <Content Include="pic\二分格2.ico" />
+    <Content Include="pic\保存.ico" />
+    <Content Include="pic\十分格.ico" />
+    <Content Include="pic\十分格2.ico" />
+    <Content Include="pic\十分格8.ico" />
+    <Content Include="pic\司机信息.ico" />
+    <Content Include="pic\小时格.ico" />
+    <Content Include="pic\小时格2.ico" />
+    <Content Include="pic\小时格3.ico" />
+    <Content Include="pic\小时格4.ico" />
+    <Content Include="pic\小时格5.ico" />
+    <Content Include="pic\小时格9.ico" />
+    <Content Include="pic\帮助.ico" />
+    <Content Include="pic\底图.gif" />
+    <Content Include="pic\打印.ico" />
+    <Content Include="pic\打开数据库.ico" />
+    <Content Include="pic\打开时刻表.ico" />
+    <Content Include="pic\放大.ico" />
+    <Content Include="pic\时刻表.ico" />
+    <Content Include="pic\缩小.ico" />
+    <Content Include="txtCoadBack.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

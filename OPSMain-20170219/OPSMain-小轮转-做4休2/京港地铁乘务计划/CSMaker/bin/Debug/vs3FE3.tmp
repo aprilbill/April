@@ -1,0 +1,407 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CS_CSMaker
+</name>
+</assembly>
+<members>
+<member name="M:CS_CSMaker.ModCG.GetTrainSet">
+	<summary>
+ 获取初始列车集合
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.FormInitialFeasiableDrivers">
+	<summary>
+ 获取初始可行方案
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.FormInitialFeasiableDrivers2">
+	<summary>
+ 获取初始可行方案
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.GetTotalDriverSet">
+	<summary>
+获取初始大型任务池 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.GetAllDriverFromStartTrain(CS_CSMaker.CSLinkTrain)">
+	<summary>
+ 以某一列车为起点找出所有可行任务
+ </summary>
+	<param name="firtrain"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.GetNewDriversFromNet(CS_CSMaker.CSLinkTrain,System.Decimal[])">
+	<summary>
+ 直接从网络中找到新任务
+ </summary>
+	<param name="firtrain"></param>
+	<param name="TrainDaulValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.GetNewDrivers(System.Decimal[])">
+	<summary>
+ 获取新的列
+ </summary>
+	<param name="TrainDaulValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.RemoveNonBasicColumn(CS_CSMaker.SubGradient)">
+	<summary>
+ 移除较差的列
+ </summary>
+	<param name="subGra"></param>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.CaculateOpt(System.Collections.Generic.List{CS_CSMaker.CSLinkTrain},System.Collections.Generic.List{CS_CSMaker.ModCG.CGDriver},System.Decimal,System.Decimal,System.Int32)">
+	<summary>
+ 次梯度拉格朗日计算
+ </summary>
+	<param name="Trains"></param>
+	<param name="Drivers"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.LRBasedHeuristic(CS_CSMaker.SubGradient)">
+	<summary>
+ 基于启发式的拉格朗日单步计算
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCG.HeuristicOpt(System.Collections.Generic.List{CS_CSMaker.CSLinkTrain},System.Collections.Generic.List{CS_CSMaker.ModCG.CGDriver},System.Decimal,System.Random,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal)">
+	<summary>
+ 启发式循环迭代寻求最优解
+ </summary>
+	<param name="Trains"></param>
+	<param name="Drivers"></param>
+	<param name="UpBound"></param>
+	<param name="Ran"></param>
+	<param name="TotalinterateNum"></param>
+	<param name="imp_interation"></param>
+	<param name="improvement"></param>
+	<param name="search_magnitude"></param>
+	<param name="priority"></param>
+	<param name="restriction"></param>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModTimetableMain.CheCiToDriverID(System.Int32)">
+	<summary>
+ 通过车次得到DriverID
+ </summary>
+	<param name="nCheCi"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CS_CSMaker.SubGradient.nDriverCount">
+	<summary>
+ 最优解中1的个数
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CS_CSMaker.SubGradient.nTotalCost">
+	<summary>
+ 可行解的总费用
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.#ctor(System.Int32,System.Int32)">
+	<summary>
+ 实例化
+ </summary>
+	<param name="row"></param>
+	<param name="column"></param>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.CaculateOptimization(System.Decimal,System.Int32)">
+	<summary>
+ 最优化计算
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.GetNeiDuals">
+	<summary>
+ 获取启发式的邻近对偶参数
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.GetInitialDualPara">
+	<summary>
+ 获取初始松弛参数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.UpdateDualPara">
+	<summary>
+ 更新对偶参数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.UpdateOptResults">
+	<summary>
+ 更新最优解
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.UpdateSubGraPara">
+	<summary>
+ 更新次梯度参数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.HeuristicFixed">
+	<summary>
+ 启发式修补成可行解
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.RandomHeuristicFixed(System.Random,System.Decimal,System.Decimal)">
+	<summary>
+ 随机启发式修补成可行解
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.RemoveRedundant(System.Collections.Generic.List{System.Int32}[])">
+	<summary>
+ 移除多余的列
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.GetRedundantColumns(System.Collections.Generic.List{System.Int32}[])">
+	<summary>
+ 更新富裕列
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.ColumnFixing">
+	<summary>
+ 列修补
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.RanColumnFixing(System.Random,System.Decimal,System.Decimal)">
+	<summary>
+ 列修补
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.ModifyDualPara">
+	<summary>
+ 修改对偶变量使得所有的ReducedCost&gt;0，但目标值不变小
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.SubGradient.Clone">
+	<summary>
+ 复制
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:CS_CSMaker.CSLinkTrain.NeedPrepareTrain">
+	<summary>
+ 是否需要备车
+ </summary>
+	<remarks></remarks>
+</member><member name="T:CS_CSMaker.MergedCSLinkTrain">
+	<summary>
+ 由于端点站可能不是轮换点，需要将几列列车捆绑共同考虑
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.typeCrewStation.#ctor(CS_CSMaker.modMainDim.typeTrainInformation,System.Int32,System.Int32,System.String)">
+	<summary>
+	</summary>
+	<param name="tempCSTrain"></param>
+	<param name="tempPathID">CSTrainInf(TrainId).nPathID(j),j</param>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.MakeParaSet">
+	<summary>
+ 读取编制参数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadCSUniformInfFromOracle">
+	<summary>
+ 读取制度信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadCSUniformInfFromOracle(System.String)">
+	<summary>
+ 读取制度信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadCSDinnerStationInfFromOracle">
+	<summary>
+  '读取用餐点信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadCSDinnerStationInfFromOracle(System.String)">
+	<summary>
+  '读取用餐点信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadCSJiaoluInfFromOracle">
+	<summary>
+  '读取交路信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadCSJiaoluInfFromOracle(System.String)">
+	<summary>
+  '读取交路信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadCSShiftPlaceInfFromOracle">
+	<summary>
+  '读取上班点信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadCSShiftPlaceInfFromOracle(System.String)">
+	<summary>
+  '读取上班点信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadDutyOnAndOffTimeInfFromOracle">
+	<summary>
+  '读取出退勤时间信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadPreParedInfo">
+	<summary>
+ 读取备车和备班信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.ReadPreParedInfo(System.String)">
+	<summary>
+ 读取备车和备班信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.IsShiftPlace(System.String,System.Int32)">
+	<summary>
+  '判断是否为上班点
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.IsCDayShiftPlace(System.String,System.Int32)">
+	<summary>
+  '判断是否为日勤班上班点
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.IsShiftPlace(System.String,System.String)">
+	<summary>
+  '判断是否为退勤地点
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.IsCDayShiftPlace(System.String,System.String)">
+	<summary>
+  '判断是否为日勤班退勤地点
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.IsDinnerPlace(System.String,System.Int32)">
+	<summary>
+  '判断是否为用餐点
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.IsTransitStationPlace(System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+  '判断是否为轮换点
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.IsTransitMustChange(System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+  '判断是否为必换点
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.FindMostWorkLoadDriver(CS_CSMaker.CSDriver[],System.String)">
+	<summary>
+ 工作量最多的乘务员
+ </summary>
+	<param name="driver"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.JingGangCrewSheduling(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 京港地铁乘务计划编制 
+ （每班的固定乘务员数量）
+ </summary>
+	<param name="CSBCN"></param>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.SplitDayDuty">
+	<summary>
+ 将一些驾驶公里极少的司机与任务比较量长的司机合并并拆解
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.GetBestTrain(CS_CSMaker.CSDriver)">
+	<summary>
+ 获取司机可以接的最好的列车
+ </summary>
+	<param name="tempDri"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.FormMergeCSLinktrain">
+	<summary>
+ 将天宫院和安河桥北以及天宫院的出入车连接起来
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.ModCrewSchedulingMainSub.FormTotalCSPlan">
+	<summary>
+ 形成衔接计划
+ </summary>
+	<remarks></remarks>
+</member><member name="P:CS_CSMaker.CSDriver.ModifiedDutyNumber">
+	<summary>
+ 修正后的任务数量
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CS_CSMaker.CSDriver.PreTrainTime">
+	<summary>
+ 备车时间
+ </summary>
+	<remarks></remarks>
+</member><member name="F:CS_CSMaker.CSDriver.PreDutyTime">
+	<summary>
+ 出勤时间
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.CSDriver.AddMergedTrain(CS_CSMaker.MergedCSLinkTrain,System.Boolean)">
+	<summary>
+ Add MergedCSLinkTrain
+ </summary>
+	<param name="MergedTrain"></param>
+	<remarks></remarks>
+</member><member name="P:CS_CSMaker.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:CS_CSMaker.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:CS_CSMaker.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member><member name="M:CS_CSMaker.Simplicissimum.CaculateOptimization">
+	<summary>
+ 根据矩阵进行相关初始化，如获取基变量，计算初始判别值等
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.Simplicissimum.GetBaseFactor">
+	<summary>
+ 获取初始基变量
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.Simplicissimum.CaculateDistinguishPara">
+	<summary>
+ 计算判别式
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CS_CSMaker.fraction.#ctor(System.Int64,System.Int64)">
+	<summary>
+ 注意，必须输入分母，且分母不能为零
+ </summary>
+	<param name="num"></param>
+	<param name="den"></param>
+	<remarks></remarks>
+</member><member name="P:CS_CSMaker.ModCrewSchedulingMainDim.CSTrainAndDrivers.DaXingDrivers">
+	<summary>
+ 大兴线早班退勤的早班司机
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CS_CSMaker.ModCrewSchedulingMainDim.CSTrainAndDrivers.CorDaXingDrivers">
+	<summary>
+ 衔接日期大兴线早班退勤的早班司机
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

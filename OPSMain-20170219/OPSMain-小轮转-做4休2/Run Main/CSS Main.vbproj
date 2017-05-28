@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C2C26E1-B304-433B-A696-AF2BF2E84D96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Run_Main.My.MyApplication</StartupObject>
+    <RootNamespace>Run_Main</RootNamespace>
+    <AssemblyName>OPS Main</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>users.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OPS Main.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OPS Main.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'sky|AnyCPU' ">
+    <OutputPath>bin\sky\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="CS_CSMaker, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\京港地铁乘务计划\CSMaker\bin\Debug\CS_CSMaker.exe</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Globle, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Globle\bin\Debug\Globle.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DAO">
+      <HintPath>..\TMS\bin\Interop.DAO.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MonthCalendar, Version=1.8.2.0, Culture=neutral, PublicKeyToken=9d22151b1b463438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\京港地铁乘务计划\CrewTrainingManager\bin\Debug\MonthCalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="ODSCoordination, Version=1.0.3670.14796, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ODSCoordination.dll</HintPath>
+    </Reference>
+    <Reference Include="OutputCSData, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86" />
+    <Reference Include="Progress, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="RemoteObjects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="ReportingServices, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OPS Main - 20110717副本\京港地铁乘务计划\CrewInformationManager\bin\Debug\System.Data.OracleClient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TMS">
+      <HintPath>..\TMS\bin\TMS.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.3.1.24483, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CellGrid.vb" />
+    <Compile Include="CellRange.vb" />
+    <Compile Include="DayDriveLength.vb" />
+    <Compile Include="DayDriveTime.vb" />
+    <Compile Include="DayTrainDriveLength.vb" />
+    <Compile Include="DayTrainDriveTime.vb" />
+    <Compile Include="DirverPerformance.Designer.vb">
+      <DependentUpon>DirverPerformance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DirverPerformance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcelCell.vb" />
+    <Compile Include="FrmAddOffDutyPlace.Designer.vb">
+      <DependentUpon>FrmAddOffDutyPlace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddOffDutyPlace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAreaSetting.Designer.vb">
+      <DependentUpon>FrmAreaSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAreaSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssignDuty.Designer.vb">
+      <DependentUpon>FrmAssignDuty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssignDuty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssignFirstDuty.Designer.vb">
+      <DependentUpon>FrmAssignFirstDuty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssignFirstDuty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssignUnDuty.Designer.vb">
+      <DependentUpon>FrmAssignUnDuty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssignUnDuty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCalPerson.Designer.vb">
+      <DependentUpon>FrmCalPerson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCalPerson.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeDury.Designer.vb">
+      <DependentUpon>FrmChangeDury.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeDury.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClassCoordinate.Designer.vb">
+      <DependentUpon>FrmClassCoordinate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClassCoordinate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="frmDataManager.designer.vb">
+      <DependentUpon>frmDataManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetailDuty.Designer.vb">
+      <DependentUpon>FrmDetailDuty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDetailDuty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiagrameManger.designer.vb">
+      <DependentUpon>frmDiagrameManger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiagrameManger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDriverCoordination.Designer.vb">
+      <DependentUpon>FrmDriverCoordination.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDriverCoordination.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfor.Designer.vb">
+      <DependentUpon>frmInfor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputBox.designer.vb">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInputBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInputSta.Designer.vb">
+      <DependentUpon>FrmInputSta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInputSta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLengthPara.Designer.vb">
+      <DependentUpon>FrmLengthPara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLengthPara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginForm.Designer.vb">
+      <DependentUpon>frmLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSInputTimetable.designer.vb">
+      <DependentUpon>frmODSInputTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmODSInputTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmODSMain.Designer.vb">
+      <DependentUpon>frmODSMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOpenPlan.Designer.vb">
+      <DependentUpon>FrmOpenPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOpenPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPilianganpai.Designer.vb">
+      <DependentUpon>FrmPilianganpai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPilianganpai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlanOutput.Designer.vb">
+      <DependentUpon>frmPlanOutput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlanOutput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlanSend.Designer.vb">
+      <DependentUpon>frmPlanSend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlanSend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintPlan.Designer.vb">
+      <DependentUpon>FrmPrintPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProgress.Designer.vb">
+      <DependentUpon>FrmProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStateDetail.Designer.vb">
+      <DependentUpon>FrmStateDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStateDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpSchedule.Designer.vb">
+      <DependentUpon>FrmUpSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserManager.Designer.vb">
+      <DependentUpon>FrmUserManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalFunc.vb" />
+    <Compile Include="JGexcel.Designer.vb">
+      <DependentUpon>JGexcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JGexcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modSubMain.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report.vb" />
+    <Compile Include="SpanDriveLength.vb" />
+    <Compile Include="SpanDriveTime.vb" />
+    <Compile Include="SpanLengthDetial.Designer.vb">
+      <DependentUpon>SpanLengthDetial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SpanLengthDetial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpanTrainDriveLength.vb" />
+    <Compile Include="SpanTrainDriveTime.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DirverPerformance.resx">
+      <DependentUpon>DirverPerformance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddOffDutyPlace.resx">
+      <DependentUpon>FrmAddOffDutyPlace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAreaSetting.resx">
+      <DependentUpon>FrmAreaSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssignDuty.resx">
+      <DependentUpon>FrmAssignDuty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssignFirstDuty.resx">
+      <DependentUpon>FrmAssignFirstDuty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssignUnDuty.resx">
+      <DependentUpon>FrmAssignUnDuty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCalPerson.resx">
+      <DependentUpon>FrmCalPerson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeDury.resx">
+      <DependentUpon>FrmChangeDury.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClassCoordinate.resx">
+      <DependentUpon>FrmClassCoordinate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataManager.resx">
+      <DependentUpon>frmDataManager.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetailDuty.resx">
+      <DependentUpon>FrmDetailDuty.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiagrameManger.resx">
+      <DependentUpon>frmDiagrameManger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDriverCoordination.resx">
+      <DependentUpon>FrmDriverCoordination.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfor.resx">
+      <DependentUpon>frmInfor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputBox.resx">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInputSta.resx">
+      <DependentUpon>FrmInputSta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLengthPara.resx">
+      <DependentUpon>FrmLengthPara.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLengthPara.zh-CHS.resx">
+      <DependentUpon>FrmLengthPara.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLengthPara.zh-CN.resx">
+      <DependentUpon>FrmLengthPara.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmODSInputTimetable.resx">
+      <DependentUpon>frmODSInputTimetable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmODSMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmODSMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOpenPlan.resx">
+      <DependentUpon>FrmOpenPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPilianganpai.resx">
+      <DependentUpon>FrmPilianganpai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlanOutput.resx">
+      <DependentUpon>frmPlanOutput.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlanSend.resx">
+      <DependentUpon>frmPlanSend.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintPlan.resx">
+      <DependentUpon>FrmPrintPlan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProgress.resx">
+      <DependentUpon>FrmProgress.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStateDetail.resx">
+      <DependentUpon>FrmStateDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpSchedule.resx">
+      <DependentUpon>FrmUpSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserManager.resx">
+      <DependentUpon>FrmUserManager.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JGexcel.resx">
+      <DependentUpon>JGexcel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpanLengthDetial.resx">
+      <DependentUpon>SpanLengthDetial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Fakes Include="Fakes\Microsoft.VisualBasic.PowerPacks.Vs.fakes" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="users.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coordination2\Coordination2.csproj">
+      <Project>{41424ad4-2814-41a6-9d0c-65336f85307e}</Project>
+      <Name>Coordination2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CrewTrainingManager\CrewTrainingManager.vbproj">
+      <Project>{30e5f6ed-4060-43ee-b646-dd79b5971354}</Project>
+      <Name>CrewTrainingManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

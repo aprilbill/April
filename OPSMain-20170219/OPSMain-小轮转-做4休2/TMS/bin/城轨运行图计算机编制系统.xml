@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+城轨运行图计算机编制系统
+</name>
+</assembly>
+<members>
+<member name="M:运行图计算机编制系统.ModTimetableMain.GetUserName">
+	<summary>
+ 得到运行图使用名状态
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:运行图计算机编制系统.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存 ResourceManager 实例。
+</summary>
+</member><member name="P:运行图计算机编制系统.My.Resources.Resources.Culture">
+	<summary>
+  为使用此强类型资源类的所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:运行图计算机编制系统.My.Resources.Resources">
+	<summary>
+  强类型资源类，用于查找本地化字符串等。
+</summary>
+</member><member name="M:运行图计算机编制系统.frmPrintTrainDiagram.CADOutPrintTimeFormat(System.Int64,System.Int32)">
+	<summary>
+ 显示时间格式
+ </summary>
+	<param name="nMinute">分钟值</param>
+	<param name="nMark">1为小时格式,2为分钟格式,3为30S格式</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:运行图计算机编制系统.My.Resources.MyResources.ResourceManager">
+	<summary>
+  返回此类使用的缓存 ResourceManager 实例。
+</summary>
+</member><member name="P:运行图计算机编制系统.My.Resources.MyResources.Culture">
+	<summary>
+  为使用此强类型资源类的所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:运行图计算机编制系统.My.Resources.MyResources">
+	<summary>
+  强类型资源类，用于查找本地化字符串等。
+</summary>
+</member>
+</members>
+</doc>

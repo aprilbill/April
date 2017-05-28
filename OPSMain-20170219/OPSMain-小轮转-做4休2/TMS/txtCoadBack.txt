@@ -1,0 +1,80 @@
+      
+      
+     '***********************************打开CAD
+        
+        On Error Resume Next
+        Dim AcadApp As AutoCAD.AcadApplication
+        AcadApp = GetObject(, "AutoCAD.Application")
+        If Err.Number Then
+            Err.Clear()
+            AcadApp = CreateObject("AutoCAD.Application")
+            If Err.Number Then
+                MsgBox("不能运行AutoCAD,请检查是否安装了AutoCAD")
+                Exit Sub
+            End If
+        End If
+        AcadApp.Visible = True '界面可视
+        AcadApp.WindowState = AutoCAD.AcWindowState.acMax '界面最大化
+        AppActivate(AcadApp.Caption) '显示AutoCAD界面
+        
+      '***********************************打开CAD 
+      
+              Try
+            AcadApp = CreateObject("AutoCAD.Application")
+            Me.Cursor = Cursors.WaitCursor
+        Catch ex As Exception
+            MsgBox(ex.Message.ToString & " 不能运行AutoCAD 2004，请检查是否安装了 AutoCAD 2004")
+            Me.Cursor = Cursors.Default
+            Exit Sub
+        End Try
+
+        Dim Point(2) As Double
+        Dim StartPoint(2) As Double
+        Dim StartPoint1(2) As Double
+        Dim StartPoint2(2) As Double
+        Dim EndPoint(2) As Double
+        Dim EndPoint1(2) As Double
+        Dim EndPoint2(2) As Double
+
+        '文本属性
+        Dim StyObj1 As AutoCAD.AcadTextStyle
+        Dim typeFace As String
+        Dim Bold As Boolean
+        Dim Italic As Boolean
+        Dim CharSet As Long
+        Dim PicChandFamily As Long
+
+        'Dim TextObj As AcadText
+        Dim textString As String
+        Dim InsertPoint(2) As Double
+        Dim Height As Double
+        Dim cColor As AutoCAD.ACAD_COLOR
+        Dim cWidth As AutoCAD.ACAD_LWEIGHT
+        StartPoint(0) = 0
+        StartPoint(1) = 0
+
+        EndPoint(0) = 100
+        EndPoint(1) = 100
+        testLayer = AcadApp.ActiveDocument.Layers.Add("车站中心线")
+        AcadApp.ActiveDocument.ActiveLayer = testLayer
+
+        StyObj1 = AcadApp.ActiveDocument.TextStyles.Add("SKY定义")
+        typeFace = "Arial"
+        Italic = False
+        Bold = False
+        CharSet = 1
+        PicChandFamily = 1 Or 16
+        StyObj1.SetFont(typeFace, Bold, Italic, CharSet, PicChandFamily)
+
+        textString = "同济大学"
+        Height = 10
+        Call AddCADLine(StartPoint, EndPoint, 0, AutoCAD.ACAD_LWEIGHT.acLnWt020)
+        Call addCADText(StyObj1, textString, StartPoint, Height, 0.2)
+
+
+        Me.Cursor = Cursors.Default
+        AcadApp.Visible = True
+        AcadApp.ZoomExtents()
+        AppActivate(AcadApp.Caption)
+
+       
