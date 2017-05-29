@@ -2381,6 +2381,7 @@ L:
         GetDeadHeadTo = tempMergeTrain
     End Function
     Public MChediNum, NChediNum, AChediNum As Integer
+    Public MRukuNum, NChukuNum As Integer '早入库，晚出库
     Public Sub GetEachDutyChediNum()
         MChediNum = 0
         NChediNum = 0
@@ -2397,6 +2398,16 @@ L:
                 If CSTrainInf(CSchediInfo(j).nLinkTrain(1)).lAllStartTime < 12 * 3600 _
                     And AddLitterTime(CSTrainInf(CSchediInfo(j).nLinkTrain(UBound(CSchediInfo(j).nLinkTrain))).lAllEndTime) > 12 * 3600 Then
                     NChediNum += 1
+                End If
+            End If
+            If UBound(CSchediInfo(j).nLinkTrain) > 1 Then
+                If AddLitterTime(CSTrainInf(CSchediInfo(j).nLinkTrain(UBound(CSchediInfo(j).nLinkTrain))).lAllEndTime) < 12 * 3600 Then
+                    MRukuNum += 1
+                End If
+            End If
+            If UBound(CSchediInfo(j).nLinkTrain) > 1 Then
+                If CSTrainInf(CSchediInfo(j).nLinkTrain(1)).lAllStartTime > 12 * 3600 AndAlso CSTrainInf(CSchediInfo(j).nLinkTrain(1)).lAllStartTime < 20 * 3600 Then
+                    NChukuNum += 1
                 End If
             End If
             If UBound(CSchediInfo(j).nLinkTrain) > 1 Then
