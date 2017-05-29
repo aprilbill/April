@@ -226,3 +226,11 @@ pip-log.txt
 *.xml
 *.Cache
 *.txt
+*.cache
+*.Cache
+*.pdb
+*.dll
+*.exe
+*.xml
+*.xml
+*.suo

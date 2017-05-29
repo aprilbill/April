@@ -938,44 +938,6 @@ Public Class CSDriver
             '状态优先
             Select Case Me.State
                 Case "用餐"
-                    'If CheckIfInterval(Train) AndAlso IsDayDutyOffPlace(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName, Me.CSLinkTrain(1).StartStaName, Me.CSLinkTrain(1).RoutingName, Me.CSLinkTrain(1).StartTime) = False Then
-                    '    For Each s As String In Me.AllDinnerInfo.Keys
-                    '        If Me.AllDinnerInfo(s).dinnerType = "午餐" Then
-                    '            Dim tmpdinnerstart As Integer = AddLitterTime(Train.CSLinkTrains(1).StartTime) - Me.AllDinnerInfo(s).DinnerTime
-                    '            Dim selectdri As CSDriver = Nothing
-                    '            Dim mintime As Integer = 10000000
-                    '            For Each cdriver As CSDriver In CSTrainsAndDrivers.CSDrivers
-                    '                If cdriver Is Nothing OrElse cdriver.DutySort = "早班" Then
-                    '                    Continue For
-                    '                End If
-                    '                If AddLitterTime(cdriver.CSLinkTrain(UBound(cdriver.CSLinkTrain)).EndTime) < tmpdinnerstart And cdriver.CSLinkTrain(UBound(cdriver.CSLinkTrain)).EndStaName = Train.CSLinkTrains(1).StartStaName Then
-                    '                    If mintime > tmpdinnerstart - AddLitterTime(cdriver.CSLinkTrain(UBound(cdriver.CSLinkTrain)).EndTime) Then
-                    '                        mintime = tmpdinnerstart - AddLitterTime(cdriver.CSLinkTrain(UBound(cdriver.CSLinkTrain)).EndTime)
-                    '                        selectdri = cdriver
-                    '                    End If
-                    '                End If
-                    '            Next
-                    '            If selectdri IsNot Nothing AndAlso selectdri.CSdriverNo <> Me.CSdriverNo Then
-                    '                If selectdri.State = "用餐" Then
-                    '                    CanDriveTheTrain = False
-                    '                Else
-                    '                    If mintime < 15 * 60 Then
-                    '                        CanDriveTheTrain = False
-                    '                    Else
-                    '                        Me.AllDinnerInfo.Remove(s)
-                    '                        Me.FlagDinner = False
-                    '                        Me.State = "班中"
-                    '                    End If
-                    '                End If
-                    '            Else
-                    '                Me.AllDinnerInfo.Remove(s)
-                    '                Me.FlagDinner = False
-                    '                Me.State = "班中"
-                    '            End If
-                    '            Exit For
-                    '        End If
-                    '    Next
-                    'Else
                     If AddLitterTime(Me.DinnerEndTime) > SecTime Then
                         CanDriveTheTrain = False
                     Else

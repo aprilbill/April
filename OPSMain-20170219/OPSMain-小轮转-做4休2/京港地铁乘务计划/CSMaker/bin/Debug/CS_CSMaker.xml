@@ -22,11 +22,6 @@ CS_CSMaker
 	<param name="tempCSTrain"></param>
 	<param name="tempPathID">CSTrainInf(TrainId).nPathID(j),j</param>
 	<remarks></remarks>
-</member><member name="F:CS_CSMaker.ModCrewSchedulingMainDim.CSTrainAndDrivers.dicStationTrain">
-	<summary>
- key车站名称到达或出发,value：List(Of MergedCSLinkTrain)
- </summary>
-	<remarks></remarks>
 </member><member name="M:CS_CSMaker.ModCrewSchedulingMainDim.RemoveDriver(System.Int32)">
 	<summary>
  移除指定序号的司机
@@ -50,33 +45,6 @@ CS_CSMaker
  </summary>
 	<param name="nCheCi"></param>
 	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:CS_CSMaker.frmCSTimeTableMain.CatchOneTrain(CS_CSMaker.CSDriver,System.Int32,System.Boolean,System.Boolean)">
-	<summary>
- 连接下一趟车列车，专门用于安排吃饭
- </summary>
-	<param name="tmpDriver"></param>
-	<param name="tmpJiexuTimeOrJiange"></param>
-	<param name="ForOrBack">true "后"，false “前”</param>
-	<param name="timeOrJiange">true "time"，false “jiange”</param>
-	<remarks></remarks>
-</member><member name="M:CS_CSMaker.frmCSTimeTableMain.NormalCatchOneTrain(CS_CSMaker.CSDriver,System.Int32,System.Boolean,System.Boolean)">
-	<summary>
- 连接下一趟车列车，普遍
- </summary>
-	<param name="tmpDriver"></param>
-	<param name="tmpJiexuTimeOrJiange"></param>
-	<param name="ForOrBack">true "后"，false “前”</param>
-	<param name="timeOrJiange">true "time"，false “jiange”</param>
-	<remarks></remarks>
-</member><member name="M:CS_CSMaker.frmCSTimeTableMain.FindNextOneTrain(System.Int32,System.String,System.Int32,System.Boolean,System.Boolean)">
-	<summary>
- 寻找指定时间点后的列车
- </summary>
-	<param name="tmpCurTime"></param>
-	<param name="tmpJiexuTimeOrJiange"></param>
-	<param name="ForOrBack">true "后"，false “前”</param>
-	<param name="timeOrJiange">true "time"，false “jiange”</param>
 	<remarks></remarks>
 </member><member name="P:CS_CSMaker.My.Resources.Resources.ResourceManager">
 	<summary>

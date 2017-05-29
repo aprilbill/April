@@ -2420,58 +2420,58 @@ L:
         Next
     End Sub
 
-    Public Sub FormdicStationTrain()
-        CSTrainsAndDrivers.dicStationTrain = New Dictionary(Of String, List(Of MergedCSLinkTrain))
-        For Each train As MergedCSLinkTrain In CSTrainsAndDrivers.MergedCSLinkTrains
-            If train Is Nothing Then
-                Continue For
-            End If
-            If CSTrainsAndDrivers.dicStationTrain.ContainsKey(train.StartStaName & "出发") Then
-                CSTrainsAndDrivers.dicStationTrain(train.StartStaName & "出发").Add(train)
-            Else
-                CSTrainsAndDrivers.dicStationTrain.Add(train.StartStaName & "出发", New List(Of MergedCSLinkTrain))
-                CSTrainsAndDrivers.dicStationTrain(train.StartStaName & "出发").Add(train)
+    'Public Sub FormdicStationTrain()
+    '    CSTrainsAndDrivers.dicStationTrain = New Dictionary(Of String, List(Of MergedCSLinkTrain))
+    '    For Each train As MergedCSLinkTrain In CSTrainsAndDrivers.MergedCSLinkTrains
+    '        If train Is Nothing Then
+    '            Continue For
+    '        End If
+    '        If CSTrainsAndDrivers.dicStationTrain.ContainsKey(train.StartStaName & "出发") Then
+    '            CSTrainsAndDrivers.dicStationTrain(train.StartStaName & "出发").Add(train)
+    '        Else
+    '            CSTrainsAndDrivers.dicStationTrain.Add(train.StartStaName & "出发", New List(Of MergedCSLinkTrain))
+    '            CSTrainsAndDrivers.dicStationTrain(train.StartStaName & "出发").Add(train)
 
-            End If
+    '        End If
 
-            If CSTrainsAndDrivers.dicStationTrain.ContainsKey(train.EndStaName & "到达") Then
-                CSTrainsAndDrivers.dicStationTrain(train.EndStaName & "到达").Add(train)
-            Else
-                CSTrainsAndDrivers.dicStationTrain.Add(train.EndStaName & "到达", New List(Of MergedCSLinkTrain))
-                CSTrainsAndDrivers.dicStationTrain(train.EndStaName & "到达").Add(train)
-            End If
-        Next
+    '        If CSTrainsAndDrivers.dicStationTrain.ContainsKey(train.EndStaName & "到达") Then
+    '            CSTrainsAndDrivers.dicStationTrain(train.EndStaName & "到达").Add(train)
+    '        Else
+    '            CSTrainsAndDrivers.dicStationTrain.Add(train.EndStaName & "到达", New List(Of MergedCSLinkTrain))
+    '            CSTrainsAndDrivers.dicStationTrain(train.EndStaName & "到达").Add(train)
+    '        End If
+    '    Next
 
 
-        '时间升序排列
-        If CSTrainsAndDrivers.dicStationTrain.Count > 0 Then
-            For Each l As KeyValuePair(Of String, List(Of MergedCSLinkTrain)) In CSTrainsAndDrivers.dicStationTrain
-                Dim tempKey As String = l.Key
-                Dim tempValue As List(Of MergedCSLinkTrain) = l.Value
-                If tempKey.ToString.Contains("出发") Then
-                    For i As Integer = 0 To tempValue.Count - 1 - 1
-                        For j As Integer = i + 1 To tempValue.Count - 1
-                            If tempValue(i).CulStartTime > tempValue(j).CulStartTime Then
-                                Dim temp As MergedCSLinkTrain = tempValue(i)
-                                tempValue(i) = tempValue(j)
-                                tempValue(j) = temp
-                            End If
-                        Next
-                    Next
-                ElseIf tempKey.ToString.Contains("到达") Then
-                    For i As Integer = 0 To tempValue.Count - 1 - 1
-                        For j As Integer = i + 1 To tempValue.Count - 1
-                            If tempValue(i).CulEndTime > tempValue(j).CulEndTime Then
-                                Dim temp As MergedCSLinkTrain = tempValue(i)
-                                tempValue(i) = tempValue(j)
-                                tempValue(j) = temp
-                            End If
-                        Next
-                    Next
-                End If
-            Next
-        End If
-    End Sub
+    '    '时间升序排列
+    '    If CSTrainsAndDrivers.dicStationTrain.Count > 0 Then
+    '        For Each l As KeyValuePair(Of String, List(Of MergedCSLinkTrain)) In CSTrainsAndDrivers.dicStationTrain
+    '            Dim tempKey As String = l.Key
+    '            Dim tempValue As List(Of MergedCSLinkTrain) = l.Value
+    '            If tempKey.ToString.Contains("出发") Then
+    '                For i As Integer = 0 To tempValue.Count - 1 - 1
+    '                    For j As Integer = i + 1 To tempValue.Count - 1
+    '                        If tempValue(i).CulStartTime > tempValue(j).CulStartTime Then
+    '                            Dim temp As MergedCSLinkTrain = tempValue(i)
+    '                            tempValue(i) = tempValue(j)
+    '                            tempValue(j) = temp
+    '                        End If
+    '                    Next
+    '                Next
+    '            ElseIf tempKey.ToString.Contains("到达") Then
+    '                For i As Integer = 0 To tempValue.Count - 1 - 1
+    '                    For j As Integer = i + 1 To tempValue.Count - 1
+    '                        If tempValue(i).CulEndTime > tempValue(j).CulEndTime Then
+    '                            Dim temp As MergedCSLinkTrain = tempValue(i)
+    '                            tempValue(i) = tempValue(j)
+    '                            tempValue(j) = temp
+    '                        End If
+    '                    Next
+    '                Next
+    '            End If
+    '        Next
+    '    End If
+    'End Sub
     Public Sub SaveXiuGai() 'ByVal strCSTableName As String)
         Dim j, k, key As Integer
         key = 1

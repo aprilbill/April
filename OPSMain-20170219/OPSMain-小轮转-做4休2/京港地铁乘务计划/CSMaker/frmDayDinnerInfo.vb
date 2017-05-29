@@ -6,7 +6,7 @@
         Me.TextBox1.Text = NChediNum
         For i As Integer = 1 To UBound(sysDinnerStation)
             If sysDinnerStation(i).dutySort = "白班" AndAlso sysDinnerStation(i).dinnerType = "午餐" Then
-                Me.DataGridView1.Rows.Add(sysDinnerStation(i).DinnerStationName, sysDinnerStation(i).NeedDinnerDriverNum, sysDinnerStation(i).NeedDinnerDriverNum)
+                Me.DataGridView1.Rows.Add(sysDinnerStation(i).Routing, sysDinnerStation(i).DinnerStationName, sysDinnerStation(i).NeedDinnerDriverNum, sysDinnerStation(i).NeedDinnerDriverNum)
                 Me.DataGridView1.Rows(Me.DataGridView1.Rows.Count - 1).Tag = sysDinnerStation(i)
             End If
         Next

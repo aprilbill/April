@@ -182,7 +182,7 @@ Public Module ModCrewSchedulingMainDim
         ''' key车站名称到达或出发,value：List(Of MergedCSLinkTrain)
         ''' </summary>
         ''' <remarks></remarks>
-        Public dicStationTrain As Dictionary(Of String, List(Of MergedCSLinkTrain))
+        'Public dicStationTrain As Dictionary(Of String, List(Of MergedCSLinkTrain))
         'Public MergedCSLinkTrains As List(Of MergedCSLinkTrain)
         Public DayDrivers As List(Of CSDriver)          '白班司机
         Public CDayDrivers As List(Of CSDriver)          '日勤班司机

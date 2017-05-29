@@ -29,11 +29,6 @@ Partial Class frmDayDinnerInfo
         Me.txtDayRealDriverNum = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.用餐地点 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.需要替饭人数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.实际替饭人数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.新增替饭人数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.是否只替饭 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -41,6 +36,12 @@ Partial Class frmDayDinnerInfo
         Me.TextBoxCuntifanDriverNum = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.交路 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.用餐地点 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.需要替饭人数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.实际替饭人数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.新增替饭人数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.是否只替饭 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -98,37 +99,12 @@ Partial Class frmDayDinnerInfo
         '
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.用餐地点, Me.需要替饭人数, Me.实际替饭人数, Me.新增替饭人数, Me.是否只替饭})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.交路, Me.用餐地点, Me.需要替饭人数, Me.实际替饭人数, Me.新增替饭人数, Me.是否只替饭})
         Me.DataGridView1.Location = New System.Drawing.Point(16, 62)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 23
         Me.DataGridView1.Size = New System.Drawing.Size(541, 138)
         Me.DataGridView1.TabIndex = 5
-        '
-        '用餐地点
-        '
-        Me.用餐地点.HeaderText = "用餐地点"
-        Me.用餐地点.Name = "用餐地点"
-        '
-        '需要替饭人数
-        '
-        Me.需要替饭人数.HeaderText = "需要替饭人数"
-        Me.需要替饭人数.Name = "需要替饭人数"
-        '
-        '实际替饭人数
-        '
-        Me.实际替饭人数.HeaderText = "实际替饭人数"
-        Me.实际替饭人数.Name = "实际替饭人数"
-        '
-        '新增替饭人数
-        '
-        Me.新增替饭人数.HeaderText = "新增替饭人数"
-        Me.新增替饭人数.Name = "新增替饭人数"
-        '
-        '是否只替饭
-        '
-        Me.是否只替饭.HeaderText = "是否只替饭"
-        Me.是否只替饭.Name = "是否只替饭"
         '
         'Button1
         '
@@ -194,6 +170,36 @@ Partial Class frmDayDinnerInfo
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "勾选""只替饭""，则不安排用餐"
         '
+        '交路
+        '
+        Me.交路.HeaderText = "交路"
+        Me.交路.Name = "交路"
+        '
+        '用餐地点
+        '
+        Me.用餐地点.HeaderText = "用餐地点"
+        Me.用餐地点.Name = "用餐地点"
+        '
+        '需要替饭人数
+        '
+        Me.需要替饭人数.HeaderText = "需要替饭人数"
+        Me.需要替饭人数.Name = "需要替饭人数"
+        '
+        '实际替饭人数
+        '
+        Me.实际替饭人数.HeaderText = "实际替饭人数"
+        Me.实际替饭人数.Name = "实际替饭人数"
+        '
+        '新增替饭人数
+        '
+        Me.新增替饭人数.HeaderText = "新增替饭人数"
+        Me.新增替饭人数.Name = "新增替饭人数"
+        '
+        '是否只替饭
+        '
+        Me.是否只替饭.HeaderText = "是否只替饭"
+        Me.是否只替饭.Name = "是否只替饭"
+        '
         'frmDayDinnerInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -232,12 +238,13 @@ Partial Class frmDayDinnerInfo
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents TextBoxCuntifanDriverNum As System.Windows.Forms.TextBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents 交路 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents 用餐地点 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents 需要替饭人数 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents 实际替饭人数 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents 新增替饭人数 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents 是否只替饭 As System.Windows.Forms.DataGridViewCheckBoxColumn
-    Friend WithEvents TextBoxCuntifanDriverNum As System.Windows.Forms.TextBox
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
 End Class
