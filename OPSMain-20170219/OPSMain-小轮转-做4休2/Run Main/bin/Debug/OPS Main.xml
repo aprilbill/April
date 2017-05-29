@@ -11,17 +11,6 @@ OPSMain
  加载未安排任务至CmbDuty
  </summary>
 	<remarks></remarks>
-</member><member name="M:Run_Main.FrmClassCoordinate.Load_Drivers">
-	<summary>
- 加载区域司机及区域信息
- </summary>
-	<remarks></remarks>
-</member><member name="M:Run_Main.FrmClassCoordinate.GetOtherDuty">
-	<summary>
- 获取年假、培训、备班、备车等其它任务
- </summary>
-	<returns></returns>
-	<remarks></remarks>
 </member><member name="P:Run_Main.My.Resources.Resources.ResourceManager">
 	<summary>
   返回此类使用的缓存的 ResourceManager 实例。
@@ -35,6 +24,17 @@ OPSMain
 	<summary>
   一个强类型的资源类，用于查找本地化的字符串等。
 </summary>
+</member><member name="M:Run_Main.FrmClassCoordinate.Load_Drivers">
+	<summary>
+ 加载区域司机及区域信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Run_Main.FrmClassCoordinate.GetOtherDuty">
+	<summary>
+ 获取年假、培训、备班、备车等其它任务
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
 </member>
 </members>
 </doc>

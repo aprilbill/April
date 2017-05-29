@@ -7213,3 +7213,75 @@ C:\Users\429-HZY\Desktop\王翰的临时文件夹\April\OPSMain-20170219\OPSMain
 C:\Users\429-HZY\Desktop\王翰的临时文件夹\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
 C:\Users\429-HZY\Desktop\王翰的临时文件夹\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
 C:\Users\429-HZY\Desktop\王翰的临时文件夹\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe.config
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.exe
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.pdb
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OPS Main.xml
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CHS\OPS Main.resources.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\zh-CN\OPS Main.resources.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.exe
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\System.Data.OracleClient.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DevComponents.DotNetBar2.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\DataAccessTier.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.AutoCAD.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Interop.VBIDE.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Coordination2.pdb
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.pdb
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CrewTrainingManager.xml
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.pdb
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\CS_CSMaker.xml
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\Globle.pdb
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.pdb
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\TMS.xml
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.pdb
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\bin\Debug\OdsSet.xml
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojFakesResolveAssemblyReference.cache
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbprojResolveAssemblyReference.cache
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.DriverPerformance.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAddOffDutyPlace.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAreaSetting.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignDuty.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignFirstDuty.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmAssignUnDuty.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmCalPerson.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmChangeDury.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmClassCoordinate.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmAbout.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDataManager.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDetailDuty.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmDiagrameManger.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmDriverCoordination.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInfor.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmInputBox.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmInputSta.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmLoginForm.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSInputTimetable.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmODSMain.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmOpenPlan.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPilianganpai.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanOutput.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.frmPlanSend.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmPrintPlan.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmProgress.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmRQclass.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmStateDetail.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUpSchedule.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmUserManager.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.JGexcel.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.Resources.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.SpanLengthDetial.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CHS.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\Run_Main.FrmLengthPara.zh-CN.resources
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\CSS Main.vbproj.GenerateResource.Cache
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CHS\OPS Main.resources.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\zh-CN\OPS Main.resources.dll
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.exe
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.xml
+F:\Github\April\OPSMain-20170219\OPSMain-小轮转-做4休2\Run Main\obj\Debug\OPS Main.pdb

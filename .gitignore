@@ -214,3 +214,15 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+*.dll
+*.pdb
+*.cache
+*.exe
+*.Cache
+*.exe
+*.cache
+*.pdb
+*.dll
+*.xml
+*.Cache
+*.txt

@@ -23,12 +23,6 @@ Partial Class Frmrenshucesuan
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.时段 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.车底数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.折返司机数量 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.配检司机数量 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.机动司机数量 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.合计 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -42,6 +36,15 @@ Partial Class Frmrenshucesuan
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TxtZongshu = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.时段 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.车底数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.折返司机数量 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.机动司机数量 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.替饭司机数量 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.合计 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -49,12 +52,134 @@ Partial Class Frmrenshucesuan
         '
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.时段, Me.车底数, Me.折返司机数量, Me.配检司机数量, Me.机动司机数量, Me.合计})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.时段, Me.车底数, Me.折返司机数量, Me.机动司机数量, Me.替饭司机数量, Me.合计})
         Me.DataGridView1.Location = New System.Drawing.Point(4, 12)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 23
         Me.DataGridView1.Size = New System.Drawing.Size(638, 143)
         Me.DataGridView1.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label1.Location = New System.Drawing.Point(42, 195)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(79, 20)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "测算人数："
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label2.Location = New System.Drawing.Point(253, 195)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(79, 20)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "早峰人数："
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label3.Location = New System.Drawing.Point(253, 273)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(79, 20)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "晚峰人数："
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label4.Location = New System.Drawing.Point(253, 232)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(79, 20)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "平峰人数："
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label5.Location = New System.Drawing.Point(13, 231)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(107, 20)
+        Me.Label5.TabIndex = 5
+        Me.Label5.Text = "任务峰班人数："
+        '
+        'TxtCesuan
+        '
+        Me.TxtCesuan.Location = New System.Drawing.Point(117, 196)
+        Me.TxtCesuan.Name = "TxtCesuan"
+        Me.TxtCesuan.Size = New System.Drawing.Size(100, 21)
+        Me.TxtCesuan.TabIndex = 6
+        '
+        'TxtZaofeng
+        '
+        Me.TxtZaofeng.Location = New System.Drawing.Point(325, 196)
+        Me.TxtZaofeng.Name = "TxtZaofeng"
+        Me.TxtZaofeng.Size = New System.Drawing.Size(100, 21)
+        Me.TxtZaofeng.TabIndex = 7
+        '
+        'TxtWanfeng
+        '
+        Me.TxtWanfeng.Location = New System.Drawing.Point(325, 273)
+        Me.TxtWanfeng.Name = "TxtWanfeng"
+        Me.TxtWanfeng.Size = New System.Drawing.Size(100, 21)
+        Me.TxtWanfeng.TabIndex = 8
+        '
+        'TxtPingfeng
+        '
+        Me.TxtPingfeng.Location = New System.Drawing.Point(325, 232)
+        Me.TxtPingfeng.Name = "TxtPingfeng"
+        Me.TxtPingfeng.Size = New System.Drawing.Size(100, 21)
+        Me.TxtPingfeng.TabIndex = 9
+        '
+        'Txtchazhi
+        '
+        Me.Txtchazhi.Location = New System.Drawing.Point(117, 232)
+        Me.Txtchazhi.Name = "Txtchazhi"
+        Me.Txtchazhi.Size = New System.Drawing.Size(100, 21)
+        Me.Txtchazhi.TabIndex = 10
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Button1.Location = New System.Drawing.Point(486, 195)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(104, 36)
+        Me.Button1.TabIndex = 11
+        Me.Button1.Text = "五班三转计算"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label6.Location = New System.Drawing.Point(57, 270)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(65, 20)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "总人数："
+        '
+        'TxtZongshu
+        '
+        Me.TxtZongshu.Location = New System.Drawing.Point(117, 270)
+        Me.TxtZongshu.Name = "TxtZongshu"
+        Me.TxtZongshu.Size = New System.Drawing.Size(100, 21)
+        Me.TxtZongshu.TabIndex = 13
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label7.Location = New System.Drawing.Point(12, 159)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(207, 20)
+        Me.Label7.TabIndex = 14
+        Me.Label7.Text = "早高峰回库：0；晚高峰出库：0"
         '
         '时段
         '
@@ -71,131 +196,50 @@ Partial Class Frmrenshucesuan
         Me.折返司机数量.HeaderText = "折返司机数量"
         Me.折返司机数量.Name = "折返司机数量"
         '
-        '配检司机数量
-        '
-        Me.配检司机数量.HeaderText = "配检司机数量"
-        Me.配检司机数量.Name = "配检司机数量"
-        '
         '机动司机数量
         '
         Me.机动司机数量.HeaderText = "机动司机数量"
         Me.机动司机数量.Name = "机动司机数量"
+        '
+        '替饭司机数量
+        '
+        Me.替饭司机数量.HeaderText = "替饭司机数量"
+        Me.替饭司机数量.Name = "替饭司机数量"
         '
         '合计
         '
         Me.合计.HeaderText = "合计"
         Me.合计.Name = "合计"
         '
-        'Label1
+        'Button2
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(68, 177)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(65, 12)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "测算人数："
+        Me.Button2.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Button2.Location = New System.Drawing.Point(486, 257)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(104, 36)
+        Me.Button2.TabIndex = 15
+        Me.Button2.Text = "四班二转计算"
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'Label2
+        'Label8
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(275, 177)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(65, 12)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "早峰人数："
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(275, 254)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 12)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "晚峰人数："
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(275, 213)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(65, 12)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "平峰人数："
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(44, 215)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(89, 12)
-        Me.Label5.TabIndex = 5
-        Me.Label5.Text = "峰班差值人数："
-        '
-        'TxtCesuan
-        '
-        Me.TxtCesuan.Location = New System.Drawing.Point(139, 174)
-        Me.TxtCesuan.Name = "TxtCesuan"
-        Me.TxtCesuan.Size = New System.Drawing.Size(100, 21)
-        Me.TxtCesuan.TabIndex = 6
-        '
-        'TxtZaofeng
-        '
-        Me.TxtZaofeng.Location = New System.Drawing.Point(346, 174)
-        Me.TxtZaofeng.Name = "TxtZaofeng"
-        Me.TxtZaofeng.Size = New System.Drawing.Size(100, 21)
-        Me.TxtZaofeng.TabIndex = 7
-        '
-        'TxtWanfeng
-        '
-        Me.TxtWanfeng.Location = New System.Drawing.Point(346, 251)
-        Me.TxtWanfeng.Name = "TxtWanfeng"
-        Me.TxtWanfeng.Size = New System.Drawing.Size(100, 21)
-        Me.TxtWanfeng.TabIndex = 8
-        '
-        'TxtPingfeng
-        '
-        Me.TxtPingfeng.Location = New System.Drawing.Point(346, 210)
-        Me.TxtPingfeng.Name = "TxtPingfeng"
-        Me.TxtPingfeng.Size = New System.Drawing.Size(100, 21)
-        Me.TxtPingfeng.TabIndex = 9
-        '
-        'Txtchazhi
-        '
-        Me.Txtchazhi.Location = New System.Drawing.Point(139, 210)
-        Me.Txtchazhi.Name = "Txtchazhi"
-        Me.Txtchazhi.Size = New System.Drawing.Size(100, 21)
-        Me.Txtchazhi.TabIndex = 10
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(528, 249)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 11
-        Me.Button1.Text = "计算"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(80, 251)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(53, 12)
-        Me.Label6.TabIndex = 12
-        Me.Label6.Text = "总人数："
-        '
-        'TxtZongshu
-        '
-        Me.TxtZongshu.Location = New System.Drawing.Point(139, 248)
-        Me.TxtZongshu.Name = "TxtZongshu"
-        Me.TxtZongshu.Size = New System.Drawing.Size(100, 21)
-        Me.TxtZongshu.TabIndex = 13
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.Red
+        Me.Label8.Location = New System.Drawing.Point(12, 302)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(499, 20)
+        Me.Label8.TabIndex = 16
+        Me.Label8.Text = "注意：任务峰班人数为最小值，测算人数为最小值，白班备车请填入机动司机栏"
         '
         'Frmrenshucesuan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(650, 296)
+        Me.ClientSize = New System.Drawing.Size(650, 331)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TxtZongshu)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Button1)
@@ -220,12 +264,6 @@ Partial Class Frmrenshucesuan
 
     End Sub
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents 时段 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 车底数 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 折返司机数量 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 配检司机数量 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 机动司机数量 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 合计 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
@@ -239,4 +277,13 @@ Partial Class Frmrenshucesuan
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents TxtZongshu As System.Windows.Forms.TextBox
+    Friend WithEvents 时段 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 车底数 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 折返司机数量 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 机动司机数量 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 替饭司机数量 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 合计 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Label8 As System.Windows.Forms.Label
 End Class
