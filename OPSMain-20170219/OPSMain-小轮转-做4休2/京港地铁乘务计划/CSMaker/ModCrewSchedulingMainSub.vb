@@ -431,7 +431,7 @@ Public Module ModCrewSchedulingMainSub
         sheet.Cells(Startrow, 9) = "下车时间"
         sheet.Cells(Startrow, 10) = "任务结束时间"
 
-        If csd.ModifiedCSLinkTrain(1).FirstStation.IsYard = True Then
+        If csd.ModifiedCSLinkTrain(1).FirstStation IsNot Nothing AndAlso csd.ModifiedCSLinkTrain(1).FirstStation.IsYard = True Then
             sheet.Cells(Startrow + 1, 2) = BeTime(csd.ModifiedCSLinkTrain(1).StartTime - csd.PreTrainTime)
         Else
             sheet.Cells(Startrow + 1, 2) = BeTime(csd.ModifiedCSLinkTrain(1).StartTime - csd.PreDutyTime)
@@ -736,11 +736,13 @@ Public Module ModCrewSchedulingMainSub
                                     Continue For
                                 End If
                                 myBook.Sheets(i + 1).Cells(tmpRow, 5 + 7 * (j - 1 + addLine)) = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).OutputCheCi
+                                '接车判断
                                 If ifArriveTime = False Then
                                     Dim arriveCheci As String = ""
                                     Dim maxTime As Integer = -1
                                     For z As Integer = 0 To CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains.Count - 1
-                                        If AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).EndTime) < AddLitterTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).CulStartTime) Then
+                                        If AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).EndTime) _
+                                            < AddLitterTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).CulStartTime) Then
                                             If AddLitterTime(maxTime) < AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).EndTime) Then
                                                 maxTime = CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).EndTime
                                                 arriveCheci = CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).OutputCheCi
@@ -758,6 +760,9 @@ Public Module ModCrewSchedulingMainSub
                                         End If
                                     End If
                                 End If
+
+
+                                '出车判断
                                 myBook.Sheets(i + 1).Cells(tmpRow, 6 + 7 * (j - 1 + addLine)) = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).OutputCheCi
                                 myBook.Sheets(i + 1).Cells(tmpRow, 7 + 7 * (j - 1 + addLine)) = BeTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).EndTime)
                                 myBook.Sheets(i + 1).Cells(tmpRow, 8 + 7 * (j - 1 + addLine)) = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).EndStaName
@@ -765,9 +770,10 @@ Public Module ModCrewSchedulingMainSub
                                     Dim offCheci As String = ""
                                     Dim maxTime As Integer = 10000000
                                     For z As Integer = 0 To CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains.Count - 1
-                                        If AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).StartTime) > AddLitterTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).CulEndTime) Then
-                                            If AddLitterTime(maxTime) > AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime) Then
-                                                maxTime = AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime)
+                                        If AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).StartTime) _
+                                            > AddLitterTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).CulEndTime) Then
+                                            If AddLitterTime(maxTime) > AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).StartTime) Then
+                                                maxTime = AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).StartTime)
                                                 offCheci = CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).OutputCheCi
                                             End If
                                         End If
@@ -775,9 +781,27 @@ Public Module ModCrewSchedulingMainSub
                                     If maxTime = 10000000 Then
                                         myBook.Sheets(i + 1).Cells(tmpRow, 7 + 7 * (j - 1 + addLine)) = BeTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).EndTime)
                                     Else
+                                        myBook.Sheets(i + 1).Cells(tmpRow, 6 + 7 * (j - 1 + addLine)) = offCheci
                                         myBook.Sheets(i + 1).Cells(tmpRow, 7 + 7 * (j - 1 + addLine)) = BeTime(maxTime)
                                     End If
                                 End If
+
+                                
+                                For Each item In CSTrainsAndDrivers.MergedCSLinkTrains
+
+                                    'If item IsNot Nothing AndAlso item.nCheDiID = 2 AndAlso item.nCheDiID = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID Then
+                                    '    Dim xa As Integer = 0
+                                    'End If
+
+                                    If item IsNot Nothing AndAlso item.nCheDiID = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID AndAlso item.beiche = 1 Then  '备车信息，1为入备车线，2为出备车线
+                                        myBook.Sheets(i + 1).Cells(tmpRow, 7 + 7 * (j - 1 + addLine)) = BeTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).EndTime)
+                                    ElseIf item IsNot Nothing AndAlso item.nCheDiID = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID AndAlso item.beiche = 2 Then
+                                        myBook.Sheets(i + 1).Cells(tmpRow, 3 + 7 * (j - 1 + addLine)) = BeTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).StartTime)
+                                    End If
+                                Next
+
+
+
                                 If j <> UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain) And (j - 1 + addLine) Mod 2 = 0 Then
                                     myBook.Sheets(i + 1).Cells(tmpRow, 9 + 7 * (j - 1 + addLine)) = "->"
                                 Else
@@ -803,30 +827,30 @@ Public Module ModCrewSchedulingMainSub
                                 frmpro.Performstep()
                             Next
 
-                            '备车
-                            If BeicheList.Keys.Contains(s) Then
-                                If BeicheList(s).Split("-")(0).ToString = "2" Then
-                                    myBook.Sheets(i + 1).Cells(tmpRow, 3 + 7 * (j - 1 + addLine)) = BeTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain)).EndTime)
-                                    myBook.Sheets(i + 1).Cells(tmpRow, 4 + 7 * (j - 1 + addLine)) = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain)).EndStaName
-                                    myBook.Sheets(i + 1).Cells(tmpRow, 5 + 7 * (j - 1 + addLine)) = "备车" + CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain)).OutputCheCi
-                                    myBook.Sheets(i + 1).Range(myBook.Sheets(i + 1).Cells(tmpRow, 5 + 7 * (j - 1 + addLine)), myBook.Sheets(i + 1).Cells(tmpRow, 6 + 7 * (j - 1 + addLine))).Merge()
-                                    myBook.Sheets(i + 1).Cells(tmpRow, 7 + 7 * (j - 1 + addLine)) = BeTime(Integer.Parse(BeicheList(s).Split("-")(1)))
-                                    myBook.Sheets(i + 1).Cells(tmpRow, 8 + 7 * (j - 1 + addLine)) = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain)).EndStaName
-                                    myBook.Sheets(i + 1).Cells(tmpRow, 9 + 7 * (j - 1 + addLine)) = "->"
-                                    addLine = 1
-                                End If
-                            End If
+            '备车
+            If BeicheList.Keys.Contains(s) Then
+                If BeicheList(s).Split("-")(0).ToString = "2" Then
+                    myBook.Sheets(i + 1).Cells(tmpRow, 3 + 7 * (j - 1 + addLine)) = BeTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain)).EndTime)
+                    myBook.Sheets(i + 1).Cells(tmpRow, 4 + 7 * (j - 1 + addLine)) = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain)).EndStaName
+                    myBook.Sheets(i + 1).Cells(tmpRow, 5 + 7 * (j - 1 + addLine)) = "备车" + CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain)).OutputCheCi
+                    myBook.Sheets(i + 1).Range(myBook.Sheets(i + 1).Cells(tmpRow, 5 + 7 * (j - 1 + addLine)), myBook.Sheets(i + 1).Cells(tmpRow, 6 + 7 * (j - 1 + addLine))).Merge()
+                    myBook.Sheets(i + 1).Cells(tmpRow, 7 + 7 * (j - 1 + addLine)) = BeTime(Integer.Parse(BeicheList(s).Split("-")(1)))
+                    myBook.Sheets(i + 1).Cells(tmpRow, 8 + 7 * (j - 1 + addLine)) = CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain)).EndStaName
+                    myBook.Sheets(i + 1).Cells(tmpRow, 9 + 7 * (j - 1 + addLine)) = "->"
+                    addLine = 1
+                End If
+            End If
 
 
-                            myBook.Sheets(i + 1).Range(myBook.Sheets(i + 1).Cells(tmpRow, tmpCol), myBook.Sheets(i + 1).Cells(tmpRow, tmpCol + 2 + maxDutyNum * 6 + maxDutyNum - 1)).Font.Size = "9"
-                            myBook.Sheets(i + 1).Range(myBook.Sheets(i + 1).Cells(tmpRow, tmpCol), myBook.Sheets(i + 1).Cells(tmpRow, tmpCol)).Font.Name = "宋体"
-                            With myBook.Sheets(i + 1).Range(myBook.Sheets(i + 1).Cells(tmpRow, tmpCol), myBook.Sheets(i + 1).Cells(tmpRow, tmpCol + 2 + maxDutyNum * 6 + maxDutyNum - 1))
-                                .HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter
-                                .VerticalAlignment = Microsoft.Office.Interop.Excel.XlVAlign.xlVAlignCenter
-                                '.AutoFit()
-                            End With
-                            tmpRow = tmpRow + 1
-                        End If
+            myBook.Sheets(i + 1).Range(myBook.Sheets(i + 1).Cells(tmpRow, tmpCol), myBook.Sheets(i + 1).Cells(tmpRow, tmpCol + 2 + maxDutyNum * 6 + maxDutyNum - 1)).Font.Size = "9"
+            myBook.Sheets(i + 1).Range(myBook.Sheets(i + 1).Cells(tmpRow, tmpCol), myBook.Sheets(i + 1).Cells(tmpRow, tmpCol)).Font.Name = "宋体"
+            With myBook.Sheets(i + 1).Range(myBook.Sheets(i + 1).Cells(tmpRow, tmpCol), myBook.Sheets(i + 1).Cells(tmpRow, tmpCol + 2 + maxDutyNum * 6 + maxDutyNum - 1))
+                .HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter
+                .VerticalAlignment = Microsoft.Office.Interop.Excel.XlVAlign.xlVAlignCenter
+                '.AutoFit()
+            End With
+            tmpRow = tmpRow + 1
+        End If
                     End If
                 Next
 
