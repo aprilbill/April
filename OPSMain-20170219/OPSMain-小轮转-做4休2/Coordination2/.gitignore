@@ -49,6 +49,9 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+[Pp]roperties/
+[Rr]esource/
+[Mm]y [Pp]roject/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
