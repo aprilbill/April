@@ -323,10 +323,9 @@ L:
                                 '    Next
                             End If
                     Case 2
-                        For Each key As Keys In arealunzhuan.Keys
+                        For Each key As String In arealunzhuan.Keys
                             If key = AreaName Then
-
-                                For i As Integer = 0 To arealunzhuan(AreaName).Count - 1
+                                For i As Integer = 1 To arealunzhuan(AreaName).Count - 1
                                     If ForDutySort = arealunzhuan(AreaName)(i) Then
                                         row.Cells("首日任务").Value = "日勤班/无任务"
                                         'End If

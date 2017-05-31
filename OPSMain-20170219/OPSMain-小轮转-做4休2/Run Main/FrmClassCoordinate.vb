@@ -629,6 +629,7 @@ N:
                 End If
 
                 AssignDuty(area.AvaDrivers, MDrivers, NDrivers, ADrivers, CDrivers, Me.StartDate.AddDays(i))          '根据往日工作量分配当天任务
+              
                 pro.Performstep()
             Next
         Next
@@ -789,7 +790,7 @@ N:
             Next
         Next
         morexiuxi = morexiuxi - xx
-        If morexiuxi > 0 And Teams(0).ClassName = "日勤班" And duties.Count > 0 Then
+        If morexiuxi > 0 AndAlso Teams.Count > 0 AndAlso Teams(0).ClassName = "日勤班" AndAlso duties.Count > 0 Then
 
             Call SortBytotalxiuxi(Teams)
             Dim i As Integer = 0

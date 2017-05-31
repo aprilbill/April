@@ -500,11 +500,13 @@ Public Module ModCrewSchedulingMainSub
                             End If
                         End If
                         Dim offCheci1 As String = ""
+                        Dim finaltime As Integer = 10000000
                         Dim maxTime As Integer = 10000000
                         For z As Integer = 0 To CSTrainsAndDrivers.CSChedi(csd.ModifiedCSLinkTrain(i).nCheDiID).CSLinkTrains.Count - 1
                             If AddLitterTime(CSTrainsAndDrivers.CSChedi(csd.ModifiedCSLinkTrain(i).nCheDiID).CSLinkTrains(z).StartTime) > AddLitterTime(csd.ModifiedCSLinkTrain(i).CulEndTime) Then
-                                If AddLitterTime(maxTime) > AddLitterTime(CSTrainsAndDrivers.CSChedi(csd.ModifiedCSLinkTrain(i).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime) Then
-                                    maxTime = CSTrainsAndDrivers.CSChedi(csd.ModifiedCSLinkTrain(i).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime
+                                If AddLitterTime(maxTime) > AddLitterTime(CSTrainsAndDrivers.CSChedi(csd.ModifiedCSLinkTrain(i).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime) - AddLitterTime(csd.ModifiedCSLinkTrain(i).CulEndTime) Then
+                                    maxTime = AddLitterTime(CSTrainsAndDrivers.CSChedi(csd.ModifiedCSLinkTrain(i).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime) - AddLitterTime(csd.ModifiedCSLinkTrain(i).CulEndTime)
+                                    finaltime = CSTrainsAndDrivers.CSChedi(csd.ModifiedCSLinkTrain(i).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime
                                     offCheci1 = CSTrainsAndDrivers.CSChedi(csd.ModifiedCSLinkTrain(i).nCheDiID).CSLinkTrains(z).OutputCheCi
                                 End If
                             End If
