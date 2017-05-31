@@ -431,7 +431,7 @@ Public Module ModCrewSchedulingMainSub
         sheet.Cells(Startrow, 9) = "下车时间"
         sheet.Cells(Startrow, 10) = "任务结束时间"
 
-        If csd.ModifiedCSLinkTrain(1).FirstStation.IsYard = True Then
+        If csd.ModifiedCSLinkTrain(1).FirstStation IsNot Nothing AndAlso csd.ModifiedCSLinkTrain(1).FirstStation.IsYard = True Then
             sheet.Cells(Startrow + 1, 2) = BeTime(csd.ModifiedCSLinkTrain(1).StartTime - csd.PreTrainTime)
         Else
             sheet.Cells(Startrow + 1, 2) = BeTime(csd.ModifiedCSLinkTrain(1).StartTime - csd.PreDutyTime)
@@ -764,9 +764,11 @@ Public Module ModCrewSchedulingMainSub
                                 If ifZhefanTime = True AndAlso ((j = UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain) AndAlso CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).SecondStation.IsYard = False) OrElse (j + 1 <= UBound(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain) AndAlso CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).UpOrDown <> CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j + 1).UpOrDown)) Then
                                     Dim offCheci As String = ""
                                     Dim maxTime As Integer = 10000000
+                                    Dim minDis As Integer = 10000000
                                     For z As Integer = 0 To CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains.Count - 1
                                         If AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).StartTime) > AddLitterTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).CulEndTime) Then
-                                            If AddLitterTime(maxTime) > AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime) Then
+                                            If minDis > AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime) - AddLitterTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).CulEndTime) Then
+                                                minDis = AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime) - AddLitterTime(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).CulEndTime)
                                                 maxTime = AddLitterTime(CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).FirstStation.ArriveTime)
                                                 offCheci = CSTrainsAndDrivers.CSChedi(CSTrainsAndDrivers.CSDrivers(s).ModifiedCSLinkTrain(j).nCheDiID).CSLinkTrains(z).OutputCheCi
                                             End If
@@ -1716,10 +1718,10 @@ Public Module ModCrewSchedulingMainSub
                         If chedi IsNot Nothing AndAlso chedi.CSCheDiId = train.nCheDiID Then
                             For Each sta As typeCrewStation In chedi.CrewSta
                                 If sta IsNot Nothing Then
-                                    If sta.CrewStaName = train.StartStaName AndAlso sta.CheCi = train.OutputCheCi Then
+                                    If sta.CrewStaName = train.StartStaName AndAlso sta.CheCi = train.OutputCheCi And sta.DepartTime = train.StartTime Then
                                         train.FirstStation = sta
                                     End If
-                                    If sta.CrewStaName = train.EndStaName AndAlso sta.CheCi = train.OffCheCi Then
+                                    If sta.CrewStaName = train.EndStaName AndAlso sta.CheCi = train.OffCheCi And sta.ArriveTime = train.EndTime Then
                                         train.SecondStation = sta
                                         train.OffUpOrDown = sta.FlagUpDown
                                     End If
