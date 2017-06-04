@@ -100,3 +100,9 @@ G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle
 G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\bin\Debug\Globle.pdb
 G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\obj\Debug\Globle.dll
 G:\课题组\1.乘务\OPSmain\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\obj\Debug\Globle.pdb
+G:\课题组\1.上海\OPSmain\github-2017.06.03\april\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\bin\Debug\Globle.dll.config
+G:\课题组\1.上海\OPSmain\github-2017.06.03\april\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\bin\Debug\Globle.dll
+G:\课题组\1.上海\OPSmain\github-2017.06.03\april\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\bin\Debug\Globle.pdb
+G:\课题组\1.上海\OPSmain\github-2017.06.03\april\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\obj\Debug\Globle.csprojResolveAssemblyReference.cache
+G:\课题组\1.上海\OPSmain\github-2017.06.03\april\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\obj\Debug\Globle.dll
+G:\课题组\1.上海\OPSmain\github-2017.06.03\april\OPSMain-20170219\OPSMain-小轮转-做4休2\Globle\obj\Debug\Globle.pdb
