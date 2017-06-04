@@ -1261,7 +1261,9 @@ Public Module ModCrewSchedulingMainSub
         IsDayDutyOnPlace = False
         Dim i As Integer
         For i = 1 To UBound(ShiftPlace)
-            If StationName = ShiftPlace(i).ShiftStationStationName And (ShiftPlace(i).Direction = tempFlagUpDown Or ShiftPlace(i).Direction = 2) And ShiftPlace(i).Routing = Routing Then
+            If StationName = ShiftPlace(i).ShiftStationStationName And _
+                (ShiftPlace(i).Direction = tempFlagUpDown Or ShiftPlace(i).Direction = 2) _
+                And ShiftPlace(i).Routing = Routing Then
                 If ShiftPlace(i).DayDutyStartTime = ShiftPlace(i).DayDutyEndTime Then
                     IsDayDutyOnPlace = True
                     Exit For

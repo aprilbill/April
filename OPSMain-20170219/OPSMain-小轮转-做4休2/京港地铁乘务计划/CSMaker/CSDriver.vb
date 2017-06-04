@@ -904,10 +904,16 @@ Public Class CSDriver
         
             Select Case Me.DutySort
                 Case "早班"
-                    If IsDayDutyOnPlace(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).UpOrDown, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) = False Then
+                    If IsDayDutyOnPlace(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName, _
+                                        Me.CSLinkTrain(UBound(Me.CSLinkTrain)).UpOrDown, _
+                                        Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName, _
+                                        Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) = False Then
                         CanDriveTheTrain = True '如果不在白班上班地点，必须接车
                     End If
-                    If IsDayDutyOnPlace(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).UpOrDown, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) Then
+                    If IsDayDutyOnPlace(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName, _
+                                        Me.CSLinkTrain(UBound(Me.CSLinkTrain)).UpOrDown, _
+                                        Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName, _
+                                        Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) Then
                         If Me.DriveDistance + 2 * Train.distance > CS_MorningMaxLength And ForceDriveLength = 1 Then '如果在下班地点，看是否要继续开
                             CanDriveTheTrain = False
                         End If
@@ -952,7 +958,10 @@ Public Class CSDriver
                 CanDriveTheTrain = False
             End If
             '判断休息时间
-            Dim restTime As Integer = ChangePlaceRestTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).UpOrDown, Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime)
+            Dim restTime As Integer = ChangePlaceRestTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName, _
+                                                          Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName, _
+                                                          Me.CSLinkTrain(UBound(Me.CSLinkTrain)).UpOrDown, _
+                                                          Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime)
             If restTime <> 0 AndAlso ((CanDriveTheTrain = False AndAlso SecTime - FirTime > 40 * 60) Or SecTime - FirTime < restTime Or Train.CSLinkTrains(1).nCheDiID = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).nCheDiID) Then
                 CanDriveTheTrain = False
             End If
@@ -1129,7 +1138,8 @@ Public Class CSDriver
                     If searchTime > 15 Then
                         Exit For
                     End If
-                    If CSTrainsAndDrivers.MergedCSLinkTrains(i).StartStaName = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName And (CSTrainsAndDrivers.MergedCSLinkTrains(i).CSLinkTrains(1).UpOrDown = direction Or direction = 2) Then
+                    If CSTrainsAndDrivers.MergedCSLinkTrains(i).StartStaName = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName _
+                        And (CSTrainsAndDrivers.MergedCSLinkTrains(i).CSLinkTrains(1).UpOrDown = direction Or direction = 2) Then
                         If AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(i).StartTime) > AddLitterTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) Then
                             Dim Rejiaolu As Boolean = False
                             For j As Integer = 1 To UBound(Jiaolu)
@@ -1169,7 +1179,9 @@ Public Class CSDriver
                                         skipBeiche += 1
                                     End If
                                 Next
-                                If i + interval + skipBeiche <= TrainList.Count - 1 AndAlso AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(TrainList(i + interval + skipBeiche)).StartTime) = AddLitterTime(Train.CSLinkTrains(1).StartTime) Then
+                                If i + interval + skipBeiche <= TrainList.Count - 1 AndAlso _
+                                    AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(TrainList(i + interval + skipBeiche)).StartTime) = _
+                                    AddLitterTime(Train.CSLinkTrains(1).StartTime) Then
                                     arrival = True
                                     Return arrival
                                 End If
