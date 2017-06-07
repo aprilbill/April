@@ -864,12 +864,13 @@ Public Class CSDriver
                 Return True
             End If
         End If
-
+        '如果dri和tmer交路名不同，CheckNextJiaolu显示两个交路也不能接续，返回False
         If Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName = Train.CSLinkTrains(1).StartStaName AndAlso FirTime <= SecTime Then                '一旦司机接非同一车底，该司机下车后必须有休息时间
             If Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName <> Train.CSLinkTrains(1).RoutingName And CheckNextJiaolu(Train) = False Then
                 Exit Function
             End If
             CanDriveTheTrain = True
+
             '先满足公里数
             Select Case Me.DutySort
                 Case "早班"

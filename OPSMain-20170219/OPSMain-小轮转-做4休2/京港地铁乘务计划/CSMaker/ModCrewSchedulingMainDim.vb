@@ -99,8 +99,8 @@ Public Module ModCrewSchedulingMainDim
     Public Class ChangeStation '轮换点，非上下班
         Public JiaoLuName As String '交路名称
         Public Name As String
-        Public Direction As Integer '上行0，下行1，双向2
-        Public UpTrainDirection As Integer '上行0，下行1，双向2
+        Public Direction As Integer '上行0，下行1，双向2  自身交路方向
+        Public UpTrainDirection As Integer '上行0，下行1，双向2  下一个接续交路方向
         Public TimeSpanList As clsTimeSpan
         Public RestTime As Integer '休息时间
         Public IfMustChange As Boolean = False
