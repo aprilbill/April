@@ -1426,7 +1426,9 @@ Public Module ModCrewSchedulingMainSub
         Next
     End Function
     Public Function ChangePlaceRestTime(ByVal StationName As String, ByVal tempsJiaoLuName As String, ByVal tempFlagUpDown As Integer, ByVal temptime As Integer, Optional ByVal searDir As Boolean = True) As Integer  '返回各休息点的休息时间
+
         ChangePlaceRestTime = 0
+
         For i As Integer = 0 To ChangeStationList.Count - 1
             If ChangeStationList(i).Name = StationName Then
                 If searDir = True Then

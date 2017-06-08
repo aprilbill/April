@@ -966,6 +966,7 @@ Public Class CSDriver
             If restTime <> 0 AndAlso ((CanDriveTheTrain = False AndAlso SecTime - FirTime > 40 * 60) Or SecTime - FirTime < restTime Or Train.CSLinkTrains(1).nCheDiID = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).nCheDiID) Then
                 CanDriveTheTrain = False
             End If
+
             '不是轮换点上下行一样的接车
             If restTime = 0 Then
                 If Me.CSLinkTrain(UBound(Me.CSLinkTrain)).SecondStation.IsYard = False And Me.CSLinkTrain(UBound(Me.CSLinkTrain)).SecondStation.IsLast = False Then
@@ -1113,10 +1114,15 @@ Public Class CSDriver
         Dim arrival As Boolean = False
         Dim interval As Integer = 0
         Dim direction As Integer = 0
+
+        '默认正向开始判断
         If Direct = False Then
+            '找到dri在终点站该方向的休息间隔FolloNo和方向
             For i = 0 To ChangeStationList.Count - 1
-                If ChangeStationList(i).Name = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName And ChangeStationList(i).JiaoLuName = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName Then
-                    If (ChangeStationList(i).Direction = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).UpOrDown Or ChangeStationList(i).Direction = 2) Then
+                If ChangeStationList(i).Name = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName And _
+                    ChangeStationList(i).JiaoLuName = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName Then
+                    If (ChangeStationList(i).Direction = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).UpOrDown Or _
+                        ChangeStationList(i).Direction = 2) Then
                         If ChangeStationList(i).TimeSpanList.EndTime = ChangeStationList(i).TimeSpanList.StartTime Then '没有时间限制
                             interval = ChangeStationList(i).FollowNo
                             direction = ChangeStationList(i).UpTrainDirection
@@ -1130,18 +1136,22 @@ Public Class CSDriver
                     End If
                 End If
             Next
+
             If interval <> 0 Then '没有间隔按时间则默认为可以接车
                 Dim TrainList As New List(Of Integer)
                 Dim minTime As Integer = 1000000000
                 Dim minIndex As Integer = -1
                 Dim searchTime As Integer = 0
+                '
                 For i As Integer = 1 To UBound(CSTrainsAndDrivers.MergedCSLinkTrains)
                     If searchTime > 15 Then
                         Exit For
                     End If
+                    '对于起始站在dri的终点站,且开始时间在dri停止时间之后的Merge,如果交路也能接得上,将该Merge添加到TrainList中, searchTime + 1
                     If CSTrainsAndDrivers.MergedCSLinkTrains(i).StartStaName = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName _
                         And (CSTrainsAndDrivers.MergedCSLinkTrains(i).CSLinkTrains(1).UpOrDown = direction Or direction = 2) Then
                         If AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(i).StartTime) > AddLitterTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) Then
+
                             Dim Rejiaolu As Boolean = False
                             For j As Integer = 1 To UBound(Jiaolu)
                                 If Jiaolu(j).JiaoluName = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName And Jiaolu(j).ReJiaoluName = CSTrainsAndDrivers.MergedCSLinkTrains(i).CSLinkTrains(1).RoutingName Then
@@ -1152,16 +1162,22 @@ Public Class CSDriver
                             If Rejiaolu = False Then
                                 Continue For
                             End If
-                            If CSTrainsAndDrivers.MergedCSLinkTrains(i).nCheDiID = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).nCheDiID And minTime > AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(i).StartTime) - AddLitterTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) Then
+                            '找到与dri车底号相同的，距离dri终止时间最近的Merge，记录为最短时间minTime和在所有Merge中的序号i
+                            If CSTrainsAndDrivers.MergedCSLinkTrains(i).nCheDiID = Me.CSLinkTrain(UBound(Me.CSLinkTrain)).nCheDiID And _
+                                minTime > AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(i).StartTime) - AddLitterTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) Then
                                 minTime = AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(i).StartTime) - AddLitterTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime)
                                 minIndex = i
                             End If
+
                             TrainList.Add(i)
                             searchTime += 1
+
                         End If
                     End If
                 Next
+                '如果TranList中有车（有车从该站离开）,且有能接续的同车底车minTime
                 If TrainList.Count >= interval And minIndex > -1 Then
+                    '按照开始时间从小到大对TranList排序
                     For i As Integer = 0 To TrainList.Count - 2
                         For j As Integer = i + 1 To TrainList.Count - 1
                             If AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(TrainList(i)).StartTime) > AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(TrainList(j)).StartTime) Then
@@ -1171,29 +1187,38 @@ Public Class CSDriver
                             End If
                         Next
                     Next
+
                     For i As Integer = 0 To TrainList.Count - 1
                         If TrainList(i) = minIndex Then
+
                             If i + interval <= TrainList.Count - 1 Then
+
                                 Dim skipBeiche As Integer = 0
                                 For j As Integer = 1 To interval
                                     If CSTrainsAndDrivers.MergedCSLinkTrains(TrainList(i + j)).beiche = 2 Then
                                         skipBeiche += 1
                                     End If
                                 Next
+                                '如果dri在该车底离开该站后休息FollowNo以及跳过备车后的任务正好是tmer，则返回True
                                 If i + interval + skipBeiche <= TrainList.Count - 1 AndAlso _
                                     AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(TrainList(i + interval + skipBeiche)).StartTime) = _
                                     AddLitterTime(Train.CSLinkTrains(1).StartTime) Then
+
                                     arrival = True
                                     Return arrival
                                 End If
                             End If
                             Exit For
+
                         End If
                     Next
                 End If
             Else
                 arrival = True
             End If
+
+
+
         Else
             For i = 0 To ChangeStationList.Count - 1
                 If ChangeStationList(i).Name = Train.CSLinkTrains(UBound(Train.CSLinkTrains)).EndStaName And ChangeStationList(i).JiaoLuName = Train.CSLinkTrains(UBound(Train.CSLinkTrains)).RoutingName Then
@@ -1217,7 +1242,7 @@ Public Class CSDriver
                 Dim minIndex As Integer = -1
 
                 For i As Integer = 1 To UBound(CSTrainsAndDrivers.MergedCSLinkTrains)
-                   
+
                     If CSTrainsAndDrivers.MergedCSLinkTrains(i).StartStaName = Train.CSLinkTrains(UBound(Train.CSLinkTrains)).EndStaName And (CSTrainsAndDrivers.MergedCSLinkTrains(i).CSLinkTrains(1).UpOrDown = direction Or direction = 2) Then
                         If AddLitterTime(CSTrainsAndDrivers.MergedCSLinkTrains(i).StartTime) > AddLitterTime(Train.CSLinkTrains(UBound(Train.CSLinkTrains)).EndTime) Then
                             Dim Rejiaolu As Boolean = False
@@ -1441,12 +1466,15 @@ Public Class CSDriver
             Case "夜班"
                 Me.State = "班中"
         End Select
+
         '==============用餐判断
         Dim dinnerTimeitem As typeDinnerStation = Nothing
         Dim banqian As Boolean = False
+
         For i As Integer = 1 To sysDinnerStation.Count - 1
             If sysDinnerStation(i).dutySort = Me.DutySort Then
                 If RefreshDirection = True Then
+                    '如果selectDri只有一个任务，吃饭交路与selectDri交路能够接续，SelectDri的起始车站是吃饭站, 起始时间在吃饭时间范围内，则该车站是吃饭车站, banqian = True
                     If UBound(Me.CSLinkTrain) = 1 Then
                         For j As Integer = 1 To UBound(Jiaolu)
                             If Jiaolu(j).JiaoluName = sysDinnerStation(i).Routing And Jiaolu(j).ReJiaoluName = Me.CSLinkTrain(1).RoutingName Then
@@ -1458,9 +1486,11 @@ Public Class CSDriver
                             End If
                         Next
                     End If
+                    '如果selectDri的终止车站是吃饭车站，交路符合，selectDri结束时间在吃饭时间内，该车站是吃饭车站
                     If Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndStaName = sysDinnerStation(i).DinnerStationName AndAlso Me.CSLinkTrain(UBound(Me.CSLinkTrain)).RoutingName = sysDinnerStation(i).Routing And AddLitterTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) >= AddLitterTime(sysDinnerStation(i).dinnerStartTime) And AddLitterTime(Me.CSLinkTrain(UBound(Me.CSLinkTrain)).EndTime) <= AddLitterTime(sysDinnerStation(i).dinnerEndTime) Then '防止白班出现2次吃饭，也只有白班可能出现
                         dinnerTimeitem = sysDinnerStation(i)
                     End If
+
                 Else
                     For j As Integer = 1 To UBound(Jiaolu)
                         If Jiaolu(j).JiaoluName = sysDinnerStation(i).Routing And Jiaolu(j).ReJiaoluName = Me.CSLinkTrain(1).RoutingName Then
@@ -1473,6 +1503,7 @@ Public Class CSDriver
                 End If
             End If
         Next
+
         If dinnerTimeitem IsNot Nothing Then
             If RefreshDirection = True Then
                 If Me.FlagDinner = False Then
@@ -1493,12 +1524,14 @@ Public Class CSDriver
                 Else
                     If AllDinnerInfo.Count > 0 Then
                         Dim ifhaveSameDinnerItem As Boolean = False
+
                         For Each dinneritem As typeDinnerStation In AllDinnerInfo.Values
                             If dinnerTimeitem.dinnerType = dinneritem.dinnerType Then
                                 ifhaveSameDinnerItem = True
                                 Exit For
                             End If
                         Next
+
                         If ifhaveSameDinnerItem = False Then
                             Me.State = "用餐"
                             Me.FlagDinner = True
@@ -1542,6 +1575,7 @@ Public Class CSDriver
         '==============班后判断
         Dim isavatrains As Boolean = False
         If RefreshDirection = True Then
+
             If UBound(CSTrainsAndDrivers.MergedCSLinkTrains) > 0 Then
                 For i As Integer = 1 To UBound(CSTrainsAndDrivers.MergedCSLinkTrains)
                     If IFZIDONG = False Then
@@ -1557,6 +1591,7 @@ Public Class CSDriver
                     End If
                 Next
             End If
+
             If isavatrains = False Then
                 Me.State = "班后"
             End If
