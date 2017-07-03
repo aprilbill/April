@@ -674,6 +674,8 @@ N:
         'AssignDuty(Teams, Mdrivers, _date, True)         '=========将最后未分配的司机以当前休息的司机进行顶替
         Call SortByWorkTime(Teams)
         Call SortByChubanNum(Teams)
+        AssignDuty(Teams, Adrivers, _date, 2)             '=========如果有未安排的任务，考虑不遵守不重复规则进行排班
+        AssignDuty(Teams, Mdrivers, _date, 2)
         AssignDuty(Teams, Ndrivers, _date, 2)
         AssignDuty(Teams, Cdrivers, _date, 2)
 
