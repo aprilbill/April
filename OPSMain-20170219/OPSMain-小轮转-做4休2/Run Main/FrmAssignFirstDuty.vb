@@ -548,7 +548,7 @@ L:
                 'If dutySort = "无任务" Then
                 '    DriverNo = dutySort
                 'Else
-                If dutystr.Contains("无任务") Then
+                If dutystr.Contains("SP") Then
                 Else
                     If dutySort = "早班" Then
                         DriverNo = dutystr.Substring(dutystr.IndexOf("/") + 1, dutystr.IndexOf("(") - dutystr.IndexOf("/") - 1)
@@ -711,6 +711,9 @@ L:
                 Else
                     decidemode = 2
                 End If
+                Static Dim Adriveroff As Integer = 1  '晚班休息
+                Static Dim Ndriveroff As Integer = 1  '白班休息
+                Static Dim Mdriveroff As Integer = 1  '早班休息
                 Select Case decidemode
                     Case 1
                         If YunZhuanPara = "四班两转" Then
@@ -730,7 +733,8 @@ L:
                                         Next
                                     End If
                                     If iFAssigned = False Then
-                                        row.Cells("首日任务").Value = "早班/无任务"
+                                        row.Cells("首日任务").Value = "早班/SP" + Mdriveroff.ToString
+                                        Mdriveroff += 1
                                     End If
                                     row.Cells("首日任务").Tag = "早班"
                                 Case "白班"
@@ -745,7 +749,8 @@ L:
 
                                     Next
                                     If IsAssigned = False Then
-                                        row.Cells("首日任务").Value = "白班/无任务"
+                                        row.Cells("首日任务").Value = "白班/SP" + Ndriveroff.ToString
+                                        Ndriveroff += 1
                                     End If
                                 Case "夜班"
                                     Dim IsAssigned As Boolean = False
@@ -759,7 +764,8 @@ L:
 
                                     Next
                                     If IsAssigned = False Then
-                                        row.Cells("首日任务").Value = "夜班/无任务"
+                                        row.Cells("首日任务").Value = "夜班/SP" + Adriveroff.ToString
+                                        Adriveroff += 1
                                     End If
                                     'row.Cells("首日班种").Value = "早班"
                                 Case "休息"
@@ -808,7 +814,8 @@ L:
                                         Next
                                     End If
                                     If iFAssigned = False Then
-                                        row.Cells("首日任务").Value = "早班/无任务"
+                                        row.Cells("首日任务").Value = "早班/SP" + Mdriveroff.ToString
+                                        Mdriveroff += 1
                                     End If
                                     row.Cells("首日任务").Tag = "早班"
                                 Case "白班"
@@ -823,7 +830,8 @@ L:
 
                                     Next
                                     If IsAssigned = False Then
-                                        row.Cells("首日任务").Value = "白班/无任务"
+                                        row.Cells("首日任务").Value = "白班/SP" + Ndriveroff.ToString
+                                        Ndriveroff += 1
                                     End If
                                 Case "夜班"
                                     Dim IsAssigned As Boolean = False
@@ -837,7 +845,8 @@ L:
 
                                     Next
                                     If IsAssigned = False Then
-                                        row.Cells("首日任务").Value = "夜班/无任务"
+                                        row.Cells("首日任务").Value = "夜班/SP" + Adriveroff.ToString
+                                        Adriveroff += 1
                                     End If
                                     'row.Cells("首日班种").Value = "早班"
                                 Case "休息"

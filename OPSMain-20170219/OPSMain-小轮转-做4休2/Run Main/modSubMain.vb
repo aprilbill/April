@@ -332,6 +332,34 @@ Module modSubMain
             Next
         End If
     End Sub
+    Public Sub SortByWorkTimebalance(ByVal drivers As List(Of Coordination2.CSDriver), Optional ByVal IFDESC As Boolean = False)           '按照工作时间排序===均衡
+        If drivers.Count > 1 Then
+            For i As Integer = 0 To drivers.Count - 2
+                For j As Integer = i + 1 To drivers.Count - 1
+                    Dim tempDri As Coordination2.CSDriver = Nothing
+                        If drivers(j).DriveDistance < drivers(i).DriveDistance Then
+                            tempDri = drivers(i)
+                            drivers(i) = drivers(j)
+                            drivers(j) = tempDri
+                    End If
+                Next
+            Next
+            Dim averse As New List(Of Coordination2.CSDriver)
+            Dim endnum = drivers.Count - 1
+            For i As Integer = 0 To drivers.Count / 2
+                If i <> endnum And i < endnum Then
+                    averse.Add(drivers(i))
+                    averse.Add(drivers(endnum))
+                    endnum -= 1
+                ElseIf i = endnum Then
+                    averse.Add(drivers(i))
+                End If
+            Next
+            For i As Integer = 0 To drivers.Count - 1
+                drivers(i) = averse(i)
+            Next
+        End If
+    End Sub
 
     Public Sub SortByWorkTime(ByVal drivers As List(Of AMDriver), Optional ByVal IFDESC As Boolean = False)           '按照工作时间排序
         If drivers.Count > 1 Then
