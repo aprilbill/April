@@ -705,7 +705,7 @@ L:
                     DriverNo = cellStr.Split("/")(1)
                 End If
 
-               Dim decidemode As Integer = 0
+                Dim decidemode As Integer = 0
                 If AreaName = "主区域" Or arealunzhuan.Keys.Contains(AreaName) = False Then      '没有定制轮转匹配的区域按主区域处理
                     decidemode = 1
                 Else

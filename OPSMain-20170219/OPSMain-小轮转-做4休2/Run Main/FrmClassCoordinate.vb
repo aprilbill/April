@@ -627,7 +627,7 @@ N:
                         'End If
                     Next
                 End If
-                AssignDuty(area.AvaDrivers, MDrivers, NDrivers, ADrivers, CDrivers, Me.StartDate.AddDays(i), area.AreaName)          '根据往日工作量分配当天任务
+                AssignDuty(area.AvaDrivers, MDrivers, NDrivers, ADrivers, CDrivers, Me.StartDate.AddDays(i), area.AreaName, i)          '根据往日工作量分配当天任务
                 pro.Performstep()
             Next
         Next
@@ -635,7 +635,7 @@ N:
     End Sub
 
     Public Sub AssignDuty(ByVal Teams As List(Of CrewTrainingManager.DriverTeam), ByVal Mdrivers As List(Of Coordination2.CSDriver), ByVal Ndrivers As List(Of Coordination2.CSDriver), ByVal Adrivers As List(Of Coordination2.CSDriver), _
-                          ByVal Cdrivers As List(Of Coordination2.CSDriver), ByVal _date As Date, ByVal areaname As String)
+                          ByVal Cdrivers As List(Of Coordination2.CSDriver), ByVal _date As Date, ByVal areaname As String, ByVal dayth As Integer)
         '===================将任务排序
 
         Call SortByWorkTime(Mdrivers, True)         '将任务均按照工作量倒排序
@@ -654,8 +654,8 @@ N:
         Call CheckCSDrivers(Adrivers, _date)            '夜班
         Call CheckCSDrivers(Cdrivers, _date)
 
-        AssignDutyfixed(Teams, Mdrivers, _date, areaname)            '早班排班     '============找优先满足班种的司机先接任务
-        AssignDutyfixed(Teams, Ndrivers, _date, areaname)            '白班排班
+        AssignDutyfixed(Teams, Mdrivers, _date, areaname, dayth)            '早班排班     '============找优先满足班种的司机先接任务
+        AssignDutyfixed(Teams, Ndrivers, _date, areaname, dayth)            '白班排班
 
         Dim OutDepotAdris As New List(Of Coordination2.CSDriver)            '===============先安排夜班段场出的任务
         For Each dri As Coordination2.CSDriver In Adrivers
@@ -665,12 +665,12 @@ N:
         Next
         ' Call SortByWorkTime(Teams)
         ' Call SortByOutDepotNum(Teams)
-        AssignDutyfixed(Teams, OutDepotAdris, _date, areaname)        '夜班段场排班 
+        AssignDutyfixed(Teams, OutDepotAdris, _date, areaname, dayth)        '夜班段场排班 
 
 
         ' Call SortByWorkTime(Teams)
 
-        AssignDutyfixed(Teams, Adrivers, _date, areaname)             '夜班排班 
+        AssignDutyfixed(Teams, Adrivers, _date, areaname, dayth)             '夜班排班 
         AssignDuty(Teams, Cdrivers, _date)
         'AssignDuty(Teams, Mdrivers, _date, True)         '=========将最后未分配的司机以当前休息的司机进行顶替
         Call SortByWorkTime(Teams)
@@ -771,7 +771,8 @@ N:
         Next
     End Sub
 
-    Public Sub AssignDutyfixed(ByVal Teams As List(Of CrewTrainingManager.DriverTeam), ByVal duties As List(Of Coordination2.CSDriver), ByVal _date As Date, ByVal areaname As String, Optional freelevel As Integer = 1)
+    Public Sub AssignDutyfixed(ByVal Teams As List(Of CrewTrainingManager.DriverTeam), ByVal duties As List(Of Coordination2.CSDriver),
+                               ByVal _date As Date, ByVal areaname As String, ByVal dayth As Integer, Optional freelevel As Integer = 1)
         If duties.Count <= 0 Then
             Exit Sub
         End If
@@ -801,13 +802,14 @@ N:
             MsgBox(areaname + duties(0).DutySort.ToString + "任务人数不足")
             Exit Sub
         End If
-        If _date.Date = "2017/7/11" And duties(0).DutySort = "夜班" Then
-            Dim a As Integer
-            a = 1
-        End If
+        'If _date.Date = "2017/7/12" And duties(0).DutySort = "白班" Then
+        '    Dim a As Integer
+        '    a = 1
+        'End If
 
 
         Dim spnum As Integer = 1
+        Dim origindutynum As Integer = dutynum
         While dutynum < teamnum              '设置（队伍-任务）数量的空闲班
             Dim tempDri As New Coordination2.CSDriver
             Select Case duties(0).DutySort
@@ -819,18 +821,6 @@ N:
                     tempDri.DutySort = duties(0).DutySort
                     tempDri.CSdriverNo = "SP" + spnum.ToString
                     tempDri.OutPutCSDriverNo = "SP" + spnum.ToString
-                    For Each team As CrewTrainingManager.DriverTeam In Teams              '将夜早连班设置的早班去除
-                        Dim ToJob As Coordination2.DriverDayJob = team.CoDrivers(0).DriverDayJobs.Find(Function(value As Coordination2.DriverDayJob)
-                                                                                                           Return value.Date.Date = _date.Date
-                                                                                                       End Function)
-                        If ToJob.CSDriverNo <> "" Then
-                            For Each duty As Coordination2.CSDriver In duties
-                                If duty.CSdriverNo = ToJob.CSDriverNo Then
-                                    duty.FlagDinner = True
-                                End If
-                            Next
-                        End If
-                    Next
                 Case "白班"
                     tempDri.startdutytime = 9 * 3600
                     tempDri.endtime = 17 * 3600
@@ -857,18 +847,23 @@ N:
             GoTo assignment
         End If
 
+        Dim s As String = AreaYunZhuanS(0).AmCons(dayth).MCSTimetableID
         Call SortByWorkTimebalance(duties)   '按照任务一大一小排列班种
-        Dim dayloop As Integer               '班种循环周期
-        For Each area As AreaYunZhuan In AreaYunZhuanS
-            If area.AreaName = "主区域" Then
-                Select Case area.YunZhuanPara
-                    Case "四班两转"
-                        dayloop = 4
-                    Case "五班三转"
-                        dayloop = 5
-                End Select
-            End If
+        Dim l As String
+        For i As Integer = 0 To duties.Count - 1
+            l = l + " " + duties(i).CSdriverNo.ToString
         Next
+        'Dim dayloop As Integer               '班种循环周期
+        'For Each area As AreaYunZhuan In AreaYunZhuanS
+        '    If area.AreaName = "主区域" Then
+        '        Select Case area.YunZhuanPara
+        '            Case "四班两转"
+        '                dayloop = 4
+        '            Case "五班三转"
+        '                dayloop = 5
+        '        End Select
+        '    End If
+        'Next
         Dim dutysortnum As Integer = 0                           '该班种（乘务组）排列后的第几个乘务员
         For Each team As CrewTrainingManager.DriverTeam In Teams
             Dim ToJob As Coordination2.DriverDayJob = team.CoDrivers(0).DriverDayJobs.Find(Function(value As Coordination2.DriverDayJob)
@@ -878,10 +873,23 @@ N:
                 Dim selectTeam As CrewTrainingManager.DriverTeam = Nothing
                 Dim selectduty As Coordination2.CSDriver = Nothing
                 selectTeam = team
+                Dim preduty As Coordination2.DriverDayJob = Nothing
                 '查询上一次该班种的任务是什么
-                Dim preduty As Coordination2.DriverDayJob = team.CoDrivers(0).DriverDayJobs.Find(Function(value As Coordination2.DriverDayJob)
-                                                                                                     Return value.Date.Date = _date.Date.AddDays(-dayloop)
-                                                                                                 End Function)
+                For i As Integer = 1 To dayth
+                    Dim todayJob As Coordination2.DriverDayJob = team.CoDrivers(0).DriverDayJobs.Find(Function(value As Coordination2.DriverDayJob)
+                                                                                                          Return value.Date.Date = _date.Date
+                                                                                                      End Function)
+                    Dim thatdayJob As Coordination2.DriverDayJob = team.CoDrivers(0).DriverDayJobs.Find(Function(value As Coordination2.DriverDayJob)
+                                                                                                            Return value.Date.Date = _date.Date.AddDays(-i)
+                                                                                                        End Function)
+                    '找到上一个任务图相同且班种相同的日期
+                    If AreaYunZhuanS(0).AmCons(dayth).MCSTimetableID = AreaYunZhuanS(0).AmCons(dayth - i).MCSTimetableID And todayJob.DutySort = thatdayJob.DutySort Then
+                        preduty = team.CoDrivers(0).DriverDayJobs.Find(Function(value As Coordination2.DriverDayJob)
+                                                                           Return value.Date.Date = _date.Date.AddDays(-i)
+                                                                       End Function)
+                        Exit For
+                    End If
+                Next
                 Dim index As Integer = -1
                 If preduty IsNot Nothing Then
                     index = duties.FindIndex(Function(value As Coordination2.CSDriver)
@@ -959,6 +967,7 @@ assignment:
                 Next
             End If
         Next
+
         For Each duty As Coordination2.CSDriver In duties
             If duty.FlagDinner = False Then
                 Dim a As Integer
@@ -2275,7 +2284,7 @@ assignment:
                                                                                    Return value.ADate = temcon.ADate AndAlso value.MDate = temcon.MDate
                                                                                End Function)
                             For Each ndri As Coordination2.CSDriver In SelectAmcon.NDrivers
-                                If ndri IsNot Nothing AndAlso ndri.BelongArea = area.AreaName Then
+                                If ndri IsNot Nothing AndAlso (ndri.BelongArea = area.AreaName Or ndri.BelongArea = "") Then     '备车的所属区域为空，但班种对应也可以添加
                                     Dim tempdri As Coordination2.CSDriver = ndri
                                     Dim index As Integer = amcon.NDrivers.FindIndex(Function(value As Coordination2.CSDriver)
                                                                                         Return value Is tempdri

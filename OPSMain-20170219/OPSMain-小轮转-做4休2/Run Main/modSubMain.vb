@@ -338,9 +338,15 @@ Module modSubMain
                 For j As Integer = i + 1 To drivers.Count - 1
                     Dim tempDri As Coordination2.CSDriver = Nothing
                         If drivers(j).DriveDistance < drivers(i).DriveDistance Then
+                        tempDri = drivers(i)
+                        drivers(i) = drivers(j)
+                        drivers(j) = tempDri
+                    ElseIf drivers(j).DriveDistance = drivers(i).DriveDistance Then
+                        If drivers(j).OutPutCSDriverNo < drivers(i).OutPutCSDriverNo Then
                             tempDri = drivers(i)
                             drivers(i) = drivers(j)
                             drivers(j) = tempDri
+                        End If
                     End If
                 Next
             Next
