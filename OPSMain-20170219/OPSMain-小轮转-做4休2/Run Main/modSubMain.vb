@@ -332,12 +332,29 @@ Module modSubMain
             Next
         End If
     End Sub
-    Public Sub SortByWorkTimebalance(ByVal drivers As List(Of Coordination2.CSDriver), Optional ByVal IFDESC As Boolean = False)           '按照工作时间排序===均衡
+
+    Public Sub SortbyName(ByVal drivers As List(Of Coordination2.CSDriver))
         If drivers.Count > 1 Then
             For i As Integer = 0 To drivers.Count - 2
                 For j As Integer = i + 1 To drivers.Count - 1
                     Dim tempDri As Coordination2.CSDriver = Nothing
-                        If drivers(j).DriveDistance < drivers(i).DriveDistance Then
+                    Dim a As String = drivers(j).CSdriverNo.Substring(drivers(j).CSdriverNo.Length - 2, 2)
+                    If drivers(j).CSdriverNo.Substring(drivers(j).CSdriverNo.Length - 2, 2) < drivers(i).CSdriverNo.Substring(drivers(i).CSdriverNo.Length - 2, 2) Then
+                        tempDri = drivers(i)
+                        drivers(i) = drivers(j)
+                        drivers(j) = tempDri
+                    End If
+                Next
+            Next
+        End If
+    End Sub
+
+    Public Sub SortByWorkTimebalance(ByVal drivers As List(Of Coordination2.CSDriver))           '按照工作时间排序===均衡
+        If drivers.Count > 1 Then
+            For i As Integer = 0 To drivers.Count - 2
+                For j As Integer = i + 1 To drivers.Count - 1
+                    Dim tempDri As Coordination2.CSDriver = Nothing
+                    If drivers(j).DriveDistance < drivers(i).DriveDistance Then
                         tempDri = drivers(i)
                         drivers(i) = drivers(j)
                         drivers(j) = tempDri
@@ -453,12 +470,12 @@ Module modSubMain
             For i As Integer = 0 To teams.Count - 2
                 For j As Integer = i + 1 To teams.Count - 1
                     Dim tempTeam As CrewTrainingManager.DriverTeam = Nothing
-                        Dim x As Integer = teams(i).CoDrivers(0).TotalXiuxiDayNum
-                        Dim y As Integer = teams(j).CoDrivers(0).TotalXiuxiDayNum
-                        If y < x Then
-                            tempTeam = teams(i)
-                            teams(i) = teams(j)
-                            teams(j) = tempTeam
+                    Dim x As Integer = teams(i).CoDrivers(0).TotalXiuxiDayNum
+                    Dim y As Integer = teams(j).CoDrivers(0).TotalXiuxiDayNum
+                    If y < x Then
+                        tempTeam = teams(i)
+                        teams(i) = teams(j)
+                        teams(j) = tempTeam
                     End If
                 Next
             Next
