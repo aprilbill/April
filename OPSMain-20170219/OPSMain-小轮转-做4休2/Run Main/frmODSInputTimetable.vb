@@ -54,7 +54,7 @@ Public Class frmODSInputTimetable
                 If (Me.cmbTrainDiaName.SelectedItem.ToString.Trim <> "" AndAlso CheckBox1.Checked = True) Then
                     Call InputTimeTable(sTrainDiagramID, Me.cmbTrainDiaName.Text.ToString.Trim)
                 End If
-                Me.Dispose()
+                'Me.Dispose()
             Else
 
                 Exit Sub
@@ -597,11 +597,11 @@ Public Class frmODSInputTimetable
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If MsgBox("是否删除2号线东段运行线？", MsgBoxStyle.OkCancel, "提醒") = MsgBoxResult.Cancel Then
+        If MsgBox("是否删除所有运行图的调试车？", MsgBoxStyle.OkCancel, "提醒") = MsgBoxResult.Cancel Then
             Exit Sub
         End If
         Dim network As DataTable = New DataTable()
-        Dim Str As String = "select traindiagramid,linktrainnum from tms_stockusinginfo t where t.routingstyle='广兰路-->浦东国际机场' or t.routingstyle='浦东国际机场-->广兰路' or t.routingstyle='远东大道-->川沙停车场' or t.routingstyle='远东大道-->广兰路' or t.routingstyle='川沙停车场-->远东大道'or t.routingstyle='浦东国际机场-->远东大道' or t.routingstyle='远东大道-->浦东国际机场' or t.routingstyle='广兰路-->远东大道'"
+        Dim Str As String = "select traindiagramid,linktrainnum from tms_stockusinginfo t where t.RUNSCALESTYLE='调试车'"
         network = Globle.Method.ReadDataForAccess(Str)
         If network.Rows.Count < 1 Then
             MsgBox("无需整理运行图！", MsgBoxStyle.OkOnly, "注意")
@@ -613,7 +613,7 @@ Public Class frmODSInputTimetable
             Globle.Method.UpdateDataForAccess(Str)
             Progress.ProgressForm.PerformStep()
         Next
-        Str = "delete from tms_stockusinginfo t where t.routingstyle='广兰路-->浦东国际机场' or t.routingstyle='浦东国际机场-->广兰路' or t.routingstyle='远东大道-->川沙停车场' or t.routingstyle='远东大道-->广兰路' or t.routingstyle='川沙停车场-->远东大道'or t.routingstyle='浦东国际机场-->远东大道' or t.routingstyle='远东大道-->浦东国际机场' or t.routingstyle='广兰路-->远东大道'"
+        Str = "delete from tms_stockusinginfo t where t.RUNSCALESTYLE='调试车'"
         Globle.Method.UpdateDataForAccess(Str)
         Progress.ProgressForm.PerformStep()
         Progress.ProgressForm.EndProgress()
