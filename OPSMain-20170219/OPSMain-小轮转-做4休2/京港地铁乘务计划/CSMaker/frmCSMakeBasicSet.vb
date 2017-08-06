@@ -179,14 +179,20 @@ Public Class frmCSMakeBasicSet
         NoonWorkTime = Me.dtNoonWTime.Value.TimeOfDay.TotalSeconds
         NightWorkTime = Me.dtNigWTime.Value.TimeOfDay.TotalSeconds
 
-        CS_MorningMaxLength = CDec(Me.TxTMorningLength.Text.Trim)
-        CS_DayMaxLength = CDec(Me.TxTDayLength.Text.Trim)
-        CS_CDayMaxLength = CDec(Me.TXTCDayLength.Text.Trim)
-        CS_NightMaxLength = CDec(Me.TxTNightLength.Text.Trim)
-        CS_MorningMinLength = CDec(Me.TxTMinMorningLength.Text.Trim)
-        CS_DayMinLength = CDec(Me.TxTMinDayLength.Text.Trim)
-        CS_CDayMinLength = CDec(Me.TXTMinCDayLength.Text.Trim)
-        CS_NightMinLength = CDec(Me.TxTMinNightLength.Text.Trim)
+        If Me.TxTMorningLength.Text.Trim <> "" AndAlso Me.TxTDayLength.Text.Trim <> "" AndAlso Me.TXTCDayLength.Text.Trim <> "" AndAlso Me.TxTNightLength.Text.Trim <> "" _
+             AndAlso Me.TxTMinMorningLength.Text.Trim <> "" AndAlso Me.TxTMinDayLength.Text.Trim <> "" AndAlso Me.TXTMinCDayLength.Text.Trim <> "" AndAlso Me.TxTMinNightLength.Text.Trim <> "" Then
+            CS_MorningMaxLength = CDec(Me.TxTMorningLength.Text.Trim)
+            CS_DayMaxLength = CDec(Me.TxTDayLength.Text.Trim)
+            CS_CDayMaxLength = CDec(Me.TXTCDayLength.Text.Trim)
+            CS_NightMaxLength = CDec(Me.TxTNightLength.Text.Trim)
+            CS_MorningMinLength = CDec(Me.TxTMinMorningLength.Text.Trim)
+            CS_DayMinLength = CDec(Me.TxTMinDayLength.Text.Trim)
+            CS_CDayMinLength = CDec(Me.TXTMinCDayLength.Text.Trim)
+            CS_NightMinLength = CDec(Me.TxTMinNightLength.Text.Trim)
+        Else
+            MsgBox("参数不能为空")
+            Exit Sub
+        End If
         If CheckBox1.Checked = True Then '强制公里数
             ForceDriveLength = 1
         Else
@@ -283,7 +289,7 @@ Public Class frmCSMakeBasicSet
         Catch ex As Exception
             MsgBox("换班地点保存失败！")
         End Try
-       
+
 
         Try
             '将上班地点信息存到数据库中 ok
@@ -312,7 +318,7 @@ Public Class frmCSMakeBasicSet
         Catch ex As Exception
             MsgBox("上班地点保存失败！")
         End Try
-      
+
 
 
         Try
@@ -353,7 +359,7 @@ Public Class frmCSMakeBasicSet
         Catch ex As Exception
             MsgBox("用餐参数保存失败！")
         End Try
-      
+
         Try
             '将交路信息存到数据库中 ok
             sqlstr = "DELETE FROM CS_ROUTINGINF WHERE LINEID='" & CStr(strCurlineID) & "' and TIMETABLEID='" & CStr(DiagramCurID) & "'"

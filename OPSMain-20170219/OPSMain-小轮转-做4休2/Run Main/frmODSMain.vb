@@ -144,10 +144,10 @@ Public Class frmODSMain
         Try
             Dim filename As String = Application.StartupPath & "\VersonInfo.dat"
             VersionList = GetVersionInfo(filename)
-            Me.Text = "CS主界面-上海地铁 " & VersionList & "版(" & CurLineName & ")"
+            Me.Text = "CS主界面-北京地铁 " & VersionList & "版(" & CurLineName & ")"
         Catch ex As Exception
         End Try
-        pnlMap.BackgroundImage = Image.FromFile(".\Config\上海地铁.jpg")
+        pnlMap.BackgroundImage = Image.FromFile(".\Config\北京地铁15号线.jpg")
         GetSta()
         For Each linename As String In Stalist.Keys
             TreeView1.Nodes.Add(linename, linename)
