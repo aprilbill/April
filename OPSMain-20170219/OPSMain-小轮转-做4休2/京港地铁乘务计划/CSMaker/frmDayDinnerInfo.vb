@@ -29,10 +29,15 @@
         For Each row As DataGridViewRow In Me.DataGridView1.Rows
             For i As Integer = 1 To UBound(sysDinnerStation)
                 If sysDinnerStation(i).dutySort = "白班" AndAlso sysDinnerStation(i).dinnerType = "午餐" Then
-                    If sysDinnerStation(i).DinnerStationName = row.Cells("用餐地点").Value.ToString Then
+                    If sysDinnerStation(i).DinnerStationName = row.Cells("用餐地点").Value.ToString _
+                        AndAlso row.Cells("实际替饭人数").Value.ToString <> "" _
+                        AndAlso row.Cells("新增替饭人数").Value.ToString <> "" Then
                         sysDinnerStation(i).RealDinnerDriverNum = row.Cells("实际替饭人数").Value.ToString
                         sysDinnerStation(i).AddNewDinnerDriverNum = row.Cells("新增替饭人数").Value.ToString
                         sysDinnerStation(i).IfOnlyDinner = row.Cells("是否只替饭").Value
+                    Else
+                        MsgBox("请先计算实际人数")
+                        Exit Sub
                     End If
                 End If
             Next

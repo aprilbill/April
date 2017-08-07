@@ -814,6 +814,21 @@ Public Class CSDriver
                             CanDriveTheTrain1 = False
                         End If
                 End Select
+                '白班最多6个交路，夜班最多5个交路，早班最多3个交路,如果最后/最早一个交路是回库，可以延长一个
+                Select Case Me.DutySort
+                    Case "早班"
+                        If (UBound(Me.CSLinkTrain)) >= 3 Then
+                            CanDriveTheTrain1 = False
+                        End If
+                    Case "白班"
+                        If (UBound(Me.CSLinkTrain)) >= 6 Then
+                            CanDriveTheTrain1 = False
+                        End If
+                    Case "夜班"
+                        If (UBound(Me.CSLinkTrain)) >= 5 Then
+                            CanDriveTheTrain1 = False
+                        End If
+                End Select
                 '考虑出勤点
                 Dim preRestTime As Integer = ChangePlaceRestTime(Train.CSLinkTrains(1).StartStaName, Train.CSLinkTrains(1).RoutingName, Train.CSLinkTrains(1).UpOrDown, Train.CSLinkTrains(1).CulStartTime, False)
                 Select Case Me.DutySort
@@ -840,6 +855,7 @@ Public Class CSDriver
                         End If
                 End Select
             End If
+
         End If
     End Function
 
@@ -935,6 +951,22 @@ Public Class CSDriver
                     CanDriveTheTrain = True
                 End If
             End If
+            '白班最多6个交路，夜班最多5个交路，早班最多3个交路,如果最后/最早一个交路是回库，可以延长一个
+            Select Me.DutySort
+                Case "早班"
+                        If (UBound(Me.CSLinkTrain)) >= 3 Then
+                            CanDriveTheTrain = False
+                        End If
+                Case "白班"
+                    If (UBound(Me.CSLinkTrain)) >= 6 Then
+                        CanDriveTheTrain = False
+                    End If
+                Case "夜班"
+                    If (UBound(Me.CSLinkTrain)) >= 5 Then
+                        CanDriveTheTrain = False
+                    End If
+            End Select
+
             '状态优先
             Select Case Me.State
                 Case "用餐"
