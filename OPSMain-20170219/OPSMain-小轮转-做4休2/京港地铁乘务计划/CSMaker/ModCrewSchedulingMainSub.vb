@@ -329,6 +329,53 @@ Public Module ModCrewSchedulingMainSub
                 mySheet = myBook.Worksheets.Add     '添加一个新的SHEET
                 mySheet.Name = ExcelTitle
 
+            
+                '生成与显示表格一致的excel:
+                For i = 0 To rows - 1
+                    For j = 0 To cols - 1
+                        DataArray(i, j) = Dtg.Rows(i).Cells(j).Value
+                    Next
+                Next
+
+                For j = 0 To cols - 1
+                    myExcel.Cells(1, j + 1) = Dtg.Columns(j).HeaderText '.name
+                Next
+                mySheet.Range("A2").Resize(rows, cols).Value = DataArray
+
+                For p = 1 To cols
+                    mySheet.Columns(p).EntireColumn.AutoFit()
+                Next p
+
+                myExcel.Visible = True
+                GC.Collect()
+            Else
+                MessageBox.Show("没有数据!", frmForm.Text, MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+        Catch exp As Exception
+            MessageBox.Show("数据导出失败!请查看是否已经安装了Excel", frmForm.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        Finally
+            frmForm.Cursor = Cursors.Default
+        End Try
+
+    End Sub
+    Public Sub OutPutToEXCELFileFormDataGrid15(ByVal ExcelTitle As String, ByVal Dtg As DataGridView, ByVal frmForm As Form)
+        Try
+            If Dtg.RowCount > 0 Then
+                frmForm.Cursor = Cursors.WaitCursor
+                Dim i, j, p As Integer
+                Dim rows As Integer = Dtg.Rows.Count
+                Dim cols As Integer = Dtg.ColumnCount
+                Dim DataArray(rows - 1, cols - 1) As String
+                Dim myExcel As Microsoft.Office.Interop.Excel.Application = New Microsoft.Office.Interop.Excel.Application
+                Dim myBook As Microsoft.Office.Interop.Excel.Workbook
+                Dim mySheet As Microsoft.Office.Interop.Excel.Worksheet
+                myBook = myExcel.Workbooks.Add     '添加一个新的BOOK
+
+                mySheet = myBook.Worksheets.Add     '添加一个新的SHEET
+                mySheet.Name = ExcelTitle
+
+
+
                 For i = 0 To rows - 1
                     For j = 0 To cols - 1
                         DataArray(i, j) = Dtg.Rows(i).Cells(j).Value
@@ -3462,6 +3509,7 @@ L:
         Dim RuKuDrivers As New List(Of InDepotDriverList)
         Dim ChuKuDrivers As New List(Of InDepotDriverList)
         For Each dri As CSDriver In NightDrivers
+            '如果有与该夜班接续的早班，则跳过
             If Style = "自身夜早班衔接" Then
                 If dri.LinkedMorDriver IsNot Nothing Then
                     Continue For
@@ -3485,7 +3533,8 @@ L:
                     End If
                 End If
             End If
-            Dim InDepotName As String = dri.CSLinkTrain(UBound(dri.CSLinkTrain)).EndStaName
+            '如果没有接续的早班，继续：
+            Dim InDepotName As String = dri.CSLinkTrain(UBound(dri.CSLinkTrain)).EndStaName   '夜班终点站
             Dim tdri As CSDriver = dri
             Dim AreaName As String
             If dri.BelongArea.Trim = "" Then
@@ -3495,12 +3544,14 @@ L:
             Else
                 AreaName = dri.BelongArea
             End If
+            '如果入库集合中有index的离站是该dri终点站，且区域一致的，加入该index的集合中
             Dim index As Integer = RuKuDrivers.FindIndex(Function(value As InDepotDriverList)
                                                              Return value.DepotName = InDepotName AndAlso value.AreaName = AreaName
                                                          End Function)
             If index <> -1 Then
                 RuKuDrivers(index).CSRukuDrivers.Add(dri)
             Else
+                '如果存在于异站衔接中，也加入该站的入库车集合
                 Dim ifnewOne As Boolean = True
                 For Each indepot As InDepotDriverList In RuKuDrivers
                     For i As Integer = 0 To notSameStationInfo.Count - 1
@@ -3514,6 +3565,7 @@ L:
                         Exit For
                     End If
                 Next
+                '如果是新的终点站，新建一个入库集
                 If ifnewOne = True Then
                     Dim tempInDrilist As New InDepotDriverList(InDepotName, AreaName)
                     tempInDrilist.CSRukuDrivers.Add(dri)
@@ -3521,6 +3573,7 @@ L:
                 End If
             End If
         Next
+
         For Each dri As CSDriver In MorningDrivers
             If Style = "自身夜早班衔接" Then
                 If dri.LinkedNightDriver IsNot Nothing Then
@@ -3546,7 +3599,7 @@ L:
                 End If
             End If
             'If dri.LinkedNightDriver Is Nothing Then
-            Dim OutDepotName As String = dri.CSLinkTrain(1).StartStaName
+            Dim OutDepotName As String = dri.CSLinkTrain(1).StartStaName   '早班始发站
             Dim tdri As CSDriver = dri
             Dim AreaName As String
             If dri.BelongArea.Trim = "" Then
@@ -3581,7 +3634,7 @@ L:
                     ChuKuDrivers.Add(tempOutDrilist)
                 End If
             End If
-
+            '将在相同站结束和开始的夜班、早班集合组合
         Next
         For Each rukuDri As InDepotDriverList In RuKuDrivers
             For Each chukudri As InDepotDriverList In ChuKuDrivers
@@ -3603,8 +3656,8 @@ L:
 
     Public Function FormCorCSPlan(ByVal RukuDirvers As InDepotDriverList, ByVal ChukuDrivers As InDepotDriverList, Optional ByVal gonglishu As Boolean = True) As List(Of CorCSPlan)
         Dim tempcsplan As New List(Of CorCSPlan)
-        If RukuDirvers.CSRukuDrivers.Count > 1 Then            '按早入库时间排序
-            For i As Integer = 0 To RukuDirvers.CSRukuDrivers.Count - 2          '
+        If RukuDirvers.CSRukuDrivers.Count > 1 Then            '按早入库时间排序，结束时间从晚到早
+            For i As Integer = 0 To RukuDirvers.CSRukuDrivers.Count - 2
                 For j As Integer = i + 1 To RukuDirvers.CSRukuDrivers.Count - 1
                     If AddLitterTime(RukuDirvers.CSRukuDrivers(j).EndEorkTime) > AddLitterTime(RukuDirvers.CSRukuDrivers(i).EndEorkTime) Then
                         Dim tempdri As CSDriver = RukuDirvers.CSRukuDrivers(i)
@@ -3614,7 +3667,7 @@ L:
                 Next
             Next
         End If
-        If ChukuDrivers.CSRukuDrivers.Count > 1 Then             '按照出库时间排序
+        If ChukuDrivers.CSRukuDrivers.Count > 1 Then             '按照出库时间排序，开始时间从晚到早
             For i As Integer = 0 To ChukuDrivers.CSRukuDrivers.Count - 2
                 For j As Integer = i + 1 To ChukuDrivers.CSRukuDrivers.Count - 1
                     If AddLitterTime(ChukuDrivers.CSRukuDrivers(j).BeginWorkTime) > AddLitterTime(ChukuDrivers.CSRukuDrivers(i).BeginWorkTime) Then
@@ -3625,51 +3678,36 @@ L:
                 Next
             Next
         End If
-
         If gonglishu Then
-            '============先安排违反公里的夜早班
+            ' 接续站相同，夜班起始站和早班终点站也要相同，满足公里约束
             If RukuDirvers.CSRukuDrivers.Count > 0 AndAlso ChukuDrivers.CSRukuDrivers.Count > 0 Then
-                While True
-                    Dim index As Integer = -1
-                    For i As Integer = 0 To RukuDirvers.CSRukuDrivers.Count - 1
-                        If i <= RukuDirvers.CSRukuDrivers.Count - 1 AndAlso i <= ChukuDrivers.CSRukuDrivers.Count - 1 Then
-                            If RukuDirvers.CSRukuDrivers(i).DriveDistance + ChukuDrivers.CSRukuDrivers(i).DriveDistance > CS_MorningMaxLength + CS_NightMaxLength Then
-                                index = i
-                                Exit For
+                For i As Integer = 0 To RukuDirvers.CSRukuDrivers.Count - 1
+                    For j As Integer = 0 To ChukuDrivers.CSRukuDrivers.Count - 1
+                        If i <= RukuDirvers.CSRukuDrivers.Count - 1 AndAlso j <= ChukuDrivers.CSRukuDrivers.Count - 1 Then
+                            If RukuDirvers.CSRukuDrivers(i).DriveDistance + ChukuDrivers.CSRukuDrivers(j).DriveDistance > CS_MorningMaxLength + CS_NightMaxLength Then
+                                Continue For
+                            Else
+                                If RukuDirvers.CSRukuDrivers(i).CSLinkTrain(1).StartStaName = ChukuDrivers.CSRukuDrivers(j).CSLinkTrain(UBound(ChukuDrivers.CSRukuDrivers(j).CSLinkTrain)).EndStaName Then
+                                    Dim selectMDri As CSDriver = RukuDirvers.CSRukuDrivers(i)
+                                    Dim selectNDri As CSDriver = ChukuDrivers.CSRukuDrivers(j)
+                                    Dim tempcorplan As New CorCSPlan(selectNDri, selectMDri)
+                                    tempcsplan.Add(tempcorplan)
+                                    RukuDirvers.CSRukuDrivers.Remove(selectNDri)
+                                    ChukuDrivers.CSRukuDrivers.Remove(selectMDri)
+                                    Continue For
+                                End If
                             End If
                         End If
                     Next
-                    If index = -1 Then
-                        Exit While
-                    Else
-                        Dim selectMDri As CSDriver = ChukuDrivers.CSRukuDrivers(index)
-                        Dim selectNDri As CSDriver = Nothing
-                        Dim leastindex As Integer = index - 2
-                        If leastindex < 0 Then
-                            leastindex = 0
-                        End If
-                        For i As Integer = RukuDirvers.CSRukuDrivers.Count - 1 To leastindex Step -1
-                            If RukuDirvers.CSRukuDrivers(i).DriveDistance + selectMDri.DriveDistance <= CS_MorningMaxLength + CS_NightMaxLength Then
-                                selectNDri = RukuDirvers.CSRukuDrivers(i)
-                                Exit For
-                            End If
-                        Next
-                        If selectNDri IsNot Nothing Then
-                            Dim tempcorplan As New CorCSPlan(selectNDri, selectMDri)
-                            tempcsplan.Add(tempcorplan)
-                            RukuDirvers.CSRukuDrivers.Remove(selectNDri)
-                            ChukuDrivers.CSRukuDrivers.Remove(selectMDri)
-                        Else
-                            Exit While
-                        End If
-                    End If
-                End While
+                Next
             End If
+        End If
+        If RukuDirvers.CSRukuDrivers.Count > 0 AndAlso ChukuDrivers.CSRukuDrivers.Count > 0 Then
             For i As Integer = RukuDirvers.CSRukuDrivers.Count - 1 To 0 Step -1
                 Dim selectNDri As CSDriver = RukuDirvers.CSRukuDrivers(i)
                 Dim selectMDri As CSDriver = Nothing
                 For j As Integer = ChukuDrivers.CSRukuDrivers.Count - 1 To 0 Step -1
-                    If ChukuDrivers.CSRukuDrivers(j).DriveDistance + selectNDri.DriveDistance <= CS_MorningMaxLength + CS_NightMaxLength Then
+                    If selectNDri.CSLinkTrain(1).StartStaName = ChukuDrivers.CSRukuDrivers(j).CSLinkTrain(UBound(ChukuDrivers.CSRukuDrivers(j).CSLinkTrain)).EndStaName Then
                         selectMDri = ChukuDrivers.CSRukuDrivers(j)
                         Exit For
                     End If
@@ -3682,24 +3720,82 @@ L:
                 End If
             Next
         End If
+            'If gonglishu Then
+            '    '============先安排违反公里的夜早班
+            '    If RukuDirvers.CSRukuDrivers.Count > 0 AndAlso ChukuDrivers.CSRukuDrivers.Count > 0 Then
+            '        While True
+            '            Dim index As Integer = -1
+            '            For i As Integer = 0 To RukuDirvers.CSRukuDrivers.Count - 1
+            '                If i <= RukuDirvers.CSRukuDrivers.Count - 1 AndAlso i <= ChukuDrivers.CSRukuDrivers.Count - 1 Then
+            '                    If RukuDirvers.CSRukuDrivers(i).DriveDistance + ChukuDrivers.CSRukuDrivers(i).DriveDistance > CS_MorningMaxLength + CS_NightMaxLength Then
+            '                        index = i
+            '                        Exit For
+            '                    End If
+            '                End If
+            '            Next
+            '            If index = -1 Then
+            '                Exit While
+            '            Else
+            '                Dim selectMDri As CSDriver = ChukuDrivers.CSRukuDrivers(index)
+            '                Dim selectNDri As CSDriver = Nothing
+            '                Dim leastindex As Integer = index - 2
+            '                If leastindex < 0 Then
+            '                    leastindex = 0
+            '                End If
+            '                '从远端搜索？
+            '                For i As Integer = RukuDirvers.CSRukuDrivers.Count - 1 To leastindex Step -1
+            '                    If RukuDirvers.CSRukuDrivers(i).DriveDistance + selectMDri.DriveDistance <= CS_MorningMaxLength + CS_NightMaxLength Then
+            '                        selectNDri = RukuDirvers.CSRukuDrivers(i)
+            '                        Exit For
+            '                    End If
+            '                Next
+            '                If selectNDri IsNot Nothing Then
+            '                    Dim tempcorplan As New CorCSPlan(selectNDri, selectMDri)
+            '                    tempcsplan.Add(tempcorplan)
+            '                    RukuDirvers.CSRukuDrivers.Remove(selectNDri)
+            '                    ChukuDrivers.CSRukuDrivers.Remove(selectMDri)
+            '                Else
+            '                    Exit While
+            '                End If
+            '            End If
+            '        End While
+            '    End If
 
-        If RukuDirvers.CSRukuDrivers.Count > 0 AndAlso ChukuDrivers.CSRukuDrivers.Count > 0 Then
-            For i As Integer = RukuDirvers.CSRukuDrivers.Count - 1 To 0 Step -1
-                Dim selectNDri As CSDriver = RukuDirvers.CSRukuDrivers(i)
-                Dim selectMDri As CSDriver = Nothing
-                For j As Integer = ChukuDrivers.CSRukuDrivers.Count - 1 To 0 Step -1
-                    selectMDri = ChukuDrivers.CSRukuDrivers(j)
-                    Exit For
-                Next
-                If selectMDri IsNot Nothing Then
-                    Dim tempcorplan As New CorCSPlan(selectNDri, selectMDri)
-                    tempcsplan.Add(tempcorplan)
-                    RukuDirvers.CSRukuDrivers.Remove(selectNDri)
-                    ChukuDrivers.CSRukuDrivers.Remove(selectMDri)
-                End If
-            Next
-        End If
-        Return tempcsplan
+            '    For i As Integer = RukuDirvers.CSRukuDrivers.Count - 1 To 0 Step -1
+            '        Dim selectNDri As CSDriver = RukuDirvers.CSRukuDrivers(i)
+            '        Dim selectMDri As CSDriver = Nothing
+            '        For j As Integer = ChukuDrivers.CSRukuDrivers.Count - 1 To 0 Step -1
+            '            If ChukuDrivers.CSRukuDrivers(j).DriveDistance + selectNDri.DriveDistance <= CS_MorningMaxLength + CS_NightMaxLength Then
+            '                selectMDri = ChukuDrivers.CSRukuDrivers(j)
+            '                Exit For
+            '            End If
+            '        Next
+            '        If selectMDri IsNot Nothing Then
+            '            Dim tempcorplan As New CorCSPlan(selectNDri, selectMDri)
+            '            tempcsplan.Add(tempcorplan)
+            '            RukuDirvers.CSRukuDrivers.Remove(selectNDri)
+            '            ChukuDrivers.CSRukuDrivers.Remove(selectMDri)
+            '        End If
+            '    Next
+            'End If
+
+            'If RukuDirvers.CSRukuDrivers.Count > 0 AndAlso ChukuDrivers.CSRukuDrivers.Count > 0 Then
+            '    For i As Integer = RukuDirvers.CSRukuDrivers.Count - 1 To 0 Step -1
+            '        Dim selectNDri As CSDriver = RukuDirvers.CSRukuDrivers(i)
+            '        Dim selectMDri As CSDriver = Nothing
+            '        For j As Integer = ChukuDrivers.CSRukuDrivers.Count - 1 To 0 Step -1
+            '            selectMDri = ChukuDrivers.CSRukuDrivers(j)
+            '            Exit For
+            '        Next
+            '        If selectMDri IsNot Nothing Then
+            '            Dim tempcorplan As New CorCSPlan(selectNDri, selectMDri)
+            '            tempcsplan.Add(tempcorplan)
+            '            RukuDirvers.CSRukuDrivers.Remove(selectNDri)
+            '            ChukuDrivers.CSRukuDrivers.Remove(selectMDri)
+            '        End If
+            '    Next
+            'End If
+            Return tempcsplan
     End Function
 
     Public Sub LoadSectionLengthInfo()

@@ -23,14 +23,6 @@ Partial Class FrmTrainTT
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.列车ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.车次 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.开始时间 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.开始车站 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.结束时间 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.结束车站 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.公里数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.所在位置号 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -43,6 +35,15 @@ Partial Class FrmTrainTT
         Me.Label3 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.列车ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.车次 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.开始时间 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.开始车站 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.结束时间 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.结束车站 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.公里数 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.所在位置号 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.车底号 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -52,53 +53,13 @@ Partial Class FrmTrainTT
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.列车ID, Me.车次, Me.开始时间, Me.开始车站, Me.结束时间, Me.结束车站, Me.公里数, Me.所在位置号})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.列车ID, Me.车次, Me.开始时间, Me.开始车站, Me.结束时间, Me.结束车站, Me.公里数, Me.所在位置号, Me.车底号})
         Me.DataGridView1.Location = New System.Drawing.Point(12, 79)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 23
-        Me.DataGridView1.Size = New System.Drawing.Size(853, 336)
+        Me.DataGridView1.Size = New System.Drawing.Size(935, 336)
         Me.DataGridView1.TabIndex = 0
-        '
-        '列车ID
-        '
-        Me.列车ID.HeaderText = "列车ID"
-        Me.列车ID.Name = "列车ID"
-        '
-        '车次
-        '
-        Me.车次.HeaderText = "车次"
-        Me.车次.Name = "车次"
-        '
-        '开始时间
-        '
-        Me.开始时间.HeaderText = "开始时间"
-        Me.开始时间.Name = "开始时间"
-        '
-        '开始车站
-        '
-        Me.开始车站.HeaderText = "开始车站"
-        Me.开始车站.Name = "开始车站"
-        '
-        '结束时间
-        '
-        Me.结束时间.HeaderText = "结束时间"
-        Me.结束时间.Name = "结束时间"
-        '
-        '结束车站
-        '
-        Me.结束车站.HeaderText = "结束车站"
-        Me.结束车站.Name = "结束车站"
-        '
-        '公里数
-        '
-        Me.公里数.HeaderText = "公里数"
-        Me.公里数.Name = "公里数"
-        '
-        '所在位置号
-        '
-        Me.所在位置号.HeaderText = "所在位置号"
-        Me.所在位置号.Name = "所在位置号"
         '
         'Label1
         '
@@ -140,7 +101,7 @@ Partial Class FrmTrainTT
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Location = New System.Drawing.Point(13, 13)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(852, 60)
+        Me.GroupBox1.Size = New System.Drawing.Size(934, 60)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "查询条件"
@@ -220,11 +181,56 @@ Partial Class FrmTrainTT
         Me.ComboBox1.Size = New System.Drawing.Size(121, 20)
         Me.ComboBox1.TabIndex = 4
         '
+        '列车ID
+        '
+        Me.列车ID.HeaderText = "列车ID"
+        Me.列车ID.Name = "列车ID"
+        '
+        '车次
+        '
+        Me.车次.HeaderText = "车次"
+        Me.车次.Name = "车次"
+        '
+        '开始时间
+        '
+        Me.开始时间.HeaderText = "开始时间"
+        Me.开始时间.Name = "开始时间"
+        '
+        '开始车站
+        '
+        Me.开始车站.HeaderText = "开始车站"
+        Me.开始车站.Name = "开始车站"
+        '
+        '结束时间
+        '
+        Me.结束时间.HeaderText = "结束时间"
+        Me.结束时间.Name = "结束时间"
+        '
+        '结束车站
+        '
+        Me.结束车站.HeaderText = "结束车站"
+        Me.结束车站.Name = "结束车站"
+        '
+        '公里数
+        '
+        Me.公里数.HeaderText = "公里数"
+        Me.公里数.Name = "公里数"
+        '
+        '所在位置号
+        '
+        Me.所在位置号.HeaderText = "所在位置号"
+        Me.所在位置号.Name = "所在位置号"
+        '
+        '车底号
+        '
+        Me.车底号.HeaderText = "车底号"
+        Me.车底号.Name = "车底号"
+        '
         'FrmTrainTT
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(877, 427)
+        Me.ClientSize = New System.Drawing.Size(989, 427)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.MaximizeBox = False
@@ -239,14 +245,6 @@ Partial Class FrmTrainTT
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents 列车ID As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 车次 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 开始时间 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 开始车站 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 结束时间 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 结束车站 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 公里数 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents 所在位置号 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
@@ -257,4 +255,13 @@ Partial Class FrmTrainTT
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents 列车ID As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 车次 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 开始时间 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 开始车站 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 结束时间 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 结束车站 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 公里数 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 所在位置号 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents 车底号 As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

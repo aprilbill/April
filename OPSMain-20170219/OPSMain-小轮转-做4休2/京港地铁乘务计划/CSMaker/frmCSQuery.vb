@@ -413,12 +413,13 @@ Public Class frmCSQuery
         Next
     End Sub
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        '不明白为什么一直增加，所以改了
         If CSTrainsAndDrivers.CSDrivers Is Nothing = False Then
             Dim ADrinum As Integer = 0
             Dim MDrinum As Integer = 0
             Dim NDrinum As Integer = 0
             Dim CDrinum As Integer = 0
-            'Call CleaAreaCalData()
+            Call CleaAreaCalData()
             For Each dri As CSDriver In CSTrainsAndDrivers.CSDrivers
                 If dri IsNot Nothing Then
                     Select Case dri.DutySort

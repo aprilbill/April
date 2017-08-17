@@ -25,13 +25,13 @@
                     Dim z As Integer = 1
                     For z = 1 To UBound(CSTrainsAndDrivers.CSDrivers(j).CSLinkTrain)
                         If CSTrainsAndDrivers.CSDrivers(j).CSLinkTrain(z).StartTime = CSTrainsAndDrivers.CSLinkTrains(i).StartTime And CSTrainsAndDrivers.CSLinkTrains(i).EndTime = CSTrainsAndDrivers.CSDrivers(j).CSLinkTrain(z).EndTime Then
-                            DataGridView1.Rows.Add(CSTrainsAndDrivers.CSLinkTrains(i).CSTrainID, CSTrainsAndDrivers.CSLinkTrains(i).OutputCheCi, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).StartTime), CSTrainsAndDrivers.CSLinkTrains(i).StartStaName, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).EndTime), CSTrainsAndDrivers.CSLinkTrains(i).EndStaName, CSTrainsAndDrivers.CSLinkTrains(i).distance, CSTrainsAndDrivers.CSDrivers(j).CSdriverNo)
+                            DataGridView1.Rows.Add(CSTrainsAndDrivers.CSLinkTrains(i).CSTrainID, CSTrainsAndDrivers.CSLinkTrains(i).OutputCheCi, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).StartTime), CSTrainsAndDrivers.CSLinkTrains(i).StartStaName, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).EndTime), CSTrainsAndDrivers.CSLinkTrains(i).EndStaName, CSTrainsAndDrivers.CSLinkTrains(i).distance, CSTrainsAndDrivers.CSDrivers(j).CSdriverNo, "-")
                             Exit For
                         End If
                     Next
                 Next
             Else
-                DataGridView1.Rows.Add(CSTrainsAndDrivers.CSLinkTrains(i).CSTrainID, CSTrainsAndDrivers.CSLinkTrains(i).OutputCheCi, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).StartTime), CSTrainsAndDrivers.CSLinkTrains(i).StartStaName, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).EndTime), CSTrainsAndDrivers.CSLinkTrains(i).EndStaName, CSTrainsAndDrivers.CSLinkTrains(i).distance, "-")
+                DataGridView1.Rows.Add(CSTrainsAndDrivers.CSLinkTrains(i).CSTrainID, CSTrainsAndDrivers.CSLinkTrains(i).OutputCheCi, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).StartTime), CSTrainsAndDrivers.CSLinkTrains(i).StartStaName, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).EndTime), CSTrainsAndDrivers.CSLinkTrains(i).EndStaName, CSTrainsAndDrivers.CSLinkTrains(i).distance, "-", CSTrainsAndDrivers.CSLinkTrains(i).nCheDiID)
             End If
         Next
         ComboBox1.Items.Add("无")
@@ -69,14 +69,14 @@
                     Dim z As Integer = 1
                     For z = 1 To UBound(CSTrainsAndDrivers.CSDrivers(j).CSLinkTrain)
                         If CSTrainsAndDrivers.CSDrivers(j).CSLinkTrain(z).StartTime = CSTrainsAndDrivers.CSLinkTrains(i).StartTime And CSTrainsAndDrivers.CSLinkTrains(i).EndTime = CSTrainsAndDrivers.CSDrivers(j).CSLinkTrain(z).EndTime Then
-                            DataGridView1.Rows.Add(CSTrainsAndDrivers.CSLinkTrains(i).CSTrainID, CSTrainsAndDrivers.CSLinkTrains(i).OutputCheCi, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).StartTime), CSTrainsAndDrivers.CSLinkTrains(i).StartStaName, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).EndTime), CSTrainsAndDrivers.CSLinkTrains(i).EndStaName, CSTrainsAndDrivers.CSLinkTrains(i).distance, CSTrainsAndDrivers.CSDrivers(j).CSdriverNo)
+                            DataGridView1.Rows.Add(CSTrainsAndDrivers.CSLinkTrains(i).CSTrainID, CSTrainsAndDrivers.CSLinkTrains(i).OutputCheCi, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).StartTime), CSTrainsAndDrivers.CSLinkTrains(i).StartStaName, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).EndTime), CSTrainsAndDrivers.CSLinkTrains(i).EndStaName, CSTrainsAndDrivers.CSLinkTrains(i).distance, CSTrainsAndDrivers.CSDrivers(j).CSdriverNo, "-")
                             Exit For
                         End If
                     Next
                     Exit For
                 Next
             Else
-                DataGridView1.Rows.Add(CSTrainsAndDrivers.CSLinkTrains(i).CSTrainID, CSTrainsAndDrivers.CSLinkTrains(i).OutputCheCi, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).StartTime), CSTrainsAndDrivers.CSLinkTrains(i).StartStaName, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).EndTime), CSTrainsAndDrivers.CSLinkTrains(i).EndStaName, CSTrainsAndDrivers.CSLinkTrains(i).distance, "-")
+                DataGridView1.Rows.Add(CSTrainsAndDrivers.CSLinkTrains(i).CSTrainID, CSTrainsAndDrivers.CSLinkTrains(i).OutputCheCi, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).StartTime), CSTrainsAndDrivers.CSLinkTrains(i).StartStaName, BeTime(CSTrainsAndDrivers.CSLinkTrains(i).EndTime), CSTrainsAndDrivers.CSLinkTrains(i).EndStaName, CSTrainsAndDrivers.CSLinkTrains(i).distance, "-", CSTrainsAndDrivers.CSLinkTrains(i).nCheDiID)
             End If
         Next
     End Sub
