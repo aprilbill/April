@@ -27,23 +27,23 @@ Partial Class FrmCSMaker
         Me.TXTMorningNum = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Btn_OK = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TXTNightNum = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TXTDayNum = New System.Windows.Forms.TextBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TXTCDayNum = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
         Me.BtnExit = New System.Windows.Forms.Button()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(36, 21)
+        Me.Label7.Location = New System.Drawing.Point(36, 37)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(59, 12)
         Me.Label7.TabIndex = 0
@@ -51,7 +51,7 @@ Partial Class FrmCSMaker
         '
         'TXTMorningNum
         '
-        Me.TXTMorningNum.Location = New System.Drawing.Point(105, 17)
+        Me.TXTMorningNum.Location = New System.Drawing.Point(112, 33)
         Me.TXTMorningNum.Name = "TXTMorningNum"
         Me.TXTMorningNum.Size = New System.Drawing.Size(96, 21)
         Me.TXTMorningNum.TabIndex = 1
@@ -59,7 +59,7 @@ Partial Class FrmCSMaker
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(213, 21)
+        Me.Label8.Location = New System.Drawing.Point(213, 37)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(17, 12)
         Me.Label8.TabIndex = 0
@@ -67,26 +67,17 @@ Partial Class FrmCSMaker
         '
         'Btn_OK
         '
-        Me.Btn_OK.Location = New System.Drawing.Point(91, 137)
+        Me.Btn_OK.Location = New System.Drawing.Point(52, 211)
         Me.Btn_OK.Name = "Btn_OK"
         Me.Btn_OK.Size = New System.Drawing.Size(75, 23)
         Me.Btn_OK.TabIndex = 3
         Me.Btn_OK.Text = "确定(&Y)"
         Me.Btn_OK.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(213, 48)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(17, 12)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "人"
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(36, 48)
+        Me.Label2.Location = New System.Drawing.Point(36, 75)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(59, 12)
         Me.Label2.TabIndex = 0
@@ -94,24 +85,15 @@ Partial Class FrmCSMaker
         '
         'TXTNightNum
         '
-        Me.TXTNightNum.Location = New System.Drawing.Point(105, 44)
+        Me.TXTNightNum.Location = New System.Drawing.Point(112, 72)
         Me.TXTNightNum.Name = "TXTNightNum"
         Me.TXTNightNum.Size = New System.Drawing.Size(96, 21)
         Me.TXTNightNum.TabIndex = 1
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(213, 105)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(17, 12)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "人"
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(36, 77)
+        Me.Label4.Location = New System.Drawing.Point(36, 114)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(59, 12)
         Me.Label4.TabIndex = 0
@@ -119,7 +101,7 @@ Partial Class FrmCSMaker
         '
         'TXTDayNum
         '
-        Me.TXTDayNum.Location = New System.Drawing.Point(105, 72)
+        Me.TXTDayNum.Location = New System.Drawing.Point(112, 111)
         Me.TXTDayNum.Name = "TXTDayNum"
         Me.TXTDayNum.Size = New System.Drawing.Size(96, 21)
         Me.TXTDayNum.TabIndex = 1
@@ -132,44 +114,68 @@ Partial Class FrmCSMaker
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(24, 104)
+        Me.Label6.Location = New System.Drawing.Point(36, 155)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(71, 12)
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "日勤班人数:"
+        Me.Label6.Visible = False
         '
         'TXTCDayNum
         '
-        Me.TXTCDayNum.Location = New System.Drawing.Point(105, 100)
+        Me.TXTCDayNum.Location = New System.Drawing.Point(112, 152)
         Me.TXTCDayNum.Name = "TXTCDayNum"
         Me.TXTCDayNum.Size = New System.Drawing.Size(96, 21)
         Me.TXTCDayNum.TabIndex = 1
         Me.TXTCDayNum.Text = "0"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(213, 74)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(17, 12)
-        Me.Label14.TabIndex = 0
-        Me.Label14.Text = "人"
+        Me.TXTCDayNum.Visible = False
         '
         'BtnExit
         '
-        Me.BtnExit.Location = New System.Drawing.Point(172, 137)
+        Me.BtnExit.Location = New System.Drawing.Point(133, 211)
         Me.BtnExit.Name = "BtnExit"
         Me.BtnExit.Size = New System.Drawing.Size(75, 23)
         Me.BtnExit.TabIndex = 13
         Me.BtnExit.Text = "退出(&E)"
         Me.BtnExit.UseVisualStyleBackColor = True
         '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(213, 75)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(17, 12)
+        Me.Label10.TabIndex = 45
+        Me.Label10.Text = "人"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(213, 116)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(17, 12)
+        Me.Label17.TabIndex = 47
+        Me.Label17.Text = "人"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(213, 155)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(17, 12)
+        Me.Label22.TabIndex = 49
+        Me.Label22.Text = "人"
+        Me.Label22.Visible = False
+        '
         'FrmCSMaker
         '
         Me.AcceptButton = Me.Btn_OK
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(269, 178)
+        Me.ClientSize = New System.Drawing.Size(334, 269)
+        Me.Controls.Add(Me.Label22)
+        Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.BtnExit)
         Me.Controls.Add(Me.Btn_OK)
         Me.Controls.Add(Me.TXTDayNum)
@@ -178,10 +184,7 @@ Partial Class FrmCSMaker
         Me.Controls.Add(Me.TXTCDayNum)
         Me.Controls.Add(Me.TXTNightNum)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TXTMorningNum)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label8)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -198,15 +201,15 @@ Partial Class FrmCSMaker
     Friend WithEvents TXTMorningNum As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Btn_OK As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents TXTNightNum As System.Windows.Forms.TextBox
-    Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents TXTDayNum As System.Windows.Forms.TextBox
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents TXTCDayNum As System.Windows.Forms.TextBox
-    Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents BtnExit As System.Windows.Forms.Button
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents Label22 As System.Windows.Forms.Label
 End Class

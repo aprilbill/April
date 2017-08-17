@@ -954,9 +954,15 @@ Public Class CSDriver
             '白班最多6个交路，夜班最多5个交路，早班最多3个交路,如果最后/最早一个交路是回库，可以延长一个
             Select Me.DutySort
                 Case "早班"
+                    If Me.CSLinkTrain(1).StartStaName = "马泉营车辆段" AndAlso Me.CSLinkTrain(1).EndStaName = "马泉营" Then
+                        If (UBound(Me.CSLinkTrain)) >= 4 Then
+                            CanDriveTheTrain = False
+                        End If
+                    Else
                         If (UBound(Me.CSLinkTrain)) >= 3 Then
                             CanDriveTheTrain = False
                         End If
+                    End If
                 Case "白班"
                     If (UBound(Me.CSLinkTrain)) >= 6 Then
                         CanDriveTheTrain = False

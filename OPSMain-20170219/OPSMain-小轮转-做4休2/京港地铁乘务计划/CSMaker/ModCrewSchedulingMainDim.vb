@@ -499,12 +499,38 @@ Remove:
         Public DayDutyNum As Integer
         Public NightDutyNum As Integer
         Public CDayDutyNum As Integer
+        Public MorningFB As Integer
+        Public MorningQH As Integer
+        Public DayFB As Integer
+        Public DayQH As Integer
+        Public NightFB As Integer
+        Public NightQH As Integer
+
+        Public Sub New(ByVal MDutyNum As Integer, ByVal DDutyNum As Integer, ByVal CDDutyNum As Integer, ByVal NDutyNum As Integer, _
+                       ByVal MFB As Integer, ByVal MQH As Integer, ByVal DFB As Integer, ByVal DQH As Integer, ByVal NFB As Integer, ByVal NQH As Integer)
+            MoringDutyNum = MDutyNum
+            DayDutyNum = DDutyNum
+            CDayDutyNum = CDDutyNum
+            NightDutyNum = NDutyNum
+            MorningFB = MFB
+            MorningQH = MQH
+            DayFB = DFB
+            DayQH = DQH
+            NightFB = DFB
+            NightQH = DQH
+        End Sub
 
         Public Sub New(ByVal MDutyNum As Integer, ByVal DDutyNum As Integer, ByVal CDDutyNum As Integer, ByVal NDutyNum As Integer)
             MoringDutyNum = MDutyNum
             DayDutyNum = DDutyNum
             CDayDutyNum = CDDutyNum
             NightDutyNum = NDutyNum
+            MorningFB = -1
+            MorningQH = -1
+            DayFB = -1
+            DayQH = -1
+            NightFB = -1
+            NightQH = -1
         End Sub
 
         Public Sub New()

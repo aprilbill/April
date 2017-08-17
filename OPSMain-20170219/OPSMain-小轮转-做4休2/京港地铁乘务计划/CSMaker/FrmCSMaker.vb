@@ -4,10 +4,16 @@ Public Class FrmCSMaker
 
     Private Sub Btn_OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Btn_OK.Click
         If IsNumeric(TXTMorningNum.Text) = False OrElse IsNumeric(TXTDayNum.Text) = False OrElse _
-            IsNumeric(TXTCDayNum.Text) = False OrElse IsNumeric(TXTNightNum.Text) = False Then
+            IsNumeric(TXTCDayNum.Text) = False OrElse IsNumeric(TXTNightNum.Text) = False  Then
             MsgBox("所有设置必须为数字！", MsgBoxStyle.OkOnly + MsgBoxStyle.Information, "提示")
             Exit Sub
         End If
+        'If Int(TXTMorningNum.Text) <> (Int(MFBNUM.Text) + Int(MQHNUM.Text)) OrElse _
+        '    Int(TXTDayNum.Text) <> (Int(DFBNUM.Text) + Int(DQHNUM.Text)) OrElse _
+        '    Int(TXTNightNum.Text) <> (Int(NFBNUM.Text) + Int(NQHNUM.Text)) Then
+        '    MsgBox("各班人数总和应等于俸伯与清华之和！", MsgBoxStyle.OkOnly + MsgBoxStyle.Information, "提示")
+        '    Exit Sub
+        'End If
         Me.DialogResult = Windows.Forms.DialogResult.OK
         Me.Close()
     End Sub
@@ -16,6 +22,7 @@ Public Class FrmCSMaker
         Me.DialogResult = Windows.Forms.DialogResult.Cancel
         Me.Close()
     End Sub
+
 End Class
 
 Public Class InDepotDriverList
